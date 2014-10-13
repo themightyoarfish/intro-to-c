@@ -1,0 +1,114 @@
+\documentclass{article}
+\title{Übung 1}
+\author{Rasmus Diederichsen}
+\date{\today}
+\usepackage{microtype,
+            textcomp,
+            xcolor,
+            listings,
+            tikz,
+            IEEEtrantools,
+            array,
+            amsmath,
+            amssymb,
+            graphicx,
+            subcaption,
+            lmodern}
+\usepackage[pdftitle={Übung 1}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\renewcommand{\thesubsection}{Aufgabe \arabic{section}.\arabic{subsection}}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   stringstyle=\color{olive},
+}
+
+\begin{document}
+
+   \maketitle
+
+   \section{}
+   \setcounter{subsection}{1}
+
+   \subsection{}
+   
+   \lstinputlisting[language=c]{hello.c}
+   \subsection{}
+   
+   \lstinputlisting[language=make]{makefile}
+   \subsection{}
+   
+   \begin{itemize}
+      \item Standardmäßig liegen Bibliotheken in \texttt{/usr[/local]/lib/}
+         während sich die Header in \texttt{/usr[/local]/include/} befinden
+      \item Der Präprozessor durchsucht standardmäßig alle Pfade, die im
+         \texttt{C\_INCLUDE\_PATH} stehen, neben
+         den obigen Standardverzeichnissen und einigen anderen.
+      \item Für Bibliotheken ist die Variable \texttt{LIBRARY\_PATH} nützlich
+      \item Um Umgebungsvariablen persisent zu setzen, bietet sich eine
+         Anweisung der Form \texttt{export \emph{\$Variable} = \emph{Wert}} an,
+         die in eine der Dateien geschrieben wird, die die Shell beim Start
+         einliest (etwa \texttt{.profile} oder \texttt{.bash\_login} oder
+         \texttt{.bashrc} für GNU Bash).
+      \item \texttt{-I/\emph{dir}} weist den Präprozessor an, \emph{dir}
+         ebenfalls nach Headern zu durchsuchen, \texttt{-L} hat dieselbe
+         Funktion für Libraries. \texttt{-l\emph{foo}} Weist den Linker an,
+         gegen die Bibliothek \emph{foo} bzw. das Archiv \emph{libfoo.a} zu
+         linken.
+      \item Die Syntax mit spitzen Klammern weist den Präprozessor an, nach der
+         Header-Datei in den oben angegebenen Standardverzeichnissen sowie den
+         durch die \texttt{-I}-Option spezifizierten zu suchen.
+         Diese Syntax ist für System-Header gedacht.
+
+         Schreibt man stattdessen Anführungszeichen, weist man auf
+         selbstgeschriebene Header hin und es wird zunächst im
+         Arbeitsverzeichnis, dann in den durch die \texttt{-iquote}-Option
+         spezifizierten Verzeichnissen und zuletzt ebenfalls in den
+         Standardverzeichnissen gesucht.
+      \item Beim statischen Linken werden alle Bibliotheksfunktionen direkt in
+         das entstehende Programm integriert, sodass diese nicht zwangsläufig
+         auf dem System vorhanden sein müssen, auf dem es ausgeführt wird. Beim
+         dynamischen Linken wird eine Bibliothek nicht direkt in die ausführbare
+         Datei gesteckt, sondern diese bedient sich zur Laufzeit aus ihrem Code.
+         Dies erfordert, dass die Bibliothek (\texttt{.so}, \texttt{.dll},
+         \texttt{.dylib}) auf dem System vorhanden ist. Man kann Einfluss auf
+         das Linken nehmen, indem man selbst angibt, ob gegen dynamische
+         Libraries gelinkt werden soll. \texttt{ld} akzeptiert hierzu die
+         Flags \texttt{-bstatic} und \texttt{-bdynamic} bzw. systemabhängige
+         Varianten. Hierbei müssen die benötigten Libraries dann als Archive
+         vorliegen, falls das Kompilieren gelingen soll.
+      \item Mit \texttt{ldd} oder \texttt{otool} kann man herausfinden, welche
+         dynamischen Bibliotheken von einer Datei (ausführbar, object file, \texttt{.a} oder
+         \texttt{.so}) benötigt werden.
+      \item \texttt{nm} zeigt die Symboltabelle der Bibliothek an.
+      \item Man kann mit \texttt{dlopen} zur Laufzeit Bibliotheken laden. Wenn
+         die Bibliothek auf dem eigenen System weder statisch noch dynamisch
+         vorhanden ist, muss man vermutlich diesen Weg wählen.
+      \item Bibliotheken stehen unter bestimmten Lizenzen, die beeinflussen, ob
+         und wie man sie im eigenen Programm benutzen kann, will man dieses
+         verteilen.
+      \item Ein Paketmanager übernimmt die Aufgabe, Programme und Programmteile
+         für ein System zu kompilieren, sodass der Benutzer nicht selbst dafür
+         sorgen muss, dass alle Dependencies vorhanden sind und die Software
+         richtig installiert wird. Man kann prinzipiell die gesamte Arbeit von
+         Hand machen, wenn man eine hohe Schmerztoleranz hat.
+   \end{itemize}
+
+
+   \end{document}
