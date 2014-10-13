@@ -62,14 +62,14 @@
          den obigen Standardverzeichnissen und einigen anderen.
       \item Für Bibliotheken ist die Variable \texttt{LIBRARY\_PATH} nützlich
       \item Um Umgebungsvariablen persisent zu setzen, bietet sich eine
-         Anweisung der Form \texttt{export \emph{\$Variable} = \emph{Wert}} an,
+         Anweisung der Form \texttt{export \$\emph{Variable} = \emph{Wert}} an,
          die in eine der Dateien geschrieben wird, die die Shell beim Start
          einliest (etwa \texttt{.profile} oder \texttt{.bash\_login} oder
          \texttt{.bashrc} für GNU Bash).
       \item \texttt{-I/\emph{dir}} weist den Präprozessor an, \emph{dir}
          ebenfalls nach Headern zu durchsuchen, \texttt{-L} hat dieselbe
          Funktion für Libraries. \texttt{-l\emph{foo}} Weist den Linker an,
-         gegen die Bibliothek \emph{foo} bzw. das Archiv \emph{libfoo.a} zu
+         gegen die Bibliothek \texttt{foo} bzw. das Archiv \texttt{libfoo.a} zu
          linken.
       \item Die Syntax mit spitzen Klammern weist den Präprozessor an, nach der
          Header-Datei in den oben angegebenen Standardverzeichnissen sowie den

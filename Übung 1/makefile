@@ -3,7 +3,7 @@
 # types
 # ansi: compile according to ANSI standard (c89), accept only code compliant
 # with that standard. Enable trigraphs! :)
-# -pedantic: show all warnings accodring to strict ISO C/C++
+# -pedantic: show all warnings according to strict ISO C/C++
 hello: hello.c
 	gcc -Wall -Wstrict-prototypes -ansi -pedantic hello.c -o hello
 clean: 
