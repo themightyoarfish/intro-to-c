@@ -13,7 +13,7 @@ int field1[][9] = {
 };
 
 /**
-  * @brief Function to check whether an assignment for a given field is legal.
+  * Function to check whether an assignment for a given field is legal.
   *
   * @param z The number to be assigned.
   * @param i The row number of the field to be assigned.
@@ -25,6 +25,7 @@ int is_valid(int z, int i, int j, int sudoku[9][9]);
 
 /**
  * Function to attempt solving a sudoku.
+ *
  * @param i The row number at which to set the first number.
  * @param j The column number at which to set the first number.
  * @return 1 if a silution was found, 0 otherwise.
@@ -33,6 +34,7 @@ int solve_sudoku(int i, int j, int sudoku[9][9]);
 
 /**
  * Function to print a sudoku array on stdout.
+ *
  * @param sudoku The puzzle to be printed.
  */
 void print_sudoku(int sudoku[9][9]);
