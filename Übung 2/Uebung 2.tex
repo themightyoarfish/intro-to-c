@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 2 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen \and Simon Kern}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype,
+            textcomp,
+            xcolor,
+            listings,
+            tikz,
+            IEEEtrantools,
+            array,
+            amsmath,
+            amssymb,
+            graphicx,
+            subcaption,
+            lmodern}
+\usepackage[pdftitle={Übung 2}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{Aufgabe \arabic{section}.\arabic{subsection}}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   stringstyle=\color{olive},
+}
+
+\begin{document}
+
+   \maketitle
+
+   \section{}
+   \setcounter{section}{2}
+
+   \subsection{}
+   \lstinputlisting[language=C,caption={easter.c}]{EasterAlgorithm/easter.c}
+   \lstinputlisting[language=make,caption={makefile for easter.c}]{EasterAlgorithm/makefile}
+
+   \subsection{}
+   \lstinputlisting[language=C,caption={sudoku.c}]{Sudoku/sudoku.c}
+   \lstinputlisting[language=C,caption={sudoku.h}]{Sudoku/sudoku.h}
+   \lstinputlisting[language=make,caption={makefile for sudoku.c}]{Sudoku/makefile}
+   
+   
+
+   
+\end{document}
