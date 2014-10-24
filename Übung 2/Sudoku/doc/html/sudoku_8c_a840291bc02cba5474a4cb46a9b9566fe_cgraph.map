@@ -1,0 +1,5 @@
+<map id="main" name="main">
+<area shape="rect" id="node2" href="$sudoku_8c.html#a72aaafa194901799fee6c6be9f144edf" title="solve_sudoku" alt="" coords="108,5,216,32"/>
+<area shape="rect" id="node4" href="$sudoku_8c.html#a8e883a3a27fcb3d1f08722d1e840febc" title="print_sudoku" alt="" coords="110,56,214,83"/>
+<area shape="rect" id="node3" href="$sudoku_8c.html#a13e4a47d420b84dc635a031c264e4bfd" title="is_valid" alt="" coords="264,5,332,32"/>
+</map>
