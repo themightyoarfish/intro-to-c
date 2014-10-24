@@ -1,5 +1,6 @@
 #include <stdio.h>
-/** Print shit to console
+/** @brief Print shit to console
+ *
  * @return 0 on success
  */
 int main(void)

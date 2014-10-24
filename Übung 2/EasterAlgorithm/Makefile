@@ -11,10 +11,10 @@ CORRECT_OUTFILE = correct_easter_dates.out
 
 
 easter: easter.o
-	$(CC) easter.o -o easter
+	$(CC) easter.o -o bin/easter
 
-easter.o: easter.c
-	$(CC) -Wall -Wstrict-prototypes -ansi -pedantic -c easter.c
+easter.o: src/easter.c
+	$(CC) -Wall -Wstrict-prototypes -ansi -pedantic -c src/easter.c
 
 test:
 	./easter < $(INFILE) > $(OUTFILE)
