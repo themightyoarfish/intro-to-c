@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 3 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen \and Simon Kern}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype,
+            textcomp,
+            xcolor,
+            listings,
+            tikz,
+            IEEEtrantools,
+            array,
+            amsmath,
+            amssymb,
+            graphicx,
+            subcaption,
+            lmodern}
+\usepackage[pdftitle={Übung 3}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\titlespacing{\subsection}{0em}{\baselineskip}{1em}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{}{0em}{Aufgabe \arabic{section}.\arabic{subsection} #1}
+
+\renewcommand{\thesection}{}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   language=C,
+   stringstyle=\color{olive},
+}
+
+\begin{document}
+
+   \maketitle
+
+   \section{}
+   \setcounter{section}{3}
+
+   \subsection{Pointerarithmetik}
+   \lstinputlisting[language=C,caption={pointer\_test.c}]{src/pointer_test.c}
+
+   Zweidimensionale Arrays sind Pointer, die auf den Beginn eines
+   Speicherbereichs zeigen, der Pointer zum entsprechenden Datentyp enthält.
+   Diese wiederumg zeigen dann auf einen eigenen Block (der irgendwo liegen
+   kann) der dann die primitiven Daten enthält.
+   
+   \subsection{Einarbeitung in \texttt{cmake}}
+   
+   \texttt{cmake} vereinfacht gegenüber \texttt{make} vor allem das Einbinden
+   von Bibliotheken, die man in normalen Makefiles oft manuell suchen und
+   verlinken muss. \texttt{cmake} kommt mit Skripten, die zum Auffinden vieler
+   Bibliotheken für verschiedene Systeme dienen, und so den Kompilationsprozess
+   relativ plattformunabhängig gestalten. Grundlegende Funktionalitäten sind die
+   Eingabe von In- und Outputverzeichnissen, das Spezifizieren von Build-Targets
+   und den dazugehörigen Bibliotheken, sowie das Kompilieren zu einer
+   Bibliotheksdatei. Es ist auch einfach möglich, nicht-standard-artige
+   Verezeichnisse zum Durchsuchen an \texttt{cmake} zu übergeben.
+
+   Der Unterschied zwischen In-Source und Out-of-Source-Builds ist, dass für die
+   letzteren sämtliche beim Build entstehenden Dateien an einen Ort außerhalb
+   des Quellverzeichnisses abgelegt werden.
+
+   \subsection{Hauptfenster mit \texttt{glut}}
+   
+   \lstinputlisting[caption={mainwindow.h}]{src/include/mainwindow.h}
+   \lstinputlisting[caption={mainwindow.c}]{src/mainwindow.c}
+   \lstinputlisting[caption={main.c}]{src/main.c}
+   \lstinputlisting[language=make]{src/CMakeLists.txt}
+   
+   
+\end{document}
