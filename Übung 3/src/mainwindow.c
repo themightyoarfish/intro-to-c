@@ -2,6 +2,7 @@
 #include <glut.h>
 #include <stdio.h>
 
+int last_button = -1;
 void render(void)
 {
    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -37,13 +38,27 @@ void reshape(int w, int h)
 
 void keyPressed(unsigned char key, int x, int y)
 {
-   printf("The key pressed was %c. Mouse coordinates are (%d,%d).\n", 
+   /* \r escape sequence puts cursor to the start of line, overwriting already printed chars */
+   printf("\rThe key pressed was %c. Mouse coordinates are (%d,%d).", 
          key, x, y);
+   fflush(stdout);
 }
 
-void mouseMoved(int button, int state, int x, int y)
+void mouseMoved(int x, int y)
 {
-   printf("(%d,%d)", x, y);
+   printf("\r(%d,%d)%50s",x,y,"");
+   fflush(stdout);
+}
+
+void mouseMovedAndClicked(int x, int y)
+{
+   mouseClicked(last_button,0,x,y);
+}
+
+void mouseClicked(int button, int state, int x, int y)
+{
+   printf("\r(%d,%d)", x, y);
+   last_button = button;
    switch(button)
    {
       case GLUT_LEFT_BUTTON:
@@ -56,6 +71,7 @@ void mouseMoved(int button, int state, int x, int y)
          printf(" + middle button");
          break;
    }
-   printf("\n");
+   printf("%50s","");
+   fflush(stdout);
 }
 

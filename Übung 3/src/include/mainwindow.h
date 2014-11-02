@@ -28,6 +28,20 @@ void keyPressed(unsigned char key, int x, int y);
  * @param x The x coordinate of the mouse at the time of key press.
  * @param y The y coordinate of the mouse at the time of key press.
  */
-void mouseMoved(int button, int state, int x, int y);
+void mouseClicked(int button, int state, int x, int y);
+
+/** 
+ * @brief GLUT callback invoked when mouse is moved while clicked in window.
+ * @param x The x coordinate of the mouse.
+ * @param y The y coordinate of the mouse.
+ */
+void mouseMovedAndClicked(int x, int y);
+
+/**
+ * @brief GLUT callback invoked when mouse is moved.
+ * @param x The current x coordinate.
+ * @param y The current y coordinate.
+ */
+void mouseMoved(int x, int y);
 
 #endif /* end of include guard: MAINWINDOW_MLTZT4GG */

@@ -8,7 +8,9 @@ int main(int argc, char *argv[])
    glutInitWindowSize(320,320);
    glutCreateWindow("test");
 
-   glutMouseFunc(mouseMoved);
+   glutMouseFunc(mouseClicked);
+   glutPassiveMotionFunc(mouseMoved);
+   glutMotionFunc(mouseMovedAndClicked);
    glutKeyboardFunc(keyPressed);
 
    glutDisplayFunc(render);
