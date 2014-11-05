@@ -52,8 +52,8 @@ void loadObj(
             set_null(vertexBuffer, indexBuffer, vertexCount, faceCount);
             return;
          }
-#ifdef DEBUG
          printf("Reallocated vertexBuffer. new size %d\n",vertexbufSize);
+#ifdef DEBUG
 #endif
       }
       if(j > indexbufSize - 3){
@@ -65,8 +65,8 @@ void loadObj(
             set_null(vertexBuffer, indexBuffer, vertexCount, faceCount);
             return;
          }
-#ifdef DEBUG
          printf("Reallocated indexBuffer. new size %d\n",indexbufSize);
+#ifdef DEBUG
 #endif
       }
       switch (line_read[0])
@@ -77,19 +77,19 @@ void loadObj(
                   (*vertexBuffer)[i] = a;
                   (*vertexBuffer)[i+1] = b;
                   (*vertexBuffer)[i+2] = c;
-                   i += 3;
 #ifdef DEBUG
-                   printf("Vertex parsed: (%f,%f,%f)\n",a,b,c);
+                   printf("Vertex parsed: (%f,%f,%f)\n",(*vertexBuffer)[i],(*vertexBuffer)[i+1],(*vertexBuffer)[i+2]);
 #endif
+                   i += 3;
                    break;
          case 'f': sscanf(line_read, face_format, &d,&e,&f);
                   (*indexBuffer)[j] = d;
                   (*indexBuffer)[j+1] = e;
                   (*indexBuffer)[j+2] = f;
-                   j += 3;
 #ifdef DEBUG
-                   printf("Triangle: (%d,%d,%d)\n",d,e,f);
+                   printf("Vertex parsed: (%d,%d,%d)\n",(*indexBuffer)[j],(*indexBuffer)[j+1],(*indexBuffer)[j+2]);
 #endif
+                   j += 3;
                    break;
          default: fprintf(stderr, "Error. No valid .obj file.\nError at line %d: %s\n",line,line_read);
                   set_null(vertexBuffer, indexBuffer, vertexCount, faceCount);
@@ -102,6 +102,8 @@ void loadObj(
    }
    *vertexCount = i/3;
    *faceCount = j/3;
+   *vertexBuffer = realloc(*vertexBuffer, *vertexCount);
+   *indexBuffer = realloc(*indexBuffer, *faceCount);
    printf("Done with sizes %d, %d\n",i/3,j/3);
    printf("End of function.\n");
 }
