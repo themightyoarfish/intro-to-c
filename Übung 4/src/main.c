@@ -37,10 +37,6 @@ int main(int argc, char **argv)
     /* Try to load .ply file */
 	loadObj(argv[1], &vertexBuffer, &indexBuffer, &vertexCount, &indexCount);
    printf("hello\n");
-   /* for (int i = 0; i < vertexCount; i+=3) */ 
-   /* { */
-      /* printf("%d: (%f,%f,%f)\n",i,vertexBuffer[i],vertexBuffer[i+1],vertexBuffer[i+2]); */
-   /* } */
 
     /* Test if the file was loaded correctly */
     if(vertexBuffer == 0 || indexBuffer == 0 || vertexCount == 0 || indexCount == 0)
