@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 4 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype, textcomp, xcolor, listings, tikz,
+            IEEEtrantools, array, amsmath, amssymb, graphicx,
+            subcaption, lmodern}
+\usepackage[pdftitle={Übung 4}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\titlespacing{\subsection}{0em}{\baselineskip}{1em}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{}{0em}{Aufgabe \arabic{section}.\arabic{subsection} #1}
+
+\renewcommand{\thesection}{}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   language=C,
+   stringstyle=\color{olive},
+}
+
+\begin{document}
+
+   \maketitle
+
+   \lstinputlisting[language=make,caption={CMakeLists.txt}]{src/CMakeLists.txt}
+   \lstinputlisting[caption={objio.c}]{src/objio.c}
+\end{document}
+
