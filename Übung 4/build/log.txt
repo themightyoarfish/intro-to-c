@@ -1,0 +1,2603 @@
+Current line read: 1: v -2.754120 -170.276001 -9.021180
+Vertex parsed: (-2.754120,-170.276001,-9.021180)
+Current number of parsed vertices: 1
+Current number of parsed faces: 0
+Current line read: 2: v 2.754300 -170.276001 -9.021180
+Vertex parsed: (2.754300,-170.276001,-9.021180)
+Current number of parsed vertices: 2
+Current number of parsed faces: 0
+Current line read: 3: v 3.755820 -160.261002 -0.508338
+Vertex parsed: (3.755820,-160.261002,-0.508338)
+Current number of parsed vertices: 3
+Current number of parsed faces: 0
+Current line read: 4: v -3.755640 -160.261002 -0.508338
+Vertex parsed: (-3.755640,-160.261002,-0.508338)
+Current number of parsed vertices: 4
+Current number of parsed faces: 0
+Current line read: 5: v -0.949265 -178.959000 -20.094299
+Vertex parsed: (-0.949265,-178.959000,-20.094299)
+Current number of parsed vertices: 5
+Current number of parsed faces: 0
+Current line read: 6: v 0.498231 -178.957993 -20.094299
+Vertex parsed: (0.498231,-178.957993,-20.094299)
+Current number of parsed vertices: 6
+Current number of parsed faces: 0
+Current line read: 7: v 9.556450 -163.503998 -17.800699
+Vertex parsed: (9.556450,-163.503998,-17.800699)
+Current number of parsed vertices: 7
+Current number of parsed faces: 0
+Current line read: 8: v -9.947660 -163.475998 -17.800699
+Vertex parsed: (-9.947660,-163.475998,-17.800699)
+Current number of parsed vertices: 8
+Current number of parsed faces: 0
+Current line read: 9: v 4.256580 -136.164993 9.710360
+Vertex parsed: (4.256580,-136.164993,9.710360)
+Current number of parsed vertices: 9
+Current number of parsed faces: 0
+Current line read: 10: v -4.757150 -136.164993 9.710360
+Vertex parsed: (-4.757150,-136.164993,9.710360)
+Current number of parsed vertices: 10
+Current number of parsed faces: 0
+Current line read: 11: v 16.368099 -130.158005 -9.705620
+Reallocated vertexBuffer. new size 60
+Vertex parsed: (16.368099,-130.158005,-9.705620)
+Current number of parsed vertices: 11
+Current number of parsed faces: 0
+Current line read: 12: v -16.671301 -130.186005 -9.705620
+Vertex parsed: (-16.671301,-130.186005,-9.705620)
+Current number of parsed vertices: 12
+Current number of parsed faces: 0
+Current line read: 13: v 3.755820 -95.004204 14.420900
+Vertex parsed: (3.755820,-95.004204,14.420900)
+Current number of parsed vertices: 13
+Current number of parsed faces: 0
+Current line read: 14: v -3.755640 -95.004303 14.420900
+Vertex parsed: (-3.755640,-95.004303,14.420900)
+Current number of parsed vertices: 14
+Current number of parsed faces: 0
+Current line read: 15: v 18.161900 -84.964699 2.458580
+Vertex parsed: (18.161900,-84.964699,2.458580)
+Current number of parsed vertices: 15
+Current number of parsed faces: 0
+Current line read: 16: v -18.496700 -84.964699 2.458620
+Vertex parsed: (-18.496700,-84.964699,2.458620)
+Current number of parsed vertices: 16
+Current number of parsed faces: 0
+Current line read: 17: v -3.755640 -95.004204 14.420900
+Vertex parsed: (-3.755640,-95.004204,14.420900)
+Current number of parsed vertices: 17
+Current number of parsed faces: 0
+Current line read: 18: v 3.755820 -95.004204 14.420900
+Vertex parsed: (3.755820,-95.004204,14.420900)
+Current number of parsed vertices: 18
+Current number of parsed faces: 0
+Current line read: 19: v 2.754300 -86.826698 14.497700
+Vertex parsed: (2.754300,-86.826698,14.497700)
+Current number of parsed vertices: 19
+Current number of parsed faces: 0
+Current line read: 20: v -2.754120 -86.826797 14.497700
+Vertex parsed: (-2.754120,-86.826797,14.497700)
+Current number of parsed vertices: 20
+Current number of parsed faces: 0
+Current line read: 21: v -0.498051 -31.686001 11.246300
+Reallocated vertexBuffer. new size 120
+Vertex parsed: (-0.498051,-31.686001,11.246300)
+Current number of parsed vertices: 21
+Current number of parsed faces: 0
+Current line read: 22: v 0.047017 -31.686001 11.246300
+Vertex parsed: (0.047017,-31.686001,11.246300)
+Current number of parsed vertices: 22
+Current number of parsed faces: 0
+Current line read: 23: v -15.084600 -155.412994 -32.401798
+Vertex parsed: (-15.084600,-155.412994,-32.401798)
+Current number of parsed vertices: 23
+Current number of parsed faces: 0
+Current line read: 24: v -15.084600 -127.241997 -32.401798
+Vertex parsed: (-15.084600,-127.241997,-32.401798)
+Current number of parsed vertices: 24
+Current number of parsed faces: 0
+Current line read: 25: v -7.858080 -152.535004 -47.765400
+Vertex parsed: (-7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 25
+Current number of parsed faces: 0
+Current line read: 26: v 17.992800 -155.412994 -32.401798
+Vertex parsed: (17.992800,-155.412994,-32.401798)
+Current number of parsed vertices: 26
+Current number of parsed faces: 0
+Current line read: 27: v 7.858080 -152.535004 -47.765400
+Vertex parsed: (7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 27
+Current number of parsed faces: 0
+Current line read: 28: v 12.382000 -119.809998 -47.912300
+Vertex parsed: (12.382000,-119.809998,-47.912300)
+Current number of parsed vertices: 28
+Current number of parsed faces: 0
+Current line read: 29: v 17.992800 -126.772003 -32.401798
+Vertex parsed: (17.992800,-126.772003,-32.401798)
+Current number of parsed vertices: 29
+Current number of parsed faces: 0
+Current line read: 30: v -11.882600 -119.809998 -47.912300
+Vertex parsed: (-11.882600,-119.809998,-47.912300)
+Current number of parsed vertices: 30
+Current number of parsed faces: 0
+Current line read: 31: v 17.170200 -50.893799 -39.216900
+Vertex parsed: (17.170200,-50.893799,-39.216900)
+Current number of parsed vertices: 31
+Current number of parsed faces: 0
+Current line read: 32: v 7.623040 -67.285599 -56.666302
+Vertex parsed: (7.623040,-67.285599,-56.666302)
+Current number of parsed vertices: 32
+Current number of parsed faces: 0
+Current line read: 33: v 7.623040 38.556000 -40.979500
+Vertex parsed: (7.623040,38.556000,-40.979500)
+Current number of parsed vertices: 33
+Current number of parsed faces: 0
+Current line read: 34: v -15.907100 -50.893799 -39.216900
+Vertex parsed: (-15.907100,-50.893799,-39.216900)
+Current number of parsed vertices: 34
+Current number of parsed faces: 0
+Current line read: 35: v -7.946200 38.556000 -40.979500
+Vertex parsed: (-7.946200,38.556000,-40.979500)
+Current number of parsed vertices: 35
+Current number of parsed faces: 0
+Current line read: 36: v -8.151820 -67.138702 -56.666302
+Vertex parsed: (-8.151820,-67.138702,-56.666302)
+Current number of parsed vertices: 36
+Current number of parsed faces: 0
+Current line read: 37: v 7.623040 -116.196999 -56.666302
+Vertex parsed: (7.623040,-116.196999,-56.666302)
+Current number of parsed vertices: 37
+Current number of parsed faces: 0
+Current line read: 38: v -8.151820 -116.196999 -56.666302
+Vertex parsed: (-8.151820,-116.196999,-56.666302)
+Current number of parsed vertices: 38
+Current number of parsed faces: 0
+Current line read: 39: v -0.220328 -205.000000 -27.055401
+Vertex parsed: (-0.220328,-205.000000,-27.055401)
+Current number of parsed vertices: 39
+Current number of parsed faces: 0
+Current line read: 40: v -0.220328 -178.944000 -20.063900
+Vertex parsed: (-0.220328,-178.944000,-20.063900)
+Current number of parsed vertices: 40
+Current number of parsed faces: 0
+Current line read: 41: v -9.943770 -163.520996 -17.801901
+Reallocated vertexBuffer. new size 240
+Vertex parsed: (-9.943770,-163.520996,-17.801901)
+Current number of parsed vertices: 41
+Current number of parsed faces: 0
+Current line read: 42: v -18.492201 -84.969902 2.438090
+Vertex parsed: (-18.492201,-84.969902,2.438090)
+Current number of parsed vertices: 42
+Current number of parsed faces: 0
+Current line read: 43: v -0.220328 -32.739498 11.221600
+Vertex parsed: (-0.220328,-32.739498,11.221600)
+Current number of parsed vertices: 43
+Current number of parsed faces: 0
+Current line read: 44: v -41.934200 15.202000 9.576530
+Vertex parsed: (-41.934200,15.202000,9.576530)
+Current number of parsed vertices: 44
+Current number of parsed faces: 0
+Current line read: 45: v -18.492201 -170.660004 -24.940300
+Vertex parsed: (-18.492201,-170.660004,-24.940300)
+Current number of parsed vertices: 45
+Current number of parsed faces: 0
+Current line read: 46: v -16.670799 -130.179001 -9.694160
+Vertex parsed: (-16.670799,-130.179001,-9.694160)
+Current number of parsed vertices: 46
+Current number of parsed faces: 0
+Current line read: 47: v -53.332001 -91.873299 -16.480000
+Vertex parsed: (-53.332001,-91.873299,-16.480000)
+Current number of parsed vertices: 47
+Current number of parsed faces: 0
+Current line read: 48: v 9.561870 -163.520996 -17.801901
+Vertex parsed: (9.561870,-163.520996,-17.801901)
+Current number of parsed vertices: 48
+Current number of parsed faces: 0
+Current line read: 49: v 18.169001 -84.969902 2.438090
+Vertex parsed: (18.169001,-84.969902,2.438090)
+Current number of parsed vertices: 49
+Current number of parsed faces: 0
+Current line read: 50: v 41.611000 15.202000 9.576530
+Vertex parsed: (41.611000,15.202000,9.576530)
+Current number of parsed vertices: 50
+Current number of parsed faces: 0
+Current line read: 51: v 18.169001 -170.660004 -24.940300
+Vertex parsed: (18.169001,-170.660004,-24.940300)
+Current number of parsed vertices: 51
+Current number of parsed faces: 0
+Current line read: 52: v 16.347700 -130.179001 -9.694160
+Vertex parsed: (16.347700,-130.179001,-9.694160)
+Current number of parsed vertices: 52
+Current number of parsed faces: 0
+Current line read: 53: v 52.950199 -91.873299 -16.480000
+Vertex parsed: (52.950199,-91.873299,-16.480000)
+Current number of parsed vertices: 53
+Current number of parsed faces: 0
+Current line read: 54: v -93.400803 15.848300 -15.657400
+Vertex parsed: (-93.400803,15.848300,-15.657400)
+Current number of parsed vertices: 54
+Current number of parsed faces: 0
+Current line read: 55: v 93.018898 15.848300 -15.657400
+Vertex parsed: (93.018898,15.848300,-15.657400)
+Current number of parsed vertices: 55
+Current number of parsed faces: 0
+Current line read: 56: v 17.992800 -126.772003 -32.401798
+Vertex parsed: (17.992800,-126.772003,-32.401798)
+Current number of parsed vertices: 56
+Current number of parsed faces: 0
+Current line read: 57: v 52.950199 -91.873299 -16.480000
+Vertex parsed: (52.950199,-91.873299,-16.480000)
+Current number of parsed vertices: 57
+Current number of parsed faces: 0
+Current line read: 58: v 18.169001 -170.660004 -24.940300
+Vertex parsed: (18.169001,-170.660004,-24.940300)
+Current number of parsed vertices: 58
+Current number of parsed faces: 0
+Current line read: 59: v -53.332001 -91.873299 -16.480000
+Vertex parsed: (-53.332001,-91.873299,-16.480000)
+Current number of parsed vertices: 59
+Current number of parsed faces: 0
+Current line read: 60: v -15.084600 -127.241997 -32.401798
+Vertex parsed: (-15.084600,-127.241997,-32.401798)
+Current number of parsed vertices: 60
+Current number of parsed faces: 0
+Current line read: 61: v -18.492201 -170.660004 -24.940300
+Vertex parsed: (-18.492201,-170.660004,-24.940300)
+Current number of parsed vertices: 61
+Current number of parsed faces: 0
+Current line read: 62: v -15.084600 -155.412994 -32.401798
+Vertex parsed: (-15.084600,-155.412994,-32.401798)
+Current number of parsed vertices: 62
+Current number of parsed faces: 0
+Current line read: 63: v -15.907100 -50.893799 -39.216900
+Vertex parsed: (-15.907100,-50.893799,-39.216900)
+Current number of parsed vertices: 63
+Current number of parsed faces: 0
+Current line read: 64: v -93.400803 15.848300 -15.657400
+Vertex parsed: (-93.400803,15.848300,-15.657400)
+Current number of parsed vertices: 64
+Current number of parsed faces: 0
+Current line read: 65: v -61.116600 38.732201 -30.609800
+Vertex parsed: (-61.116600,38.732201,-30.609800)
+Current number of parsed vertices: 65
+Current number of parsed faces: 0
+Current line read: 66: v 93.018898 15.848300 -15.657400
+Vertex parsed: (93.018898,15.848300,-15.657400)
+Current number of parsed vertices: 66
+Current number of parsed faces: 0
+Current line read: 67: v 17.170200 -50.893799 -39.216900
+Vertex parsed: (17.170200,-50.893799,-39.216900)
+Current number of parsed vertices: 67
+Current number of parsed faces: 0
+Current line read: 68: v 62.350399 38.732201 -30.609800
+Vertex parsed: (62.350399,38.732201,-30.609800)
+Current number of parsed vertices: 68
+Current number of parsed faces: 0
+Current line read: 69: v 7.623040 38.556000 -40.979500
+Vertex parsed: (7.623040,38.556000,-40.979500)
+Current number of parsed vertices: 69
+Current number of parsed faces: 0
+Current line read: 70: v -7.946200 38.556000 -40.979500
+Vertex parsed: (-7.946200,38.556000,-40.979500)
+Current number of parsed vertices: 70
+Current number of parsed faces: 0
+Current line read: 71: v 17.992800 -155.412994 -32.401798
+Vertex parsed: (17.992800,-155.412994,-32.401798)
+Current number of parsed vertices: 71
+Current number of parsed faces: 0
+Current line read: 72: v 7.623040 -67.285599 -56.666302
+Vertex parsed: (7.623040,-67.285599,-56.666302)
+Current number of parsed vertices: 72
+Current number of parsed faces: 0
+Current line read: 73: v -8.151820 -67.138702 -56.666302
+Vertex parsed: (-8.151820,-67.138702,-56.666302)
+Current number of parsed vertices: 73
+Current number of parsed faces: 0
+Current line read: 74: v 7.623040 -116.196999 -56.666302
+Vertex parsed: (7.623040,-116.196999,-56.666302)
+Current number of parsed vertices: 74
+Current number of parsed faces: 0
+Current line read: 75: v -8.151820 -116.196999 -56.666302
+Vertex parsed: (-8.151820,-116.196999,-56.666302)
+Current number of parsed vertices: 75
+Current number of parsed faces: 0
+Current line read: 76: v 17.992800 -155.412994 -32.401798
+Vertex parsed: (17.992800,-155.412994,-32.401798)
+Current number of parsed vertices: 76
+Current number of parsed faces: 0
+Current line read: 77: v 17.992800 -126.772003 -32.401798
+Vertex parsed: (17.992800,-126.772003,-32.401798)
+Current number of parsed vertices: 77
+Current number of parsed faces: 0
+Current line read: 78: v 18.169001 -170.660004 -24.940300
+Vertex parsed: (18.169001,-170.660004,-24.940300)
+Current number of parsed vertices: 78
+Current number of parsed faces: 0
+Current line read: 79: v 2.030470 -152.509995 -38.127701
+Vertex parsed: (2.030470,-152.509995,-38.127701)
+Current number of parsed vertices: 79
+Current number of parsed faces: 0
+Current line read: 80: v 2.030470 -152.509995 -34.969101
+Vertex parsed: (2.030470,-152.509995,-34.969101)
+Current number of parsed vertices: 80
+Current number of parsed faces: 0
+Current line read: 81: v 5.640230 -152.509995 -34.969101
+Reallocated vertexBuffer. new size 480
+Vertex parsed: (5.640230,-152.509995,-34.969101)
+Current number of parsed vertices: 81
+Current number of parsed faces: 0
+Current line read: 82: v 5.640230 -152.509995 -38.127701
+Vertex parsed: (5.640230,-152.509995,-38.127701)
+Current number of parsed vertices: 82
+Current number of parsed faces: 0
+Current line read: 83: v -5.414570 -152.285004 -38.071301
+Vertex parsed: (-5.414570,-152.285004,-38.071301)
+Current number of parsed vertices: 83
+Current number of parsed faces: 0
+Current line read: 84: v -5.414570 -152.285004 -34.912701
+Vertex parsed: (-5.414570,-152.285004,-34.912701)
+Current number of parsed vertices: 84
+Current number of parsed faces: 0
+Current line read: 85: v -1.804810 -152.285004 -34.912701
+Vertex parsed: (-1.804810,-152.285004,-34.912701)
+Current number of parsed vertices: 85
+Current number of parsed faces: 0
+Current line read: 86: v -1.804810 -152.285004 -38.071301
+Vertex parsed: (-1.804810,-152.285004,-38.071301)
+Current number of parsed vertices: 86
+Current number of parsed faces: 0
+Current line read: 87: v -15.084600 -155.412994 -32.401798
+Vertex parsed: (-15.084600,-155.412994,-32.401798)
+Current number of parsed vertices: 87
+Current number of parsed faces: 0
+Current line read: 88: v -7.858080 -152.535004 -47.765400
+Vertex parsed: (-7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 88
+Current number of parsed faces: 0
+Current line read: 89: v 7.858080 -152.535004 -47.765400
+Vertex parsed: (7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 89
+Current number of parsed faces: 0
+Current line read: 90: v 17.992800 -155.412994 -32.401798
+Vertex parsed: (17.992800,-155.412994,-32.401798)
+Current number of parsed vertices: 90
+Current number of parsed faces: 0
+Current line read: 91: v -11.882600 -119.809998 -47.912300
+Vertex parsed: (-11.882600,-119.809998,-47.912300)
+Current number of parsed vertices: 91
+Current number of parsed faces: 0
+Current line read: 92: v -8.151820 -116.196999 -56.666302
+Vertex parsed: (-8.151820,-116.196999,-56.666302)
+Current number of parsed vertices: 92
+Current number of parsed faces: 0
+Current line read: 93: v 7.623040 -116.196999 -56.666302
+Vertex parsed: (7.623040,-116.196999,-56.666302)
+Current number of parsed vertices: 93
+Current number of parsed faces: 0
+Current line read: 94: v 12.382000 -119.809998 -47.912300
+Vertex parsed: (12.382000,-119.809998,-47.912300)
+Current number of parsed vertices: 94
+Current number of parsed faces: 0
+Current line read: 95: v 12.382000 -119.809998 -47.912300
+Vertex parsed: (12.382000,-119.809998,-47.912300)
+Current number of parsed vertices: 95
+Current number of parsed faces: 0
+Current line read: 96: v 7.858080 -152.535004 -47.765400
+Vertex parsed: (7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 96
+Current number of parsed faces: 0
+Current line read: 97: v -7.858080 -152.535004 -47.765400
+Vertex parsed: (-7.858080,-152.535004,-47.765400)
+Current number of parsed vertices: 97
+Current number of parsed faces: 0
+Current line read: 98: v -11.882600 -119.809998 -47.912300
+Vertex parsed: (-11.882600,-119.809998,-47.912300)
+Current number of parsed vertices: 98
+Current number of parsed faces: 0
+Current line read: 99: v -117.811996 159.585007 -13.924200
+Vertex parsed: (-117.811996,159.585007,-13.924200)
+Current number of parsed vertices: 99
+Current number of parsed faces: 0
+Current line read: 100: v -93.400803 15.848300 -15.657400
+Vertex parsed: (-93.400803,15.848300,-15.657400)
+Current number of parsed vertices: 100
+Current number of parsed faces: 0
+Current line read: 101: v -117.811996 160.406998 0.176290
+Vertex parsed: (-117.811996,160.406998,0.176290)
+Current number of parsed vertices: 101
+Current number of parsed faces: 0
+Current line read: 102: v -54.330799 194.923996 -18.888700
+Vertex parsed: (-54.330799,194.923996,-18.888700)
+Current number of parsed vertices: 102
+Current number of parsed faces: 0
+Current line read: 103: v -41.934200 189.695007 -32.225300
+Vertex parsed: (-41.934200,189.695007,-32.225300)
+Current number of parsed vertices: 103
+Current number of parsed faces: 0
+Current line read: 104: v -76.715302 194.923996 -18.888700
+Vertex parsed: (-76.715302,194.923996,-18.888700)
+Current number of parsed vertices: 104
+Current number of parsed faces: 0
+Current line read: 105: v -54.330799 194.923996 -18.888700
+Vertex parsed: (-54.330799,194.923996,-18.888700)
+Current number of parsed vertices: 105
+Current number of parsed faces: 0
+Current line read: 106: v -48.984402 194.307007 1.498210
+Vertex parsed: (-48.984402,194.307007,1.498210)
+Current number of parsed vertices: 106
+Current number of parsed faces: 0
+Current line read: 107: v -41.934200 189.695007 -32.225300
+Vertex parsed: (-41.934200,189.695007,-32.225300)
+Current number of parsed vertices: 107
+Current number of parsed faces: 0
+Current line read: 108: v -41.934200 189.695007 16.597500
+Vertex parsed: (-41.934200,189.695007,16.597500)
+Current number of parsed vertices: 108
+Current number of parsed faces: 0
+Current line read: 109: v -48.984402 194.307007 1.498210
+Vertex parsed: (-48.984402,194.307007,1.498210)
+Current number of parsed vertices: 109
+Current number of parsed faces: 0
+Current line read: 110: v -67.315002 194.923996 7.843420
+Vertex parsed: (-67.315002,194.923996,7.843420)
+Current number of parsed vertices: 110
+Current number of parsed faces: 0
+Current line read: 111: v -114.287003 189.636002 -13.924200
+Vertex parsed: (-114.287003,189.636002,-13.924200)
+Current number of parsed vertices: 111
+Current number of parsed faces: 0
+Current line read: 112: v -117.811996 159.585007 -13.924200
+Vertex parsed: (-117.811996,159.585007,-13.924200)
+Current number of parsed vertices: 112
+Current number of parsed faces: 0
+Current line read: 113: v -76.715302 194.923996 -18.888700
+Vertex parsed: (-76.715302,194.923996,-18.888700)
+Current number of parsed vertices: 113
+Current number of parsed faces: 0
+Current line read: 114: v -114.287003 189.636002 -13.924200
+Vertex parsed: (-114.287003,189.636002,-13.924200)
+Current number of parsed vertices: 114
+Current number of parsed faces: 0
+Current line read: 115: v -41.934200 189.695007 16.597500
+Vertex parsed: (-41.934200,189.695007,16.597500)
+Current number of parsed vertices: 115
+Current number of parsed faces: 0
+Current line read: 116: v -48.984402 194.307007 1.498210
+Vertex parsed: (-48.984402,194.307007,1.498210)
+Current number of parsed vertices: 116
+Current number of parsed faces: 0
+Current line read: 117: v 93.018898 15.848300 -15.657400
+Vertex parsed: (93.018898,15.848300,-15.657400)
+Current number of parsed vertices: 117
+Current number of parsed faces: 0
+Current line read: 118: v 118.958000 159.585007 -13.924200
+Vertex parsed: (118.958000,159.585007,-13.924200)
+Current number of parsed vertices: 118
+Current number of parsed faces: 0
+Current line read: 119: v 118.958000 160.554001 0.176290
+Vertex parsed: (118.958000,160.554001,0.176290)
+Current number of parsed vertices: 119
+Current number of parsed faces: 0
+Current line read: 120: v -94.282097 189.313004 13.131100
+Vertex parsed: (-94.282097,189.313004,13.131100)
+Current number of parsed vertices: 120
+Current number of parsed faces: 0
+Current line read: 121: v -80.122902 195.100006 1.498210
+Vertex parsed: (-80.122902,195.100006,1.498210)
+Current number of parsed vertices: 121
+Current number of parsed faces: 0
+Current line read: 122: v -116.019997 189.695007 1.468840
+Vertex parsed: (-116.019997,189.695007,1.468840)
+Current number of parsed vertices: 122
+Current number of parsed faces: 0
+Current line read: 123: v -67.315002 194.923996 7.843420
+Vertex parsed: (-67.315002,194.923996,7.843420)
+Current number of parsed vertices: 123
+Current number of parsed faces: 0
+Current line read: 124: v -76.832802 189.636002 20.122601
+Vertex parsed: (-76.832802,189.636002,20.122601)
+Current number of parsed vertices: 124
+Current number of parsed faces: 0
+Current line read: 125: v 62.350399 38.732201 -30.609800
+Vertex parsed: (62.350399,38.732201,-30.609800)
+Current number of parsed vertices: 125
+Current number of parsed faces: 0
+Current line read: 126: v 84.088600 48.279400 -63.687099
+Vertex parsed: (84.088600,48.279400,-63.687099)
+Current number of parsed vertices: 126
+Current number of parsed faces: 0
+Current line read: 127: v 92.078903 43.961102 -20.063801
+Vertex parsed: (92.078903,43.961102,-20.063801)
+Current number of parsed vertices: 127
+Current number of parsed faces: 0
+Current line read: 128: v -61.292900 173.567993 -32.401600
+Vertex parsed: (-61.292900,173.567993,-32.401600)
+Current number of parsed vertices: 128
+Current number of parsed faces: 0
+Current line read: 129: v -81.209801 150.860001 -63.687000
+Vertex parsed: (-81.209801,150.860001,-63.687000)
+Current number of parsed vertices: 129
+Current number of parsed faces: 0
+Current line read: 130: v -87.378700 173.567993 -25.380800
+Vertex parsed: (-87.378700,173.567993,-25.380800)
+Current number of parsed vertices: 130
+Current number of parsed faces: 0
+Current line read: 131: v -83.001701 48.279400 -63.687099
+Vertex parsed: (-83.001701,48.279400,-63.687099)
+Current number of parsed vertices: 131
+Current number of parsed faces: 0
+Current line read: 132: v -61.116600 38.732201 -30.609800
+Vertex parsed: (-61.116600,38.732201,-30.609800)
+Current number of parsed vertices: 132
+Current number of parsed faces: 0
+Current line read: 133: v -90.786301 43.961102 -20.063801
+Vertex parsed: (-90.786301,43.961102,-20.063801)
+Current number of parsed vertices: 133
+Current number of parsed faces: 0
+Current line read: 134: v 88.465698 173.567993 -25.380800
+Vertex parsed: (88.465698,173.567993,-25.380800)
+Current number of parsed vertices: 134
+Current number of parsed faces: 0
+Current line read: 135: v 82.531700 150.860001 -63.687000
+Vertex parsed: (82.531700,150.860001,-63.687000)
+Current number of parsed vertices: 135
+Current number of parsed faces: 0
+Current line read: 136: v 62.350399 173.567993 -32.401600
+Vertex parsed: (62.350399,173.567993,-32.401600)
+Current number of parsed vertices: 136
+Current number of parsed faces: 0
+Current line read: 137: v 43.256100 189.695007 -32.225300
+Vertex parsed: (43.256100,189.695007,-32.225300)
+Current number of parsed vertices: 137
+Current number of parsed faces: 0
+Current line read: 138: v 51.980701 194.923996 -18.976801
+Vertex parsed: (51.980701,194.923996,-18.976801)
+Current number of parsed vertices: 138
+Current number of parsed faces: 0
+Current line read: 139: v 74.541397 194.923996 -18.976801
+Vertex parsed: (74.541397,194.923996,-18.976801)
+Current number of parsed vertices: 139
+Current number of parsed faces: 0
+Current line read: 140: v 49.601299 196.421997 1.468840
+Vertex parsed: (49.601299,196.421997,1.468840)
+Current number of parsed vertices: 140
+Current number of parsed faces: 0
+Current line read: 141: v 51.980701 194.923996 -18.976801
+Vertex parsed: (51.980701,194.923996,-18.976801)
+Current number of parsed vertices: 141
+Current number of parsed faces: 0
+Current line read: 142: v 43.256100 189.695007 -32.225300
+Vertex parsed: (43.256100,189.695007,-32.225300)
+Current number of parsed vertices: 142
+Current number of parsed faces: 0
+Current line read: 143: v 78.095901 189.636002 20.122601
+Vertex parsed: (78.095901,189.636002,20.122601)
+Current number of parsed vertices: 143
+Current number of parsed faces: 0
+Current line read: 144: v 63.349201 194.923996 7.784670
+Vertex parsed: (63.349201,194.923996,7.784670)
+Current number of parsed vertices: 144
+Current number of parsed faces: 0
+Current line read: 145: v 43.256100 189.636002 16.597500
+Vertex parsed: (43.256100,189.636002,16.597500)
+Current number of parsed vertices: 145
+Current number of parsed faces: 0
+Current line read: 146: v 74.541397 194.923996 -18.976801
+Vertex parsed: (74.541397,194.923996,-18.976801)
+Current number of parsed vertices: 146
+Current number of parsed faces: 0
+Current line read: 147: v 117.342003 189.636002 -13.924200
+Vertex parsed: (117.342003,189.636002,-13.924200)
+Current number of parsed vertices: 147
+Current number of parsed faces: 0
+Current line read: 148: v 43.256100 189.695007 -32.225300
+Vertex parsed: (43.256100,189.695007,-32.225300)
+Current number of parsed vertices: 148
+Current number of parsed faces: 0
+Current line read: 149: v 43.256100 189.636002 16.597500
+Vertex parsed: (43.256100,189.636002,16.597500)
+Current number of parsed vertices: 149
+Current number of parsed faces: 0
+Current line read: 150: v 49.601299 196.421997 1.468840
+Vertex parsed: (49.601299,196.421997,1.468840)
+Current number of parsed vertices: 150
+Current number of parsed faces: 0
+Current line read: 151: v 77.919701 194.307007 1.468840
+Vertex parsed: (77.919701,194.307007,1.468840)
+Current number of parsed vertices: 151
+Current number of parsed faces: 0
+Current line read: 152: v 95.457100 188.667007 13.131100
+Vertex parsed: (95.457100,188.667007,13.131100)
+Current number of parsed vertices: 152
+Current number of parsed faces: 0
+Current line read: 153: v 117.342003 189.695007 1.468840
+Vertex parsed: (117.342003,189.695007,1.468840)
+Current number of parsed vertices: 153
+Current number of parsed faces: 0
+Current line read: 154: v 63.349201 194.923996 7.784670
+Vertex parsed: (63.349201,194.923996,7.784670)
+Current number of parsed vertices: 154
+Current number of parsed faces: 0
+Current line read: 155: v 49.601299 196.421997 1.468840
+Vertex parsed: (49.601299,196.421997,1.468840)
+Current number of parsed vertices: 155
+Current number of parsed faces: 0
+Current line read: 156: v -116.019997 189.695007 1.468840
+Vertex parsed: (-116.019997,189.695007,1.468840)
+Current number of parsed vertices: 156
+Current number of parsed faces: 0
+Current line read: 157: v -114.287003 189.636002 -13.924200
+Vertex parsed: (-114.287003,189.636002,-13.924200)
+Current number of parsed vertices: 157
+Current number of parsed faces: 0
+Current line read: 158: v 41.434799 138.845001 -32.225399
+Vertex parsed: (41.434799,138.845001,-32.225399)
+Current number of parsed vertices: 158
+Current number of parsed faces: 0
+Current line read: 159: v 41.434799 138.845001 16.597401
+Vertex parsed: (41.434799,138.845001,16.597401)
+Current number of parsed vertices: 159
+Current number of parsed faces: 0
+Current line read: 160: v 43.256100 189.636002 16.597500
+Vertex parsed: (43.256100,189.636002,16.597500)
+Current number of parsed vertices: 160
+Current number of parsed faces: 0
+Current line read: 161: v -40.406601 138.845001 -32.225399
+Reallocated vertexBuffer. new size 960
+Vertex parsed: (-40.406601,138.845001,-32.225399)
+Current number of parsed vertices: 161
+Current number of parsed faces: 0
+Current line read: 162: v -41.934200 189.695007 -32.225300
+Vertex parsed: (-41.934200,189.695007,-32.225300)
+Current number of parsed vertices: 162
+Current number of parsed faces: 0
+Current line read: 163: v -41.934200 189.695007 16.597500
+Vertex parsed: (-41.934200,189.695007,16.597500)
+Current number of parsed vertices: 163
+Current number of parsed faces: 0
+Current line read: 164: v -40.406601 138.845001 16.597401
+Vertex parsed: (-40.406601,138.845001,16.597401)
+Current number of parsed vertices: 164
+Current number of parsed faces: 0
+Current line read: 165: v 117.342003 189.636002 -13.924200
+Vertex parsed: (117.342003,189.636002,-13.924200)
+Current number of parsed vertices: 165
+Current number of parsed faces: 0
+Current line read: 166: v 117.342003 189.695007 1.468840
+Vertex parsed: (117.342003,189.695007,1.468840)
+Current number of parsed vertices: 166
+Current number of parsed faces: 0
+Current line read: 167: v 118.958000 160.554001 0.176290
+Vertex parsed: (118.958000,160.554001,0.176290)
+Current number of parsed vertices: 167
+Current number of parsed faces: 0
+Current line read: 168: v 118.958000 159.585007 -13.924200
+Vertex parsed: (118.958000,159.585007,-13.924200)
+Current number of parsed vertices: 168
+Current number of parsed faces: 0
+Current line read: 169: v 117.342003 189.636002 -13.924200
+Vertex parsed: (117.342003,189.636002,-13.924200)
+Current number of parsed vertices: 169
+Current number of parsed faces: 0
+Current line read: 170: v 74.541397 194.923996 -18.976801
+Vertex parsed: (74.541397,194.923996,-18.976801)
+Current number of parsed vertices: 170
+Current number of parsed faces: 0
+Current line read: 171: v 77.919701 194.307007 1.468840
+Vertex parsed: (77.919701,194.307007,1.468840)
+Current number of parsed vertices: 171
+Current number of parsed faces: 0
+Current line read: 172: v 117.342003 189.695007 1.468840
+Vertex parsed: (117.342003,189.695007,1.468840)
+Current number of parsed vertices: 172
+Current number of parsed faces: 0
+Current line read: 173: v 95.457100 188.667007 13.131100
+Vertex parsed: (95.457100,188.667007,13.131100)
+Current number of parsed vertices: 173
+Current number of parsed faces: 0
+Current line read: 174: v 77.919701 194.307007 1.468840
+Vertex parsed: (77.919701,194.307007,1.468840)
+Current number of parsed vertices: 174
+Current number of parsed faces: 0
+Current line read: 175: v 63.349201 194.923996 7.784670
+Vertex parsed: (63.349201,194.923996,7.784670)
+Current number of parsed vertices: 175
+Current number of parsed faces: 0
+Current line read: 176: v 78.095901 189.636002 20.122601
+Vertex parsed: (78.095901,189.636002,20.122601)
+Current number of parsed vertices: 176
+Current number of parsed faces: 0
+Current line read: 177: v -67.315002 194.923996 7.843420
+Vertex parsed: (-67.315002,194.923996,7.843420)
+Current number of parsed vertices: 177
+Current number of parsed faces: 0
+Current line read: 178: v -80.122902 195.100006 1.498210
+Vertex parsed: (-80.122902,195.100006,1.498210)
+Current number of parsed vertices: 178
+Current number of parsed faces: 0
+Current line read: 179: v -94.282097 189.313004 13.131100
+Vertex parsed: (-94.282097,189.313004,13.131100)
+Current number of parsed vertices: 179
+Current number of parsed faces: 0
+Current line read: 180: v -76.832802 189.636002 20.122601
+Vertex parsed: (-76.832802,189.636002,20.122601)
+Current number of parsed vertices: 180
+Current number of parsed faces: 0
+Current line read: 181: v -76.715302 194.923996 -18.888700
+Vertex parsed: (-76.715302,194.923996,-18.888700)
+Current number of parsed vertices: 181
+Current number of parsed faces: 0
+Current line read: 182: v -114.287003 189.636002 -13.924200
+Vertex parsed: (-114.287003,189.636002,-13.924200)
+Current number of parsed vertices: 182
+Current number of parsed faces: 0
+Current line read: 183: v -80.122902 195.100006 1.498210
+Vertex parsed: (-80.122902,195.100006,1.498210)
+Current number of parsed vertices: 183
+Current number of parsed faces: 0
+Current line read: 184: v -54.301498 90.110703 21.885099
+Vertex parsed: (-54.301498,90.110703,21.885099)
+Current number of parsed vertices: 184
+Current number of parsed faces: 0
+Current line read: 185: v -41.934200 15.202000 9.576530
+Vertex parsed: (-41.934200,15.202000,9.576530)
+Current number of parsed vertices: 185
+Current number of parsed faces: 0
+Current line read: 186: v -40.406601 138.845001 16.597401
+Vertex parsed: (-40.406601,138.845001,16.597401)
+Current number of parsed vertices: 186
+Current number of parsed faces: 0
+Current line read: 187: v -85.586800 144.074005 32.254799
+Vertex parsed: (-85.586800,144.074005,32.254799)
+Current number of parsed vertices: 187
+Current number of parsed faces: 0
+Current line read: 188: v -117.811996 160.406998 0.176290
+Vertex parsed: (-117.811996,160.406998,0.176290)
+Current number of parsed vertices: 188
+Current number of parsed faces: 0
+Current line read: 189: v -99.511002 90.110703 14.923000
+Vertex parsed: (-99.511002,90.110703,14.923000)
+Current number of parsed vertices: 189
+Current number of parsed faces: 0
+Current line read: 190: v -93.400803 15.848300 -15.657400
+Vertex parsed: (-93.400803,15.848300,-15.657400)
+Current number of parsed vertices: 190
+Current number of parsed faces: 0
+Current line read: 191: v -83.765503 34.325802 16.597401
+Vertex parsed: (-83.765503,34.325802,16.597401)
+Current number of parsed vertices: 191
+Current number of parsed faces: 0
+Current line read: 192: v 93.018898 15.848300 -15.657400
+Vertex parsed: (93.018898,15.848300,-15.657400)
+Current number of parsed vertices: 192
+Current number of parsed faces: 0
+Current line read: 193: v 92.078903 43.961102 -20.063801
+Vertex parsed: (92.078903,43.961102,-20.063801)
+Current number of parsed vertices: 193
+Current number of parsed faces: 0
+Current line read: 194: v 118.958000 159.585007 -13.924200
+Vertex parsed: (118.958000,159.585007,-13.924200)
+Current number of parsed vertices: 194
+Current number of parsed faces: 0
+Current line read: 195: v 62.350399 173.567993 -32.401600
+Vertex parsed: (62.350399,173.567993,-32.401600)
+Current number of parsed vertices: 195
+Current number of parsed faces: 0
+Current line read: 196: v 43.256100 189.695007 -32.225300
+Vertex parsed: (43.256100,189.695007,-32.225300)
+Current number of parsed vertices: 196
+Current number of parsed faces: 0
+Current line read: 197: v 117.342003 189.636002 -13.924200
+Vertex parsed: (117.342003,189.636002,-13.924200)
+Current number of parsed vertices: 197
+Current number of parsed faces: 0
+Current line read: 198: v -76.832802 189.636002 20.122601
+Vertex parsed: (-76.832802,189.636002,20.122601)
+Current number of parsed vertices: 198
+Current number of parsed faces: 0
+Current line read: 199: v -94.282097 189.313004 13.131100
+Vertex parsed: (-94.282097,189.313004,13.131100)
+Current number of parsed vertices: 199
+Current number of parsed faces: 0
+Current line read: 200: v 41.434799 138.845001 16.597401
+Vertex parsed: (41.434799,138.845001,16.597401)
+Current number of parsed vertices: 200
+Current number of parsed faces: 0
+Current line read: 201: v 55.417702 90.110703 21.885099
+Vertex parsed: (55.417702,90.110703,21.885099)
+Current number of parsed vertices: 201
+Current number of parsed faces: 0
+Current line read: 202: v 86.849998 144.074005 32.254799
+Vertex parsed: (86.849998,144.074005,32.254799)
+Current number of parsed vertices: 202
+Current number of parsed faces: 0
+Current line read: 203: v 88.465698 173.567993 -25.380800
+Vertex parsed: (88.465698,173.567993,-25.380800)
+Current number of parsed vertices: 203
+Current number of parsed faces: 0
+Current line read: 204: v 85.057999 34.325802 16.597401
+Vertex parsed: (85.057999,34.325802,16.597401)
+Current number of parsed vertices: 204
+Current number of parsed faces: 0
+Current line read: 205: v 93.018898 15.848300 -15.657400
+Vertex parsed: (93.018898,15.848300,-15.657400)
+Current number of parsed vertices: 205
+Current number of parsed faces: 0
+Current line read: 206: v 100.626999 90.110703 14.923000
+Vertex parsed: (100.626999,90.110703,14.923000)
+Current number of parsed vertices: 206
+Current number of parsed faces: 0
+Current line read: 207: v 41.611000 15.202000 9.576530
+Vertex parsed: (41.611000,15.202000,9.576530)
+Current number of parsed vertices: 207
+Current number of parsed faces: 0
+Current line read: 208: v -41.934200 189.695007 16.597500
+Vertex parsed: (-41.934200,189.695007,16.597500)
+Current number of parsed vertices: 208
+Current number of parsed faces: 0
+Current line read: 209: v 78.095901 189.636002 20.122601
+Vertex parsed: (78.095901,189.636002,20.122601)
+Current number of parsed vertices: 209
+Current number of parsed faces: 0
+Current line read: 210: v 43.256100 189.636002 16.597500
+Vertex parsed: (43.256100,189.636002,16.597500)
+Current number of parsed vertices: 210
+Current number of parsed faces: 0
+Current line read: 211: v -117.811996 159.585007 -13.924200
+Vertex parsed: (-117.811996,159.585007,-13.924200)
+Current number of parsed vertices: 211
+Current number of parsed faces: 0
+Current line read: 212: v -87.378700 173.567993 -25.380800
+Vertex parsed: (-87.378700,173.567993,-25.380800)
+Current number of parsed vertices: 212
+Current number of parsed faces: 0
+Current line read: 213: v -90.786301 43.961102 -20.063801
+Vertex parsed: (-90.786301,43.961102,-20.063801)
+Current number of parsed vertices: 213
+Current number of parsed faces: 0
+Current line read: 214: v -93.400803 15.848300 -15.657400
+Vertex parsed: (-93.400803,15.848300,-15.657400)
+Current number of parsed vertices: 214
+Current number of parsed faces: 0
+Current line read: 215: v 41.434799 138.845001 -32.225399
+Vertex parsed: (41.434799,138.845001,-32.225399)
+Current number of parsed vertices: 215
+Current number of parsed faces: 0
+Current line read: 216: v 95.457100 188.667007 13.131100
+Vertex parsed: (95.457100,188.667007,13.131100)
+Current number of parsed vertices: 216
+Current number of parsed faces: 0
+Current line read: 217: v -61.116600 38.732201 -30.609800
+Vertex parsed: (-61.116600,38.732201,-30.609800)
+Current number of parsed vertices: 217
+Current number of parsed faces: 0
+Current line read: 218: v 118.958000 160.554001 0.176290
+Vertex parsed: (118.958000,160.554001,0.176290)
+Current number of parsed vertices: 218
+Current number of parsed faces: 0
+Current line read: 219: v 62.350399 38.732201 -30.609800
+Vertex parsed: (62.350399,38.732201,-30.609800)
+Current number of parsed vertices: 219
+Current number of parsed faces: 0
+Current line read: 220: v -116.019997 189.695007 1.468840
+Vertex parsed: (-116.019997,189.695007,1.468840)
+Current number of parsed vertices: 220
+Current number of parsed faces: 0
+Current line read: 221: v -114.287003 189.636002 -13.924200
+Vertex parsed: (-114.287003,189.636002,-13.924200)
+Current number of parsed vertices: 221
+Current number of parsed faces: 0
+Current line read: 222: v -61.292900 173.567993 -32.401600
+Vertex parsed: (-61.292900,173.567993,-32.401600)
+Current number of parsed vertices: 222
+Current number of parsed faces: 0
+Current line read: 223: v -41.934200 189.695007 -32.225300
+Vertex parsed: (-41.934200,189.695007,-32.225300)
+Current number of parsed vertices: 223
+Current number of parsed faces: 0
+Current line read: 224: v 117.342003 189.695007 1.468840
+Vertex parsed: (117.342003,189.695007,1.468840)
+Current number of parsed vertices: 224
+Current number of parsed faces: 0
+Current line read: 225: v -40.406601 138.845001 -32.225399
+Vertex parsed: (-40.406601,138.845001,-32.225399)
+Current number of parsed vertices: 225
+Current number of parsed faces: 0
+Current line read: 226: v 84.088600 48.279400 -63.687099
+Vertex parsed: (84.088600,48.279400,-63.687099)
+Current number of parsed vertices: 226
+Current number of parsed faces: 0
+Current line read: 227: v 62.350399 38.732201 -30.609800
+Vertex parsed: (62.350399,38.732201,-30.609800)
+Current number of parsed vertices: 227
+Current number of parsed faces: 0
+Current line read: 228: v 82.531700 150.860001 -63.687000
+Vertex parsed: (82.531700,150.860001,-63.687000)
+Current number of parsed vertices: 228
+Current number of parsed faces: 0
+Current line read: 229: v 62.350399 173.567993 -32.401600
+Vertex parsed: (62.350399,173.567993,-32.401600)
+Current number of parsed vertices: 229
+Current number of parsed faces: 0
+Current line read: 230: v -61.292900 173.567993 -32.401600
+Vertex parsed: (-61.292900,173.567993,-32.401600)
+Current number of parsed vertices: 230
+Current number of parsed faces: 0
+Current line read: 231: v -61.116600 38.732201 -30.609800
+Vertex parsed: (-61.116600,38.732201,-30.609800)
+Current number of parsed vertices: 231
+Current number of parsed faces: 0
+Current line read: 232: v -81.209801 150.860001 -63.687000
+Vertex parsed: (-81.209801,150.860001,-63.687000)
+Current number of parsed vertices: 232
+Current number of parsed faces: 0
+Current line read: 233: v -83.001701 48.279400 -63.687099
+Vertex parsed: (-83.001701,48.279400,-63.687099)
+Current number of parsed vertices: 233
+Current number of parsed faces: 0
+Current line read: 234: v -83.001701 48.279400 -63.687099
+Vertex parsed: (-83.001701,48.279400,-63.687099)
+Current number of parsed vertices: 234
+Current number of parsed faces: 0
+Current line read: 235: v -90.786301 43.961102 -20.063801
+Vertex parsed: (-90.786301,43.961102,-20.063801)
+Current number of parsed vertices: 235
+Current number of parsed faces: 0
+Current line read: 236: v -87.378700 173.567993 -25.380800
+Vertex parsed: (-87.378700,173.567993,-25.380800)
+Current number of parsed vertices: 236
+Current number of parsed faces: 0
+Current line read: 237: v -81.209801 150.860001 -63.687000
+Vertex parsed: (-81.209801,150.860001,-63.687000)
+Current number of parsed vertices: 237
+Current number of parsed faces: 0
+Current line read: 238: v 84.088600 48.279400 -63.687099
+Vertex parsed: (84.088600,48.279400,-63.687099)
+Current number of parsed vertices: 238
+Current number of parsed faces: 0
+Current line read: 239: v 82.531700 150.860001 -63.687000
+Vertex parsed: (82.531700,150.860001,-63.687000)
+Current number of parsed vertices: 239
+Current number of parsed faces: 0
+Current line read: 240: v 88.465698 173.567993 -25.380800
+Vertex parsed: (88.465698,173.567993,-25.380800)
+Current number of parsed vertices: 240
+Current number of parsed faces: 0
+Current line read: 241: v 92.078903 43.961102 -20.063801
+Vertex parsed: (92.078903,43.961102,-20.063801)
+Current number of parsed vertices: 241
+Current number of parsed faces: 0
+Current line read: 242: v -61.116600 38.732201 -30.609800
+Vertex parsed: (-61.116600,38.732201,-30.609800)
+Current number of parsed vertices: 242
+Current number of parsed faces: 0
+Current line read: 243: v -40.406601 138.845001 -32.225399
+Vertex parsed: (-40.406601,138.845001,-32.225399)
+Current number of parsed vertices: 243
+Current number of parsed faces: 0
+Current line read: 244: v -7.946200 38.556000 -40.979500
+Vertex parsed: (-7.946200,38.556000,-40.979500)
+Current number of parsed vertices: 244
+Current number of parsed faces: 0
+Current line read: 245: v 7.623040 38.556000 -40.979500
+Vertex parsed: (7.623040,38.556000,-40.979500)
+Current number of parsed vertices: 245
+Current number of parsed faces: 0
+Current line read: 246: v 41.434799 138.845001 -32.225399
+Vertex parsed: (41.434799,138.845001,-32.225399)
+Current number of parsed vertices: 246
+Current number of parsed faces: 0
+Current line read: 247: v 62.350399 38.732201 -30.609800
+Vertex parsed: (62.350399,38.732201,-30.609800)
+Current number of parsed vertices: 247
+Current number of parsed faces: 0
+Current line read: 248: v 41.434799 138.845001 16.597401
+Vertex parsed: (41.434799,138.845001,16.597401)
+Current number of parsed vertices: 248
+Current number of parsed faces: 0
+Current line read: 249: v -40.406601 138.845001 16.597401
+Vertex parsed: (-40.406601,138.845001,16.597401)
+Current number of parsed vertices: 249
+Current number of parsed faces: 0
+Current line read: 250: v -41.934200 15.202000 9.576530
+Vertex parsed: (-41.934200,15.202000,9.576530)
+Current number of parsed vertices: 250
+Current number of parsed faces: 0
+Current line read: 251: v 41.611000 15.202000 9.576530
+Vertex parsed: (41.611000,15.202000,9.576530)
+Current number of parsed vertices: 251
+Current number of parsed faces: 0
+Current line read: 252: v 41.434799 138.845001 -32.225399
+Vertex parsed: (41.434799,138.845001,-32.225399)
+Current number of parsed vertices: 252
+Current number of parsed faces: 0
+Current line read: 253: v -40.406601 138.845001 -32.225399
+Vertex parsed: (-40.406601,138.845001,-32.225399)
+Current number of parsed vertices: 253
+Current number of parsed faces: 0
+Current line read: 254: v -40.406601 138.845001 16.597401
+Vertex parsed: (-40.406601,138.845001,16.597401)
+Current number of parsed vertices: 254
+Current number of parsed faces: 0
+Current line read: 255: v 41.434799 138.845001 16.597401
+Vertex parsed: (41.434799,138.845001,16.597401)
+Current number of parsed vertices: 255
+Current number of parsed faces: 0
+Current line read: 256: v -99.511002 90.110703 14.923000
+Vertex parsed: (-99.511002,90.110703,14.923000)
+Current number of parsed vertices: 256
+Current number of parsed faces: 0
+Current line read: 257: v -83.765503 34.325802 16.597401
+Vertex parsed: (-83.765503,34.325802,16.597401)
+Current number of parsed vertices: 257
+Current number of parsed faces: 0
+Current line read: 258: v -142.459000 65.758003 60.103199
+Vertex parsed: (-142.459000,65.758003,60.103199)
+Current number of parsed vertices: 258
+Current number of parsed faces: 0
+Current line read: 259: v -142.459000 65.758003 60.103199
+Vertex parsed: (-142.459000,65.758003,60.103199)
+Current number of parsed vertices: 259
+Current number of parsed faces: 0
+Current line read: 260: v -54.301498 90.110703 21.885099
+Vertex parsed: (-54.301498,90.110703,21.885099)
+Current number of parsed vertices: 260
+Current number of parsed faces: 0
+Current line read: 261: v -141.341995 131.942001 63.687099
+Vertex parsed: (-141.341995,131.942001,63.687099)
+Current number of parsed vertices: 261
+Current number of parsed faces: 0
+Current line read: 262: v -83.765503 34.325802 16.597401
+Vertex parsed: (-83.765503,34.325802,16.597401)
+Current number of parsed vertices: 262
+Current number of parsed faces: 0
+Current line read: 263: v -85.586800 144.074005 32.254799
+Vertex parsed: (-85.586800,144.074005,32.254799)
+Current number of parsed vertices: 263
+Current number of parsed faces: 0
+Current line read: 264: v -85.586800 144.074005 32.254799
+Vertex parsed: (-85.586800,144.074005,32.254799)
+Current number of parsed vertices: 264
+Current number of parsed faces: 0
+Current line read: 265: v 85.057999 34.325802 16.597401
+Vertex parsed: (85.057999,34.325802,16.597401)
+Current number of parsed vertices: 265
+Current number of parsed faces: 0
+Current line read: 266: v 100.626999 90.110703 14.923000
+Vertex parsed: (100.626999,90.110703,14.923000)
+Current number of parsed vertices: 266
+Current number of parsed faces: 0
+Current line read: 267: v 142.459000 65.758003 60.103199
+Vertex parsed: (142.459000,65.758003,60.103199)
+Current number of parsed vertices: 267
+Current number of parsed faces: 0
+Current line read: 268: v 55.417702 90.110703 21.885099
+Vertex parsed: (55.417702,90.110703,21.885099)
+Current number of parsed vertices: 268
+Current number of parsed faces: 0
+Current line read: 269: v 142.459000 65.758003 60.103199
+Vertex parsed: (142.459000,65.758003,60.103199)
+Current number of parsed vertices: 269
+Current number of parsed faces: 0
+Current line read: 270: v 142.459000 131.942001 63.687099
+Vertex parsed: (142.459000,131.942001,63.687099)
+Current number of parsed vertices: 270
+Current number of parsed faces: 0
+Current line read: 271: v 85.057999 34.325802 16.597401
+Vertex parsed: (85.057999,34.325802,16.597401)
+Current number of parsed vertices: 271
+Current number of parsed faces: 0
+Current line read: 272: v 86.849998 144.074005 32.254799
+Vertex parsed: (86.849998,144.074005,32.254799)
+Current number of parsed vertices: 272
+Current number of parsed faces: 0
+Current line read: 273: v 86.849998 144.074005 32.254799
+Vertex parsed: (86.849998,144.074005,32.254799)
+Current number of parsed vertices: 273
+Current number of parsed faces: 0
+Current line read: 274: v -67.315002 205.000000 5.258360
+Vertex parsed: (-67.315002,205.000000,5.258360)
+Current number of parsed vertices: 274
+Current number of parsed faces: 0
+Current line read: 275: v -52.685699 205.000000 0.146961
+Vertex parsed: (-52.685699,205.000000,0.146961)
+Current number of parsed vertices: 275
+Current number of parsed faces: 0
+Current line read: 276: v -77.860901 205.000000 0.235083
+Vertex parsed: (-77.860901,205.000000,0.235083)
+Current number of parsed vertices: 276
+Current number of parsed faces: 0
+Current line read: 277: v -67.315002 194.923996 7.843420
+Vertex parsed: (-67.315002,194.923996,7.843420)
+Current number of parsed vertices: 277
+Current number of parsed faces: 0
+Current line read: 278: v -67.315002 205.000000 5.258360
+Vertex parsed: (-67.315002,205.000000,5.258360)
+Current number of parsed vertices: 278
+Current number of parsed faces: 0
+Current line read: 279: v -80.122902 195.100006 1.498210
+Vertex parsed: (-80.122902,195.100006,1.498210)
+Current number of parsed vertices: 279
+Current number of parsed faces: 0
+Current line read: 280: v -67.315002 205.000000 5.258360
+Vertex parsed: (-67.315002,205.000000,5.258360)
+Current number of parsed vertices: 280
+Current number of parsed faces: 0
+Current line read: 281: v -77.860901 205.000000 0.235083
+Vertex parsed: (-77.860901,205.000000,0.235083)
+Current number of parsed vertices: 281
+Current number of parsed faces: 0
+Current line read: 282: v -52.685699 205.000000 0.146961
+Vertex parsed: (-52.685699,205.000000,0.146961)
+Current number of parsed vertices: 282
+Current number of parsed faces: 0
+Current line read: 283: v -67.315002 205.000000 5.258360
+Vertex parsed: (-67.315002,205.000000,5.258360)
+Current number of parsed vertices: 283
+Current number of parsed faces: 0
+Current line read: 284: v -67.315002 194.923996 7.843420
+Vertex parsed: (-67.315002,194.923996,7.843420)
+Current number of parsed vertices: 284
+Current number of parsed faces: 0
+Current line read: 285: v -48.984402 194.307007 1.498210
+Vertex parsed: (-48.984402,194.307007,1.498210)
+Current number of parsed vertices: 285
+Current number of parsed faces: 0
+Current line read: 286: v -56.622101 205.000000 -15.304800
+Vertex parsed: (-56.622101,205.000000,-15.304800)
+Current number of parsed vertices: 286
+Current number of parsed faces: 0
+Current line read: 287: v -75.246498 205.000000 -15.304800
+Vertex parsed: (-75.246498,205.000000,-15.304800)
+Current number of parsed vertices: 287
+Current number of parsed faces: 0
+Current line read: 288: v -52.685699 205.000000 0.146961
+Vertex parsed: (-52.685699,205.000000,0.146961)
+Current number of parsed vertices: 288
+Current number of parsed faces: 0
+Current line read: 289: v -48.984402 194.307007 1.498210
+Vertex parsed: (-48.984402,194.307007,1.498210)
+Current number of parsed vertices: 289
+Current number of parsed faces: 0
+Current line read: 290: v -54.330799 194.923996 -18.888700
+Vertex parsed: (-54.330799,194.923996,-18.888700)
+Current number of parsed vertices: 290
+Current number of parsed faces: 0
+Current line read: 291: v -56.622101 205.000000 -15.304800
+Vertex parsed: (-56.622101,205.000000,-15.304800)
+Current number of parsed vertices: 291
+Current number of parsed faces: 0
+Current line read: 292: v -52.685699 205.000000 0.146961
+Vertex parsed: (-52.685699,205.000000,0.146961)
+Current number of parsed vertices: 292
+Current number of parsed faces: 0
+Current line read: 293: v -54.330799 194.923996 -18.888700
+Vertex parsed: (-54.330799,194.923996,-18.888700)
+Current number of parsed vertices: 293
+Current number of parsed faces: 0
+Current line read: 294: v -76.715302 194.923996 -18.888700
+Vertex parsed: (-76.715302,194.923996,-18.888700)
+Current number of parsed vertices: 294
+Current number of parsed faces: 0
+Current line read: 295: v -75.246498 205.000000 -15.304800
+Vertex parsed: (-75.246498,205.000000,-15.304800)
+Current number of parsed vertices: 295
+Current number of parsed faces: 0
+Current line read: 296: v -56.622101 205.000000 -15.304800
+Vertex parsed: (-56.622101,205.000000,-15.304800)
+Current number of parsed vertices: 296
+Current number of parsed faces: 0
+Current line read: 297: v -75.246498 205.000000 -15.304800
+Vertex parsed: (-75.246498,205.000000,-15.304800)
+Current number of parsed vertices: 297
+Current number of parsed faces: 0
+Current line read: 298: v -77.860901 205.000000 0.235083
+Vertex parsed: (-77.860901,205.000000,0.235083)
+Current number of parsed vertices: 298
+Current number of parsed faces: 0
+Current line read: 299: v 53.273300 205.000000 0.176335
+Vertex parsed: (53.273300,205.000000,0.176335)
+Current number of parsed vertices: 299
+Current number of parsed faces: 0
+Current line read: 300: v 63.349201 205.000000 4.582710
+Vertex parsed: (63.349201,205.000000,4.582710)
+Current number of parsed vertices: 300
+Current number of parsed faces: 0
+Current line read: 301: v 74.835197 205.000000 -0.558062
+Vertex parsed: (74.835197,205.000000,-0.558062)
+Current number of parsed vertices: 301
+Current number of parsed faces: 0
+Current line read: 302: v 63.349201 194.923996 7.784670
+Vertex parsed: (63.349201,194.923996,7.784670)
+Current number of parsed vertices: 302
+Current number of parsed faces: 0
+Current line read: 303: v 63.349201 205.000000 4.582710
+Vertex parsed: (63.349201,205.000000,4.582710)
+Current number of parsed vertices: 303
+Current number of parsed faces: 0
+Current line read: 304: v 49.601299 196.421997 1.468840
+Vertex parsed: (49.601299,196.421997,1.468840)
+Current number of parsed vertices: 304
+Current number of parsed faces: 0
+Current line read: 305: v 63.349201 205.000000 4.582710
+Vertex parsed: (63.349201,205.000000,4.582710)
+Current number of parsed vertices: 305
+Current number of parsed faces: 0
+Current line read: 306: v 53.273300 205.000000 0.176335
+Vertex parsed: (53.273300,205.000000,0.176335)
+Current number of parsed vertices: 306
+Current number of parsed faces: 0
+Current line read: 307: v 74.541397 194.923996 -18.976801
+Vertex parsed: (74.541397,194.923996,-18.976801)
+Current number of parsed vertices: 307
+Current number of parsed faces: 0
+Current line read: 308: v 51.980701 194.923996 -18.976801
+Vertex parsed: (51.980701,194.923996,-18.976801)
+Current number of parsed vertices: 308
+Current number of parsed faces: 0
+Current line read: 309: v 55.564602 205.000000 -15.334200
+Vertex parsed: (55.564602,205.000000,-15.334200)
+Current number of parsed vertices: 309
+Current number of parsed faces: 0
+Current line read: 310: v 72.426399 205.000000 -15.334200
+Vertex parsed: (72.426399,205.000000,-15.334200)
+Current number of parsed vertices: 310
+Current number of parsed faces: 0
+Current line read: 311: v 55.564602 205.000000 -15.334200
+Vertex parsed: (55.564602,205.000000,-15.334200)
+Current number of parsed vertices: 311
+Current number of parsed faces: 0
+Current line read: 312: v 53.273300 205.000000 0.176335
+Vertex parsed: (53.273300,205.000000,0.176335)
+Current number of parsed vertices: 312
+Current number of parsed faces: 0
+Current line read: 313: v 72.426399 205.000000 -15.334200
+Vertex parsed: (72.426399,205.000000,-15.334200)
+Current number of parsed vertices: 313
+Current number of parsed faces: 0
+Current line read: 314: v 55.564602 205.000000 -15.334200
+Vertex parsed: (55.564602,205.000000,-15.334200)
+Current number of parsed vertices: 314
+Current number of parsed faces: 0
+Current line read: 315: v 51.980701 194.923996 -18.976801
+Vertex parsed: (51.980701,194.923996,-18.976801)
+Current number of parsed vertices: 315
+Current number of parsed faces: 0
+Current line read: 316: v 53.273300 205.000000 0.176335
+Vertex parsed: (53.273300,205.000000,0.176335)
+Current number of parsed vertices: 316
+Current number of parsed faces: 0
+Current line read: 317: v 74.835197 205.000000 -0.558062
+Vertex parsed: (74.835197,205.000000,-0.558062)
+Current number of parsed vertices: 317
+Current number of parsed faces: 0
+Current line read: 318: v 63.349201 205.000000 4.582710
+Vertex parsed: (63.349201,205.000000,4.582710)
+Current number of parsed vertices: 318
+Current number of parsed faces: 0
+Current line read: 319: v 63.349201 194.923996 7.784670
+Vertex parsed: (63.349201,194.923996,7.784670)
+Current number of parsed vertices: 319
+Current number of parsed faces: 0
+Current line read: 320: v 77.919701 194.307007 1.468840
+Vertex parsed: (77.919701,194.307007,1.468840)
+Current number of parsed vertices: 320
+Current number of parsed faces: 0
+Current line read: 321: v 74.541397 194.923996 -18.976801
+Reallocated vertexBuffer. new size 1920
+Vertex parsed: (74.541397,194.923996,-18.976801)
+Current number of parsed vertices: 321
+Current number of parsed faces: 0
+Current line read: 322: v 72.426399 205.000000 -15.334200
+Vertex parsed: (72.426399,205.000000,-15.334200)
+Current number of parsed vertices: 322
+Current number of parsed faces: 0
+Current line read: 323: v 74.835197 205.000000 -0.558062
+Vertex parsed: (74.835197,205.000000,-0.558062)
+Current number of parsed vertices: 323
+Current number of parsed faces: 0
+Current line read: 324: v 77.919701 194.307007 1.468840
+Vertex parsed: (77.919701,194.307007,1.468840)
+Current number of parsed vertices: 324
+Current number of parsed faces: 0
+Current line read: 325: v 2.030470 -161.084000 -34.969101
+Vertex parsed: (2.030470,-161.084000,-34.969101)
+Current number of parsed vertices: 325
+Current number of parsed faces: 0
+Current line read: 326: v 5.640230 -161.084000 -34.969101
+Vertex parsed: (5.640230,-161.084000,-34.969101)
+Current number of parsed vertices: 326
+Current number of parsed faces: 0
+Current line read: 327: v 5.640230 -152.509995 -34.969101
+Vertex parsed: (5.640230,-152.509995,-34.969101)
+Current number of parsed vertices: 327
+Current number of parsed faces: 0
+Current line read: 328: v 2.030470 -152.509995 -34.969101
+Vertex parsed: (2.030470,-152.509995,-34.969101)
+Current number of parsed vertices: 328
+Current number of parsed faces: 0
+Current line read: 329: v 2.030470 -161.084000 -38.127701
+Vertex parsed: (2.030470,-161.084000,-38.127701)
+Current number of parsed vertices: 329
+Current number of parsed faces: 0
+Current line read: 330: v 2.030470 -152.509995 -38.127701
+Vertex parsed: (2.030470,-152.509995,-38.127701)
+Current number of parsed vertices: 330
+Current number of parsed faces: 0
+Current line read: 331: v 5.640230 -152.509995 -38.127701
+Vertex parsed: (5.640230,-152.509995,-38.127701)
+Current number of parsed vertices: 331
+Current number of parsed faces: 0
+Current line read: 332: v 5.640230 -161.084000 -38.127701
+Vertex parsed: (5.640230,-161.084000,-38.127701)
+Current number of parsed vertices: 332
+Current number of parsed faces: 0
+Current line read: 333: v 5.640230 -161.084000 -38.127701
+Vertex parsed: (5.640230,-161.084000,-38.127701)
+Current number of parsed vertices: 333
+Current number of parsed faces: 0
+Current line read: 334: v 5.640230 -161.084000 -34.969101
+Vertex parsed: (5.640230,-161.084000,-34.969101)
+Current number of parsed vertices: 334
+Current number of parsed faces: 0
+Current line read: 335: v 2.030470 -161.084000 -34.969101
+Vertex parsed: (2.030470,-161.084000,-34.969101)
+Current number of parsed vertices: 335
+Current number of parsed faces: 0
+Current line read: 336: v 5.640230 -161.084000 -38.127701
+Vertex parsed: (5.640230,-161.084000,-38.127701)
+Current number of parsed vertices: 336
+Current number of parsed faces: 0
+Current line read: 337: v 5.640230 -152.509995 -38.127701
+Vertex parsed: (5.640230,-152.509995,-38.127701)
+Current number of parsed vertices: 337
+Current number of parsed faces: 0
+Current line read: 338: v 5.640230 -161.084000 -34.969101
+Vertex parsed: (5.640230,-161.084000,-34.969101)
+Current number of parsed vertices: 338
+Current number of parsed faces: 0
+Current line read: 339: v 2.030470 -161.084000 -34.969101
+Vertex parsed: (2.030470,-161.084000,-34.969101)
+Current number of parsed vertices: 339
+Current number of parsed faces: 0
+Current line read: 340: v 2.030470 -152.509995 -34.969101
+Vertex parsed: (2.030470,-152.509995,-34.969101)
+Current number of parsed vertices: 340
+Current number of parsed faces: 0
+Current line read: 341: v 2.030470 -152.509995 -38.127701
+Vertex parsed: (2.030470,-152.509995,-38.127701)
+Current number of parsed vertices: 341
+Current number of parsed faces: 0
+Current line read: 342: v 2.030470 -159.279007 -41.850101
+Vertex parsed: (2.030470,-159.279007,-41.850101)
+Current number of parsed vertices: 342
+Current number of parsed faces: 0
+Current line read: 343: v 5.640230 -159.279007 -41.850101
+Vertex parsed: (5.640230,-159.279007,-41.850101)
+Current number of parsed vertices: 343
+Current number of parsed faces: 0
+Current line read: 344: v 5.640230 -150.705994 -41.850101
+Vertex parsed: (5.640230,-150.705994,-41.850101)
+Current number of parsed vertices: 344
+Current number of parsed faces: 0
+Current line read: 345: v 2.030470 -150.705994 -41.850101
+Vertex parsed: (2.030470,-150.705994,-41.850101)
+Current number of parsed vertices: 345
+Current number of parsed faces: 0
+Current line read: 346: v 2.030470 -159.279007 -45.008598
+Vertex parsed: (2.030470,-159.279007,-45.008598)
+Current number of parsed vertices: 346
+Current number of parsed faces: 0
+Current line read: 347: v 2.030470 -150.705994 -45.008598
+Vertex parsed: (2.030470,-150.705994,-45.008598)
+Current number of parsed vertices: 347
+Current number of parsed faces: 0
+Current line read: 348: v 5.640230 -150.705994 -45.008598
+Vertex parsed: (5.640230,-150.705994,-45.008598)
+Current number of parsed vertices: 348
+Current number of parsed faces: 0
+Current line read: 349: v 5.640230 -159.279007 -45.008598
+Vertex parsed: (5.640230,-159.279007,-45.008598)
+Current number of parsed vertices: 349
+Current number of parsed faces: 0
+Current line read: 350: v 2.030470 -159.279007 -45.008598
+Vertex parsed: (2.030470,-159.279007,-45.008598)
+Current number of parsed vertices: 350
+Current number of parsed faces: 0
+Current line read: 351: v 5.640230 -159.279007 -45.008598
+Vertex parsed: (5.640230,-159.279007,-45.008598)
+Current number of parsed vertices: 351
+Current number of parsed faces: 0
+Current line read: 352: v 5.640230 -159.279007 -41.850101
+Vertex parsed: (5.640230,-159.279007,-41.850101)
+Current number of parsed vertices: 352
+Current number of parsed faces: 0
+Current line read: 353: v 2.030470 -159.279007 -41.850101
+Vertex parsed: (2.030470,-159.279007,-41.850101)
+Current number of parsed vertices: 353
+Current number of parsed faces: 0
+Current line read: 354: v 5.640230 -159.279007 -45.008598
+Vertex parsed: (5.640230,-159.279007,-45.008598)
+Current number of parsed vertices: 354
+Current number of parsed faces: 0
+Current line read: 355: v 5.640230 -150.705994 -45.008598
+Vertex parsed: (5.640230,-150.705994,-45.008598)
+Current number of parsed vertices: 355
+Current number of parsed faces: 0
+Current line read: 356: v 5.640230 -150.705994 -41.850101
+Vertex parsed: (5.640230,-150.705994,-41.850101)
+Current number of parsed vertices: 356
+Current number of parsed faces: 0
+Current line read: 357: v 5.640230 -159.279007 -41.850101
+Vertex parsed: (5.640230,-159.279007,-41.850101)
+Current number of parsed vertices: 357
+Current number of parsed faces: 0
+Current line read: 358: v 2.030470 -159.279007 -41.850101
+Vertex parsed: (2.030470,-159.279007,-41.850101)
+Current number of parsed vertices: 358
+Current number of parsed faces: 0
+Current line read: 359: v 2.030470 -150.705994 -41.850101
+Vertex parsed: (2.030470,-150.705994,-41.850101)
+Current number of parsed vertices: 359
+Current number of parsed faces: 0
+Current line read: 360: v 2.030470 -150.705994 -45.008598
+Vertex parsed: (2.030470,-150.705994,-45.008598)
+Current number of parsed vertices: 360
+Current number of parsed faces: 0
+Current line read: 361: v -5.414570 -160.858002 -34.912701
+Vertex parsed: (-5.414570,-160.858002,-34.912701)
+Current number of parsed vertices: 361
+Current number of parsed faces: 0
+Current line read: 362: v -1.804810 -160.858002 -34.912701
+Vertex parsed: (-1.804810,-160.858002,-34.912701)
+Current number of parsed vertices: 362
+Current number of parsed faces: 0
+Current line read: 363: v -1.804810 -152.285004 -34.912701
+Vertex parsed: (-1.804810,-152.285004,-34.912701)
+Current number of parsed vertices: 363
+Current number of parsed faces: 0
+Current line read: 364: v -5.414570 -152.285004 -34.912701
+Vertex parsed: (-5.414570,-152.285004,-34.912701)
+Current number of parsed vertices: 364
+Current number of parsed faces: 0
+Current line read: 365: v -5.414570 -160.858002 -38.071301
+Vertex parsed: (-5.414570,-160.858002,-38.071301)
+Current number of parsed vertices: 365
+Current number of parsed faces: 0
+Current line read: 366: v -5.414570 -152.285004 -38.071301
+Vertex parsed: (-5.414570,-152.285004,-38.071301)
+Current number of parsed vertices: 366
+Current number of parsed faces: 0
+Current line read: 367: v -1.804810 -152.285004 -38.071301
+Vertex parsed: (-1.804810,-152.285004,-38.071301)
+Current number of parsed vertices: 367
+Current number of parsed faces: 0
+Current line read: 368: v -1.804810 -160.858002 -38.071301
+Vertex parsed: (-1.804810,-160.858002,-38.071301)
+Current number of parsed vertices: 368
+Current number of parsed faces: 0
+Current line read: 369: v -1.804810 -160.858002 -38.071301
+Vertex parsed: (-1.804810,-160.858002,-38.071301)
+Current number of parsed vertices: 369
+Current number of parsed faces: 0
+Current line read: 370: v -1.804810 -160.858002 -34.912701
+Vertex parsed: (-1.804810,-160.858002,-34.912701)
+Current number of parsed vertices: 370
+Current number of parsed faces: 0
+Current line read: 371: v -5.414570 -160.858002 -34.912701
+Vertex parsed: (-5.414570,-160.858002,-34.912701)
+Current number of parsed vertices: 371
+Current number of parsed faces: 0
+Current line read: 372: v -1.804810 -160.858002 -38.071301
+Vertex parsed: (-1.804810,-160.858002,-38.071301)
+Current number of parsed vertices: 372
+Current number of parsed faces: 0
+Current line read: 373: v -1.804810 -152.285004 -38.071301
+Vertex parsed: (-1.804810,-152.285004,-38.071301)
+Current number of parsed vertices: 373
+Current number of parsed faces: 0
+Current line read: 374: v -1.804810 -160.858002 -34.912701
+Vertex parsed: (-1.804810,-160.858002,-34.912701)
+Current number of parsed vertices: 374
+Current number of parsed faces: 0
+Current line read: 375: v -5.414570 -160.858002 -34.912701
+Vertex parsed: (-5.414570,-160.858002,-34.912701)
+Current number of parsed vertices: 375
+Current number of parsed faces: 0
+Current line read: 376: v -5.414570 -152.285004 -34.912701
+Vertex parsed: (-5.414570,-152.285004,-34.912701)
+Current number of parsed vertices: 376
+Current number of parsed faces: 0
+Current line read: 377: v -5.414570 -152.285004 -38.071301
+Vertex parsed: (-5.414570,-152.285004,-38.071301)
+Current number of parsed vertices: 377
+Current number of parsed faces: 0
+Current line read: 378: v -5.414570 -159.052994 -41.793701
+Vertex parsed: (-5.414570,-159.052994,-41.793701)
+Current number of parsed vertices: 378
+Current number of parsed faces: 0
+Current line read: 379: v -1.804810 -159.052994 -41.793701
+Vertex parsed: (-1.804810,-159.052994,-41.793701)
+Current number of parsed vertices: 379
+Current number of parsed faces: 0
+Current line read: 380: v -1.804810 -150.479996 -41.793701
+Vertex parsed: (-1.804810,-150.479996,-41.793701)
+Current number of parsed vertices: 380
+Current number of parsed faces: 0
+Current line read: 381: v -5.414570 -150.479996 -41.793701
+Vertex parsed: (-5.414570,-150.479996,-41.793701)
+Current number of parsed vertices: 381
+Current number of parsed faces: 0
+Current line read: 382: v -5.414570 -159.052994 -44.952202
+Vertex parsed: (-5.414570,-159.052994,-44.952202)
+Current number of parsed vertices: 382
+Current number of parsed faces: 0
+Current line read: 383: v -5.414570 -150.479996 -44.952202
+Vertex parsed: (-5.414570,-150.479996,-44.952202)
+Current number of parsed vertices: 383
+Current number of parsed faces: 0
+Current line read: 384: v -1.804810 -150.479996 -44.952202
+Vertex parsed: (-1.804810,-150.479996,-44.952202)
+Current number of parsed vertices: 384
+Current number of parsed faces: 0
+Current line read: 385: v -1.804810 -159.052994 -44.952202
+Vertex parsed: (-1.804810,-159.052994,-44.952202)
+Current number of parsed vertices: 385
+Current number of parsed faces: 0
+Current line read: 386: v -5.414570 -159.052994 -44.952202
+Vertex parsed: (-5.414570,-159.052994,-44.952202)
+Current number of parsed vertices: 386
+Current number of parsed faces: 0
+Current line read: 387: v -1.804810 -159.052994 -44.952202
+Vertex parsed: (-1.804810,-159.052994,-44.952202)
+Current number of parsed vertices: 387
+Current number of parsed faces: 0
+Current line read: 388: v -1.804810 -159.052994 -41.793701
+Vertex parsed: (-1.804810,-159.052994,-41.793701)
+Current number of parsed vertices: 388
+Current number of parsed faces: 0
+Current line read: 389: v -5.414570 -159.052994 -41.793701
+Vertex parsed: (-5.414570,-159.052994,-41.793701)
+Current number of parsed vertices: 389
+Current number of parsed faces: 0
+Current line read: 390: v -1.804810 -159.052994 -44.952202
+Vertex parsed: (-1.804810,-159.052994,-44.952202)
+Current number of parsed vertices: 390
+Current number of parsed faces: 0
+Current line read: 391: v -1.804810 -150.479996 -44.952202
+Vertex parsed: (-1.804810,-150.479996,-44.952202)
+Current number of parsed vertices: 391
+Current number of parsed faces: 0
+Current line read: 392: v -1.804810 -150.479996 -41.793701
+Vertex parsed: (-1.804810,-150.479996,-41.793701)
+Current number of parsed vertices: 392
+Current number of parsed faces: 0
+Current line read: 393: v -1.804810 -159.052994 -41.793701
+Vertex parsed: (-1.804810,-159.052994,-41.793701)
+Current number of parsed vertices: 393
+Current number of parsed faces: 0
+Current line read: 394: v -5.414570 -159.052994 -41.793701
+Vertex parsed: (-5.414570,-159.052994,-41.793701)
+Current number of parsed vertices: 394
+Current number of parsed faces: 0
+Current line read: 395: v -5.414570 -150.479996 -41.793701
+Vertex parsed: (-5.414570,-150.479996,-41.793701)
+Current number of parsed vertices: 395
+Current number of parsed faces: 0
+Current line read: 396: v -5.414570 -150.479996 -44.952202
+Vertex parsed: (-5.414570,-150.479996,-44.952202)
+Current number of parsed vertices: 396
+Current number of parsed faces: 0
+Current line read: 397: # 396 vertices, 0 vertices normals
+Current number of parsed vertices: 396
+Current number of parsed faces: 0
+Current line read: 398: 
+Current number of parsed vertices: 396
+Current number of parsed faces: 0
+Current line read: 399: f 1 2 3
+Triangle: (1,2,3)
+Current number of parsed vertices: 396
+Current number of parsed faces: 1
+Current line read: 400: f 1 3 4
+Triangle: (1,3,4)
+Current number of parsed vertices: 396
+Current number of parsed faces: 2
+Current line read: 401: f 5 6 2
+Triangle: (5,6,2)
+Current number of parsed vertices: 396
+Current number of parsed faces: 3
+Current line read: 402: f 5 2 1
+Triangle: (5,2,1)
+Current number of parsed vertices: 396
+Current number of parsed faces: 4
+Current line read: 403: f 6 7 3
+Triangle: (6,7,3)
+Current number of parsed vertices: 396
+Current number of parsed faces: 5
+Current line read: 404: f 6 3 2
+Triangle: (6,3,2)
+Current number of parsed vertices: 396
+Current number of parsed faces: 6
+Current line read: 405: f 5 1 4
+Triangle: (5,1,4)
+Current number of parsed vertices: 396
+Current number of parsed faces: 7
+Current line read: 406: f 5 4 8
+Triangle: (5,4,8)
+Current number of parsed vertices: 396
+Current number of parsed faces: 8
+Current line read: 407: f 4 3 9
+Triangle: (4,3,9)
+Current number of parsed vertices: 396
+Current number of parsed faces: 9
+Current line read: 408: f 4 9 10
+Triangle: (4,9,10)
+Current number of parsed vertices: 396
+Current number of parsed faces: 10
+Current line read: 409: f 7 11 9
+Reallocated indexBuffer. new size 60
+Triangle: (7,11,9)
+Current number of parsed vertices: 396
+Current number of parsed faces: 11
+Current line read: 410: f 7 9 3
+Triangle: (7,9,3)
+Current number of parsed vertices: 396
+Current number of parsed faces: 12
+Current line read: 411: f 8 4 10
+Triangle: (8,4,10)
+Current number of parsed vertices: 396
+Current number of parsed faces: 13
+Current line read: 412: f 8 10 12
+Triangle: (8,10,12)
+Current number of parsed vertices: 396
+Current number of parsed faces: 14
+Current line read: 413: f 10 9 13
+Triangle: (10,9,13)
+Current number of parsed vertices: 396
+Current number of parsed faces: 15
+Current line read: 414: f 10 13 14
+Triangle: (10,13,14)
+Current number of parsed vertices: 396
+Current number of parsed faces: 16
+Current line read: 415: f 11 15 13
+Triangle: (11,15,13)
+Current number of parsed vertices: 396
+Current number of parsed faces: 17
+Current line read: 416: f 11 13 9
+Triangle: (11,13,9)
+Current number of parsed vertices: 396
+Current number of parsed faces: 18
+Current line read: 417: f 12 10 14
+Triangle: (12,10,14)
+Current number of parsed vertices: 396
+Current number of parsed faces: 19
+Current line read: 418: f 12 14 16
+Triangle: (12,14,16)
+Current number of parsed vertices: 396
+Current number of parsed faces: 20
+Current line read: 419: f 17 18 19
+Reallocated indexBuffer. new size 120
+Triangle: (17,18,19)
+Current number of parsed vertices: 396
+Current number of parsed faces: 21
+Current line read: 420: f 17 19 20
+Triangle: (17,19,20)
+Current number of parsed vertices: 396
+Current number of parsed faces: 22
+Current line read: 421: f 21 20 19
+Triangle: (21,20,19)
+Current number of parsed vertices: 396
+Current number of parsed faces: 23
+Current line read: 422: f 21 19 22
+Triangle: (21,19,22)
+Current number of parsed vertices: 396
+Current number of parsed faces: 24
+Current line read: 423: f 15 22 19
+Triangle: (15,22,19)
+Current number of parsed vertices: 396
+Current number of parsed faces: 25
+Current line read: 424: f 15 19 18
+Triangle: (15,19,18)
+Current number of parsed vertices: 396
+Current number of parsed faces: 26
+Current line read: 425: f 16 17 20
+Triangle: (16,17,20)
+Current number of parsed vertices: 396
+Current number of parsed faces: 27
+Current line read: 426: f 23 24 25
+Triangle: (23,24,25)
+Current number of parsed vertices: 396
+Current number of parsed faces: 28
+Current line read: 427: f 26 27 28
+Triangle: (26,27,28)
+Current number of parsed vertices: 396
+Current number of parsed faces: 29
+Current line read: 428: f 29 26 28
+Triangle: (29,26,28)
+Current number of parsed vertices: 396
+Current number of parsed faces: 30
+Current line read: 429: f 24 30 25
+Triangle: (24,30,25)
+Current number of parsed vertices: 396
+Current number of parsed faces: 31
+Current line read: 430: f 31 32 33
+Triangle: (31,32,33)
+Current number of parsed vertices: 396
+Current number of parsed faces: 32
+Current line read: 431: f 29 28 31
+Triangle: (29,28,31)
+Current number of parsed vertices: 396
+Current number of parsed faces: 33
+Current line read: 432: f 24 34 30
+Triangle: (24,34,30)
+Current number of parsed vertices: 396
+Current number of parsed faces: 34
+Current line read: 433: f 34 35 36
+Triangle: (34,35,36)
+Current number of parsed vertices: 396
+Current number of parsed faces: 35
+Current line read: 434: f 37 32 31
+Triangle: (37,32,31)
+Current number of parsed vertices: 396
+Current number of parsed faces: 36
+Current line read: 435: f 37 31 28
+Triangle: (37,31,28)
+Current number of parsed vertices: 396
+Current number of parsed faces: 37
+Current line read: 436: f 36 38 30
+Triangle: (36,38,30)
+Current number of parsed vertices: 396
+Current number of parsed faces: 38
+Current line read: 437: f 36 30 34
+Triangle: (36,30,34)
+Current number of parsed vertices: 396
+Current number of parsed faces: 39
+Current line read: 438: f 39 40 41
+Triangle: (39,40,41)
+Current number of parsed vertices: 396
+Current number of parsed faces: 40
+Current line read: 439: f 42 43 44
+Reallocated indexBuffer. new size 240
+Triangle: (42,43,44)
+Current number of parsed vertices: 396
+Current number of parsed faces: 41
+Current line read: 440: f 39 41 45
+Triangle: (39,41,45)
+Current number of parsed vertices: 396
+Current number of parsed faces: 42
+Current line read: 441: f 46 42 47
+Triangle: (46,42,47)
+Current number of parsed vertices: 396
+Current number of parsed faces: 43
+Current line read: 442: f 40 39 48
+Triangle: (40,39,48)
+Current number of parsed vertices: 396
+Current number of parsed faces: 44
+Current line read: 443: f 43 49 50
+Triangle: (43,49,50)
+Current number of parsed vertices: 396
+Current number of parsed faces: 45
+Current line read: 444: f 48 39 51
+Triangle: (48,39,51)
+Current number of parsed vertices: 396
+Current number of parsed faces: 46
+Current line read: 445: f 49 52 53
+Triangle: (49,52,53)
+Current number of parsed vertices: 396
+Current number of parsed faces: 47
+Current line read: 446: f 43 50 44
+Triangle: (43,50,44)
+Current number of parsed vertices: 396
+Current number of parsed faces: 48
+Current line read: 447: f 48 51 52
+Triangle: (48,51,52)
+Current number of parsed vertices: 396
+Current number of parsed faces: 49
+Current line read: 448: f 51 53 52
+Triangle: (51,53,52)
+Current number of parsed vertices: 396
+Current number of parsed faces: 50
+Current line read: 449: f 42 44 54
+Triangle: (42,44,54)
+Current number of parsed vertices: 396
+Current number of parsed faces: 51
+Current line read: 450: f 42 54 47
+Triangle: (42,54,47)
+Current number of parsed vertices: 396
+Current number of parsed faces: 52
+Current line read: 451: f 46 47 45
+Triangle: (46,47,45)
+Current number of parsed vertices: 396
+Current number of parsed faces: 53
+Current line read: 452: f 46 45 41
+Triangle: (46,45,41)
+Current number of parsed vertices: 396
+Current number of parsed faces: 54
+Current line read: 453: f 55 50 49
+Triangle: (55,50,49)
+Current number of parsed vertices: 396
+Current number of parsed faces: 55
+Current line read: 454: f 55 49 53
+Triangle: (55,49,53)
+Current number of parsed vertices: 396
+Current number of parsed faces: 56
+Current line read: 455: f 56 57 58
+Triangle: (56,57,58)
+Current number of parsed vertices: 396
+Current number of parsed faces: 57
+Current line read: 456: f 59 60 61
+Triangle: (59,60,61)
+Current number of parsed vertices: 396
+Current number of parsed faces: 58
+Current line read: 457: f 60 62 61
+Triangle: (60,62,61)
+Current number of parsed vertices: 396
+Current number of parsed faces: 59
+Current line read: 458: f 63 64 65
+Triangle: (63,64,65)
+Current number of parsed vertices: 396
+Current number of parsed faces: 60
+Current line read: 459: f 66 67 68
+Triangle: (66,67,68)
+Current number of parsed vertices: 396
+Current number of parsed faces: 61
+Current line read: 460: f 67 69 68
+Triangle: (67,69,68)
+Current number of parsed vertices: 396
+Current number of parsed faces: 62
+Current line read: 461: f 65 70 63
+Triangle: (65,70,63)
+Current number of parsed vertices: 396
+Current number of parsed faces: 63
+Current line read: 462: f 63 59 64
+Triangle: (63,59,64)
+Current number of parsed vertices: 396
+Current number of parsed faces: 64
+Current line read: 463: f 39 62 71
+Triangle: (39,62,71)
+Current number of parsed vertices: 396
+Current number of parsed faces: 65
+Current line read: 464: f 57 67 66
+Triangle: (57,67,66)
+Current number of parsed vertices: 396
+Current number of parsed faces: 66
+Current line read: 465: f 56 67 57
+Triangle: (56,67,57)
+Current number of parsed vertices: 396
+Current number of parsed faces: 67
+Current line read: 466: f 59 63 60
+Triangle: (59,63,60)
+Current number of parsed vertices: 396
+Current number of parsed faces: 68
+Current line read: 467: f 39 71 58
+Triangle: (39,71,58)
+Current number of parsed vertices: 396
+Current number of parsed faces: 69
+Current line read: 468: f 61 62 39
+Triangle: (61,62,39)
+Current number of parsed vertices: 396
+Current number of parsed faces: 70
+Current line read: 469: f 70 69 72
+Triangle: (70,69,72)
+Current number of parsed vertices: 396
+Current number of parsed faces: 71
+Current line read: 470: f 70 72 73
+Triangle: (70,72,73)
+Current number of parsed vertices: 396
+Current number of parsed faces: 72
+Current line read: 471: f 73 72 74
+Triangle: (73,72,74)
+Current number of parsed vertices: 396
+Current number of parsed faces: 73
+Current line read: 472: f 73 74 75
+Triangle: (73,74,75)
+Current number of parsed vertices: 396
+Current number of parsed faces: 74
+Current line read: 473: f 76 77 78
+Triangle: (76,77,78)
+Current number of parsed vertices: 396
+Current number of parsed faces: 75
+Current line read: 474: f 79 80 81
+Triangle: (79,80,81)
+Current number of parsed vertices: 396
+Current number of parsed faces: 76
+Current line read: 475: f 79 81 82
+Triangle: (79,81,82)
+Current number of parsed vertices: 396
+Current number of parsed faces: 77
+Current line read: 476: f 83 84 85
+Triangle: (83,84,85)
+Current number of parsed vertices: 396
+Current number of parsed faces: 78
+Current line read: 477: f 83 85 86
+Triangle: (83,85,86)
+Current number of parsed vertices: 396
+Current number of parsed faces: 79
+Current line read: 478: f 87 88 89
+Triangle: (87,88,89)
+Current number of parsed vertices: 396
+Current number of parsed faces: 80
+Current line read: 479: f 87 89 90
+Reallocated indexBuffer. new size 480
+Triangle: (87,89,90)
+Current number of parsed vertices: 396
+Current number of parsed faces: 81
+Current line read: 480: f 91 92 93
+Triangle: (91,92,93)
+Current number of parsed vertices: 396
+Current number of parsed faces: 82
+Current line read: 481: f 91 93 94
+Triangle: (91,93,94)
+Current number of parsed vertices: 396
+Current number of parsed faces: 83
+Current line read: 482: f 95 96 97
+Triangle: (95,96,97)
+Current number of parsed vertices: 396
+Current number of parsed faces: 84
+Current line read: 483: f 99 100 101
+Triangle: (99,100,101)
+Current number of parsed vertices: 396
+Current number of parsed faces: 85
+Current line read: 484: f 102 103 104
+Triangle: (102,103,104)
+Current number of parsed vertices: 396
+Current number of parsed faces: 86
+Current line read: 485: f 105 106 107
+Triangle: (105,106,107)
+Current number of parsed vertices: 396
+Current number of parsed faces: 87
+Current line read: 486: f 108 109 110
+Triangle: (108,109,110)
+Current number of parsed vertices: 396
+Current number of parsed faces: 88
+Current line read: 487: f 111 112 101
+Triangle: (111,112,101)
+Current number of parsed vertices: 396
+Current number of parsed faces: 89
+Current line read: 488: f 113 103 114
+Triangle: (113,103,114)
+Current number of parsed vertices: 396
+Current number of parsed faces: 90
+Current line read: 489: f 115 103 116
+Triangle: (115,103,116)
+Current number of parsed vertices: 396
+Current number of parsed faces: 91
+Current line read: 490: f 117 118 119
+Triangle: (117,118,119)
+Current number of parsed vertices: 396
+Current number of parsed faces: 92
+Current line read: 491: f 120 121 122
+Triangle: (120,121,122)
+Current number of parsed vertices: 396
+Current number of parsed faces: 93
+Current line read: 492: f 108 123 124
+Triangle: (108,123,124)
+Current number of parsed vertices: 396
+Current number of parsed faces: 94
+Current line read: 493: f 125 126 127
+Triangle: (125,126,127)
+Current number of parsed vertices: 396
+Current number of parsed faces: 95
+Current line read: 494: f 128 129 130
+Triangle: (128,129,130)
+Current number of parsed vertices: 396
+Current number of parsed faces: 96
+Current line read: 495: f 131 132 133
+Triangle: (131,132,133)
+Current number of parsed vertices: 396
+Current number of parsed faces: 97
+Current line read: 496: f 134 135 136
+Triangle: (134,135,136)
+Current number of parsed vertices: 396
+Current number of parsed faces: 98
+Current line read: 497: f 137 138 139
+Triangle: (137,138,139)
+Current number of parsed vertices: 396
+Current number of parsed faces: 99
+Current line read: 498: f 140 141 142
+Triangle: (140,141,142)
+Current number of parsed vertices: 396
+Current number of parsed faces: 100
+Current line read: 499: f 143 144 145
+Triangle: (143,144,145)
+Current number of parsed vertices: 396
+Current number of parsed faces: 101
+Current line read: 500: f 137 146 147
+Triangle: (137,146,147)
+Current number of parsed vertices: 396
+Current number of parsed faces: 102
+Current line read: 501: f 148 149 150
+Triangle: (148,149,150)
+Current number of parsed vertices: 396
+Current number of parsed faces: 103
+Current line read: 502: f 151 152 153
+Triangle: (151,152,153)
+Current number of parsed vertices: 396
+Current number of parsed faces: 104
+Current line read: 503: f 154 155 145
+Triangle: (154,155,145)
+Current number of parsed vertices: 396
+Current number of parsed faces: 105
+Current line read: 504: f 156 157 101
+Triangle: (156,157,101)
+Current number of parsed vertices: 396
+Current number of parsed faces: 106
+Current line read: 505: f 137 158 159
+Triangle: (137,158,159)
+Current number of parsed vertices: 396
+Current number of parsed faces: 107
+Current line read: 506: f 137 159 160
+Triangle: (137,159,160)
+Current number of parsed vertices: 396
+Current number of parsed faces: 108
+Current line read: 507: f 161 162 163
+Triangle: (161,162,163)
+Current number of parsed vertices: 396
+Current number of parsed faces: 109
+Current line read: 508: f 161 163 164
+Triangle: (161,163,164)
+Current number of parsed vertices: 396
+Current number of parsed faces: 110
+Current line read: 509: f 165 166 167
+Triangle: (165,166,167)
+Current number of parsed vertices: 396
+Current number of parsed faces: 111
+Current line read: 510: f 165 167 168
+Triangle: (165,167,168)
+Current number of parsed vertices: 396
+Current number of parsed faces: 112
+Current line read: 511: f 169 170 171
+Triangle: (169,170,171)
+Current number of parsed vertices: 396
+Current number of parsed faces: 113
+Current line read: 512: f 169 171 172
+Triangle: (169,171,172)
+Current number of parsed vertices: 396
+Current number of parsed faces: 114
+Current line read: 513: f 173 174 175
+Triangle: (173,174,175)
+Current number of parsed vertices: 396
+Current number of parsed faces: 115
+Current line read: 514: f 173 175 176
+Triangle: (173,175,176)
+Current number of parsed vertices: 396
+Current number of parsed faces: 116
+Current line read: 515: f 177 178 179
+Triangle: (177,178,179)
+Current number of parsed vertices: 396
+Current number of parsed faces: 117
+Current line read: 516: f 177 179 180
+Triangle: (177,179,180)
+Current number of parsed vertices: 396
+Current number of parsed faces: 118
+Current line read: 517: f 181 182 122
+Triangle: (181,182,122)
+Current number of parsed vertices: 396
+Current number of parsed faces: 119
+Current line read: 518: f 181 122 183
+Triangle: (181,122,183)
+Current number of parsed vertices: 396
+Current number of parsed faces: 120
+Current line read: 519: f 184 185 186
+Triangle: (184,185,186)
+Current number of parsed vertices: 396
+Current number of parsed faces: 121
+Current line read: 520: f 184 186 187
+Triangle: (184,186,187)
+Current number of parsed vertices: 396
+Current number of parsed faces: 122
+Current line read: 521: f 187 188 189
+Triangle: (187,188,189)
+Current number of parsed vertices: 396
+Current number of parsed faces: 123
+Current line read: 522: f 189 188 190
+Triangle: (189,188,190)
+Current number of parsed vertices: 396
+Current number of parsed faces: 124
+Current line read: 523: f 190 191 189
+Triangle: (190,191,189)
+Current number of parsed vertices: 396
+Current number of parsed faces: 125
+Current line read: 524: f 190 185 191
+Triangle: (190,185,191)
+Current number of parsed vertices: 396
+Current number of parsed faces: 126
+Current line read: 525: f 191 185 184
+Triangle: (191,185,184)
+Current number of parsed vertices: 396
+Current number of parsed faces: 127
+Current line read: 526: f 192 193 194
+Triangle: (192,193,194)
+Current number of parsed vertices: 396
+Current number of parsed faces: 128
+Current line read: 527: f 195 196 197
+Triangle: (195,196,197)
+Current number of parsed vertices: 396
+Current number of parsed faces: 129
+Current line read: 528: f 187 198 199
+Triangle: (187,198,199)
+Current number of parsed vertices: 396
+Current number of parsed faces: 130
+Current line read: 529: f 200 201 202
+Triangle: (200,201,202)
+Current number of parsed vertices: 396
+Current number of parsed faces: 131
+Current line read: 530: f 203 195 197
+Triangle: (203,195,197)
+Current number of parsed vertices: 396
+Current number of parsed faces: 132
+Current line read: 531: f 204 205 206
+Triangle: (204,205,206)
+Current number of parsed vertices: 396
+Current number of parsed faces: 133
+Current line read: 532: f 207 205 204
+Triangle: (207,205,204)
+Current number of parsed vertices: 396
+Current number of parsed faces: 134
+Current line read: 533: f 207 204 201
+Triangle: (207,204,201)
+Current number of parsed vertices: 396
+Current number of parsed faces: 135
+Current line read: 534: f 187 186 198
+Triangle: (187,186,198)
+Current number of parsed vertices: 396
+Current number of parsed faces: 136
+Current line read: 535: f 198 186 208
+Triangle: (198,186,208)
+Current number of parsed vertices: 396
+Current number of parsed faces: 137
+Current line read: 536: f 200 209 210
+Triangle: (200,209,210)
+Current number of parsed vertices: 396
+Current number of parsed faces: 138
+Current line read: 537: f 207 201 200
+Triangle: (207,201,200)
+Current number of parsed vertices: 396
+Current number of parsed faces: 139
+Current line read: 538: f 211 212 213
+Triangle: (211,212,213)
+Current number of parsed vertices: 396
+Current number of parsed faces: 140
+Current line read: 539: f 200 202 209
+Triangle: (200,202,209)
+Current number of parsed vertices: 396
+Current number of parsed faces: 141
+Current line read: 540: f 211 213 214
+Triangle: (211,213,214)
+Current number of parsed vertices: 396
+Current number of parsed faces: 142
+Current line read: 541: f 215 196 195
+Triangle: (215,196,195)
+Current number of parsed vertices: 396
+Current number of parsed faces: 143
+Current line read: 542: f 202 216 209
+Triangle: (202,216,209)
+Current number of parsed vertices: 396
+Current number of parsed faces: 144
+Current line read: 543: f 214 213 217
+Triangle: (214,213,217)
+Current number of parsed vertices: 396
+Current number of parsed faces: 145
+Current line read: 544: f 197 194 203
+Triangle: (197,194,203)
+Current number of parsed vertices: 396
+Current number of parsed faces: 146
+Current line read: 545: f 202 218 216
+Triangle: (202,218,216)
+Current number of parsed vertices: 396
+Current number of parsed faces: 147
+Current line read: 546: f 219 215 195
+Triangle: (219,215,195)
+Current number of parsed vertices: 396
+Current number of parsed faces: 148
+Current line read: 547: f 192 219 193
+Triangle: (192,219,193)
+Current number of parsed vertices: 396
+Current number of parsed faces: 149
+Current line read: 548: f 193 203 194
+Triangle: (193,203,194)
+Current number of parsed vertices: 396
+Current number of parsed faces: 150
+Current line read: 549: f 187 199 220
+Triangle: (187,199,220)
+Current number of parsed vertices: 396
+Current number of parsed faces: 151
+Current line read: 550: f 211 221 212
+Triangle: (211,221,212)
+Current number of parsed vertices: 396
+Current number of parsed faces: 152
+Current line read: 551: f 222 212 223
+Triangle: (222,212,223)
+Current number of parsed vertices: 396
+Current number of parsed faces: 153
+Current line read: 552: f 218 224 216
+Triangle: (218,224,216)
+Current number of parsed vertices: 396
+Current number of parsed faces: 154
+Current line read: 553: f 188 187 220
+Triangle: (188,187,220)
+Current number of parsed vertices: 396
+Current number of parsed faces: 155
+Current line read: 554: f 206 205 218
+Triangle: (206,205,218)
+Current number of parsed vertices: 396
+Current number of parsed faces: 156
+Current line read: 555: f 217 222 223
+Triangle: (217,222,223)
+Current number of parsed vertices: 396
+Current number of parsed faces: 157
+Current line read: 556: f 212 221 223
+Triangle: (212,221,223)
+Current number of parsed vertices: 396
+Current number of parsed faces: 158
+Current line read: 557: f 225 217 223
+Triangle: (225,217,223)
+Current number of parsed vertices: 396
+Current number of parsed faces: 159
+Current line read: 558: f 202 206 218
+Triangle: (202,206,218)
+Current number of parsed vertices: 396
+Current number of parsed faces: 160
+Current line read: 559: f 226 227 228
+Reallocated indexBuffer. new size 960
+Triangle: (226,227,228)
+Current number of parsed vertices: 396
+Current number of parsed faces: 161
+Current line read: 560: f 227 229 228
+Triangle: (227,229,228)
+Current number of parsed vertices: 396
+Current number of parsed faces: 162
+Current line read: 561: f 230 231 232
+Triangle: (230,231,232)
+Current number of parsed vertices: 396
+Current number of parsed faces: 163
+Current line read: 562: f 231 233 232
+Triangle: (231,233,232)
+Current number of parsed vertices: 396
+Current number of parsed faces: 164
+Current line read: 563: f 234 235 236
+Triangle: (234,235,236)
+Current number of parsed vertices: 396
+Current number of parsed faces: 165
+Current line read: 564: f 234 236 237
+Triangle: (234,236,237)
+Current number of parsed vertices: 396
+Current number of parsed faces: 166
+Current line read: 565: f 238 239 240
+Triangle: (238,239,240)
+Current number of parsed vertices: 396
+Current number of parsed faces: 167
+Current line read: 566: f 238 240 241
+Triangle: (238,240,241)
+Current number of parsed vertices: 396
+Current number of parsed faces: 168
+Current line read: 567: f 242 243 244
+Triangle: (242,243,244)
+Current number of parsed vertices: 396
+Current number of parsed faces: 169
+Current line read: 568: f 245 246 247
+Triangle: (245,246,247)
+Current number of parsed vertices: 396
+Current number of parsed faces: 170
+Current line read: 569: f 243 246 245
+Triangle: (243,246,245)
+Current number of parsed vertices: 396
+Current number of parsed faces: 171
+Current line read: 570: f 243 245 244
+Triangle: (243,245,244)
+Current number of parsed vertices: 396
+Current number of parsed faces: 172
+Current line read: 571: f 248 249 250
+Triangle: (248,249,250)
+Current number of parsed vertices: 396
+Current number of parsed faces: 173
+Current line read: 572: f 248 250 251
+Triangle: (248,250,251)
+Current number of parsed vertices: 396
+Current number of parsed faces: 174
+Current line read: 573: f 252 253 254
+Triangle: (252,253,254)
+Current number of parsed vertices: 396
+Current number of parsed faces: 175
+Current line read: 574: f 256 257 258
+Triangle: (256,257,258)
+Current number of parsed vertices: 396
+Current number of parsed faces: 176
+Current line read: 575: f 259 260 261
+Triangle: (259,260,261)
+Current number of parsed vertices: 396
+Current number of parsed faces: 177
+Current line read: 576: f 259 262 260
+Triangle: (259,262,260)
+Current number of parsed vertices: 396
+Current number of parsed faces: 178
+Current line read: 577: f 260 263 261
+Triangle: (260,263,261)
+Current number of parsed vertices: 396
+Current number of parsed faces: 179
+Current line read: 578: f 264 256 261
+Triangle: (264,256,261)
+Current number of parsed vertices: 396
+Current number of parsed faces: 180
+Current line read: 579: f 265 266 267
+Triangle: (265,266,267)
+Current number of parsed vertices: 396
+Current number of parsed faces: 181
+Current line read: 580: f 268 269 270
+Triangle: (268,269,270)
+Current number of parsed vertices: 396
+Current number of parsed faces: 182
+Current line read: 581: f 271 269 268
+Triangle: (271,269,268)
+Current number of parsed vertices: 396
+Current number of parsed faces: 183
+Current line read: 582: f 272 268 270
+Triangle: (272,268,270)
+Current number of parsed vertices: 396
+Current number of parsed faces: 184
+Current line read: 583: f 266 273 270
+Triangle: (266,273,270)
+Current number of parsed vertices: 396
+Current number of parsed faces: 185
+Current line read: 584: f 274 275 276
+Triangle: (274,275,276)
+Current number of parsed vertices: 396
+Current number of parsed faces: 186
+Current line read: 585: f 277 278 279
+Triangle: (277,278,279)
+Current number of parsed vertices: 396
+Current number of parsed faces: 187
+Current line read: 586: f 280 281 279
+Triangle: (280,281,279)
+Current number of parsed vertices: 396
+Current number of parsed faces: 188
+Current line read: 587: f 282 283 284
+Triangle: (282,283,284)
+Current number of parsed vertices: 396
+Current number of parsed faces: 189
+Current line read: 588: f 282 284 285
+Triangle: (282,284,285)
+Current number of parsed vertices: 396
+Current number of parsed faces: 190
+Current line read: 589: f 286 287 276
+Triangle: (286,287,276)
+Current number of parsed vertices: 396
+Current number of parsed faces: 191
+Current line read: 590: f 286 276 288
+Triangle: (286,276,288)
+Current number of parsed vertices: 396
+Current number of parsed faces: 192
+Current line read: 591: f 289 290 291
+Triangle: (289,290,291)
+Current number of parsed vertices: 396
+Current number of parsed faces: 193
+Current line read: 592: f 289 291 292
+Triangle: (289,291,292)
+Current number of parsed vertices: 396
+Current number of parsed faces: 194
+Current line read: 593: f 293 294 295
+Triangle: (293,294,295)
+Current number of parsed vertices: 396
+Current number of parsed faces: 195
+Current line read: 594: f 293 295 296
+Triangle: (293,295,296)
+Current number of parsed vertices: 396
+Current number of parsed faces: 196
+Current line read: 595: f 297 294 279
+Triangle: (297,294,279)
+Current number of parsed vertices: 396
+Current number of parsed faces: 197
+Current line read: 596: f 299 300 301
+Triangle: (299,300,301)
+Current number of parsed vertices: 396
+Current number of parsed faces: 198
+Current line read: 597: f 302 303 304
+Triangle: (302,303,304)
+Current number of parsed vertices: 396
+Current number of parsed faces: 199
+Current line read: 598: f 305 306 304
+Triangle: (305,306,304)
+Current number of parsed vertices: 396
+Current number of parsed faces: 200
+Current line read: 599: f 307 308 309
+Triangle: (307,308,309)
+Current number of parsed vertices: 396
+Current number of parsed faces: 201
+Current line read: 600: f 307 309 310
+Triangle: (307,309,310)
+Current number of parsed vertices: 396
+Current number of parsed faces: 202
+Current line read: 601: f 311 312 301
+Triangle: (311,312,301)
+Current number of parsed vertices: 396
+Current number of parsed faces: 203
+Current line read: 602: f 311 301 313
+Triangle: (311,301,313)
+Current number of parsed vertices: 396
+Current number of parsed faces: 204
+Current line read: 603: f 314 315 304
+Triangle: (314,315,304)
+Current number of parsed vertices: 396
+Current number of parsed faces: 205
+Current line read: 604: f 314 304 316
+Triangle: (314,304,316)
+Current number of parsed vertices: 396
+Current number of parsed faces: 206
+Current line read: 605: f 317 318 319
+Triangle: (317,318,319)
+Current number of parsed vertices: 396
+Current number of parsed faces: 207
+Current line read: 606: f 317 319 320
+Triangle: (317,319,320)
+Current number of parsed vertices: 396
+Current number of parsed faces: 208
+Current line read: 607: f 321 322 323
+Triangle: (321,322,323)
+Current number of parsed vertices: 396
+Current number of parsed faces: 209
+Current line read: 608: f 325 326 327
+Triangle: (325,326,327)
+Current number of parsed vertices: 396
+Current number of parsed faces: 210
+Current line read: 609: f 325 327 328
+Triangle: (325,327,328)
+Current number of parsed vertices: 396
+Current number of parsed faces: 211
+Current line read: 610: f 329 330 331
+Triangle: (329,330,331)
+Current number of parsed vertices: 396
+Current number of parsed faces: 212
+Current line read: 611: f 329 331 332
+Triangle: (329,331,332)
+Current number of parsed vertices: 396
+Current number of parsed faces: 213
+Current line read: 612: f 329 333 334
+Triangle: (329,333,334)
+Current number of parsed vertices: 396
+Current number of parsed faces: 214
+Current line read: 613: f 329 334 335
+Triangle: (329,334,335)
+Current number of parsed vertices: 396
+Current number of parsed faces: 215
+Current line read: 614: f 336 337 327
+Triangle: (336,337,327)
+Current number of parsed vertices: 396
+Current number of parsed faces: 216
+Current line read: 615: f 336 327 338
+Triangle: (336,327,338)
+Current number of parsed vertices: 396
+Current number of parsed faces: 217
+Current line read: 616: f 329 339 340
+Triangle: (329,339,340)
+Current number of parsed vertices: 396
+Current number of parsed faces: 218
+Current line read: 617: f 329 340 341
+Triangle: (329,340,341)
+Current number of parsed vertices: 396
+Current number of parsed faces: 219
+Current line read: 618: f 342 343 344
+Triangle: (342,343,344)
+Current number of parsed vertices: 396
+Current number of parsed faces: 220
+Current line read: 619: f 342 344 345
+Triangle: (342,344,345)
+Current number of parsed vertices: 396
+Current number of parsed faces: 221
+Current line read: 620: f 346 347 348
+Triangle: (346,347,348)
+Current number of parsed vertices: 396
+Current number of parsed faces: 222
+Current line read: 621: f 346 348 349
+Triangle: (346,348,349)
+Current number of parsed vertices: 396
+Current number of parsed faces: 223
+Current line read: 622: f 350 351 352
+Triangle: (350,351,352)
+Current number of parsed vertices: 396
+Current number of parsed faces: 224
+Current line read: 623: f 350 352 353
+Triangle: (350,352,353)
+Current number of parsed vertices: 396
+Current number of parsed faces: 225
+Current line read: 624: f 354 355 356
+Triangle: (354,355,356)
+Current number of parsed vertices: 396
+Current number of parsed faces: 226
+Current line read: 625: f 354 356 357
+Triangle: (354,356,357)
+Current number of parsed vertices: 396
+Current number of parsed faces: 227
+Current line read: 626: f 350 358 359
+Triangle: (350,358,359)
+Current number of parsed vertices: 396
+Current number of parsed faces: 228
+Current line read: 627: f 350 359 360
+Triangle: (350,359,360)
+Current number of parsed vertices: 396
+Current number of parsed faces: 229
+Current line read: 628: f 361 362 363
+Triangle: (361,362,363)
+Current number of parsed vertices: 396
+Current number of parsed faces: 230
+Current line read: 629: f 361 363 364
+Triangle: (361,363,364)
+Current number of parsed vertices: 396
+Current number of parsed faces: 231
+Current line read: 630: f 365 366 367
+Triangle: (365,366,367)
+Current number of parsed vertices: 396
+Current number of parsed faces: 232
+Current line read: 631: f 365 367 368
+Triangle: (365,367,368)
+Current number of parsed vertices: 396
+Current number of parsed faces: 233
+Current line read: 632: f 365 369 370
+Triangle: (365,369,370)
+Current number of parsed vertices: 396
+Current number of parsed faces: 234
+Current line read: 633: f 365 370 371
+Triangle: (365,370,371)
+Current number of parsed vertices: 396
+Current number of parsed faces: 235
+Current line read: 634: f 372 373 363
+Triangle: (372,373,363)
+Current number of parsed vertices: 396
+Current number of parsed faces: 236
+Current line read: 635: f 372 363 374
+Triangle: (372,363,374)
+Current number of parsed vertices: 396
+Current number of parsed faces: 237
+Current line read: 636: f 365 375 376
+Triangle: (365,375,376)
+Current number of parsed vertices: 396
+Current number of parsed faces: 238
+Current line read: 637: f 365 376 377
+Triangle: (365,376,377)
+Current number of parsed vertices: 396
+Current number of parsed faces: 239
+Current line read: 638: f 378 379 380
+Triangle: (378,379,380)
+Current number of parsed vertices: 396
+Current number of parsed faces: 240
+Current line read: 639: f 378 380 381
+Triangle: (378,380,381)
+Current number of parsed vertices: 396
+Current number of parsed faces: 241
+Current line read: 640: f 382 383 384
+Triangle: (382,383,384)
+Current number of parsed vertices: 396
+Current number of parsed faces: 242
+Current line read: 641: f 382 384 385
+Triangle: (382,384,385)
+Current number of parsed vertices: 396
+Current number of parsed faces: 243
+Current line read: 642: f 386 387 388
+Triangle: (386,387,388)
+Current number of parsed vertices: 396
+Current number of parsed faces: 244
+Current line read: 643: f 386 388 389
+Triangle: (386,388,389)
+Current number of parsed vertices: 396
+Current number of parsed faces: 245
+Current line read: 644: f 390 391 392
+Triangle: (390,391,392)
+Current number of parsed vertices: 396
+Current number of parsed faces: 246
+Current line read: 645: f 390 392 393
+Triangle: (390,392,393)
+Current number of parsed vertices: 396
+Current number of parsed faces: 247
+Current line read: 646: f 386 394 395
+Triangle: (386,394,395)
+Current number of parsed vertices: 396
+Current number of parsed faces: 248
+Current line read: 647: # 248 faces, 0 coords texture
+Current number of parsed vertices: 396
+Current number of parsed faces: 248
+Current line read: 648: 
+Current number of parsed vertices: 396
+Current number of parsed faces: 248
+Current line read: 649: # End of File
+Current number of parsed vertices: 396
+Current number of parsed faces: 248
+Done with sizes 396, 248

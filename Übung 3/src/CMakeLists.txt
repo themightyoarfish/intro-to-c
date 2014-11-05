@@ -14,4 +14,3 @@ include_directories(${GLUT_INCLUDE_DIR})
 
 add_executable(mainwindow main.c mainwindow.c)
 target_link_libraries(mainwindow ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES})
-message(STATUS ${GLUT_LIBRARIES})

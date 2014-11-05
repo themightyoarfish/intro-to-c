@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -Wall -DDEBUG -Wno-deprecated -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/viewer.dir/mainwindow.c.o CMakeFiles/viewer.dir/main.c.o CMakeFiles/viewer.dir/objio.c.o  -o viewer  -framework GLUT -framework Cocoa -framework AGL -framework OpenGL 
