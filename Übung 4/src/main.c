@@ -14,7 +14,6 @@ int indexCount;
 
 void call_freeply(void)
 {
-   printf("freeply\n");
 	freeObj(&vertexBuffer, &indexBuffer);
 }
 
@@ -36,7 +35,6 @@ int main(int argc, char **argv)
 	
     /* Try to load .ply file */
 	loadObj(argv[1], &vertexBuffer, &indexBuffer, &vertexCount, &indexCount);
-   printf("hello\n");
 
     /* Test if the file was loaded correctly */
     if(vertexBuffer == 0 || indexBuffer == 0 || vertexCount == 0 || indexCount == 0)

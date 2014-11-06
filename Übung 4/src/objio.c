@@ -54,8 +54,6 @@ void loadObj(
    rewind(model_file);
    while (!error && fgets(line_read,50,model_file) != NULL)
    {
-      line++;
-      printf("%d: %s\n",line,line_read);
       int read;
       switch (line_read[0])
       {
@@ -66,14 +64,14 @@ void loadObj(
                          (*vertexBuffer)+i+1,
                          (*vertexBuffer)+i+2);
                    i += 3;
-                   if(!read) error = 1;
+                   if(read != 3) error = 1;
                    break;
          case 'f': read = sscanf(line_read, face_format,
                          (*indexBuffer)+j,
                          (*indexBuffer)+j+1,
                          (*indexBuffer)+j+2);
                    j += 3;
-                   if(!read) error = 1;
+                   if(read != 3) error = 1;
                    break;
          default: error = 1; break;
       }
