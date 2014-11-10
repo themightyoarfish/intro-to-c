@@ -70,6 +70,9 @@ void loadObj(
                          (*indexBuffer)+j,
                          (*indexBuffer)+j+1,
                          (*indexBuffer)+j+2);
+                   indexBuffer[0][j] -= 1;
+                   indexBuffer[0][j+1] -= 1;
+                   indexBuffer[0][j+2] -= 1;
                    j += 3;
                    if(read != 3) error = 1;
                    break;

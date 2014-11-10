@@ -6,47 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/System/Library/Frameworks/GLUT.framework/Headers/glut.h
-windows.h
--
-OpenGL/OpenGLAvailability.h
--
-OpenGL/gl.h
--
-OpenGL/glu.h
--
-GL/gl.h
--
-GL/glu.h
--
-
-/Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/main.c
-objio.h
-/Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/objio.h
-mainwindow.h
-/Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/mainwindow.h
-GL/glut.h
--
-glut.h
--
-
-/Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/mainwindow.h
-
 /Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/objio.c
 stdio.h
 -
 stdlib.h
--
-
-/Users/Rasmus/Documents/Uni/Semester 7/C++/Übung 4/src/objio.h
-OpenGL/gl.h
--
-GL/gl.h
--
-stdio.h
--
-stdlib.h
--
-string.h
 -
 
