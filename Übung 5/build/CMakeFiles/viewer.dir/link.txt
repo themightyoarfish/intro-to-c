@@ -1,0 +1,1 @@
+/usr/bin/cc  -O3 -msse3 -Wno-deprecated-declarations -Wno-unused -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/viewer.dir/main.c.o CMakeFiles/viewer.dir/mainwindow.c.o CMakeFiles/viewer.dir/objio.c.o CMakeFiles/viewer.dir/camera.c.o  -o viewer  -framework GLUT -framework Cocoa -framework AGL -framework OpenGL -lm 
