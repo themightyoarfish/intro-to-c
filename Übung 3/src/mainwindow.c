@@ -1,4 +1,3 @@
-#include "include/mainwindow.h"
 #include <glut.h>
 #include <stdio.h>
 

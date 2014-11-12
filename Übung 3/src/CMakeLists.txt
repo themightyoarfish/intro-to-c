@@ -11,6 +11,7 @@ find_package(OpenGL REQUIRED)
 
 # header files
 include_directories(${GLUT_INCLUDE_DIR})
+include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-add_executable(mainwindow main.c mainwindow.c)
-target_link_libraries(mainwindow ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES})
+add_executable(main main.c mainwindow.c)
+target_link_libraries(main ${GLUT_LIBRARIES} ${OPENGL_LIBRARIES})

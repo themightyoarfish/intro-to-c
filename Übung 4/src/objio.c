@@ -46,6 +46,12 @@ void loadObj(
 
    *vertexBuffer = malloc(*vertexCount * 3 * sizeof(float));
    *indexBuffer = malloc(*faceCount * 3 * sizeof(int));
+   if (vertexBuffer == NULL || indexBuffer == NULL) 
+   {
+      fprintf(stderr, "Error. Could not allocate buffers.\n");
+      set_null(vertexBuffer, indexBuffer, vertexCount, faceCount);
+      return;
+   }
 
    /* indices for both arrays */
    int i, j, line, error = 0;
