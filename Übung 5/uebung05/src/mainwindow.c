@@ -53,11 +53,17 @@ void keyPressed(unsigned char key, int x, int y)
        case 's':
           move_camera(cam, BACKWARD);
           break;
-       case 'l':
+       case 'f':
           turn_camera(cam, LEFT); 
           break;
-       case 'r':
+       case 'h':
           turn_camera(cam, RIGHT);
+          break;
+       case 't':
+          turn_camera(cam, UP);
+          break;
+       case 'g':
+          turn_camera(cam, DOWN);
           break;
     }
     glutPostRedisplay();

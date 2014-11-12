@@ -46,7 +46,7 @@ int main(int argc, char **argv)
 
     /* Init camera parameters */
     cam = malloc(sizeof(struct camera));
-    init_camera(cam, pos, 0.5f, 20.0f);
+    init_camera(cam, pos, 0.05f, 20.0f);
     print_camera(cam);
 
     /* Register callbacks */

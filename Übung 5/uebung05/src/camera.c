@@ -92,10 +92,10 @@ void turn_camera(camera *cam, enum direction ax)
 		case RIGHT:	cam->rot.y += (cam->turn_speed);
 						break;
 
-		case UP:		cam->rot.x -= (cam->turn_speed);
+		case UP:		cam->rot.x += (cam->turn_speed);
 						break;
 
-		case DOWN:	cam->rot.x += (cam->turn_speed);
+		case DOWN:	cam->rot.x -= (cam->turn_speed);
 						break;
       default: fprintf(stderr, "turn_camer error: invalid axis %d.\n", ax);
                break;
