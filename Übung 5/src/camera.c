@@ -42,7 +42,7 @@ void move_camera(camera *cam, enum direction dir)
    vector perp  = { .x = -forward.z, 
                            .y = forward.y, 
                            .z = forward.x
-                         };
+                  };
 
    switch (dir)
    {
@@ -52,17 +52,17 @@ void move_camera(camera *cam, enum direction dir)
          cam->trans.y += cam->move_speed * forward.y;
          cam->trans.z += cam->move_speed * forward.z;
          /* Move view point since its supposed to be at distance 1 */
-         cam->l.x += cam->move_speed * forward.x;
-         cam->l.y += cam->move_speed * forward.y;
-         cam->l.z += cam->move_speed * forward.z;
+         /* cam->l.x += cam->move_speed * forward.x; */
+         /* cam->l.y += cam->move_speed * forward.y; */
+         /* cam->l.z += cam->move_speed * forward.z; */
          break;
       case BACKWARD: 
          cam->trans.x -= cam->move_speed * forward.x;
          cam->trans.y -= cam->move_speed * forward.y;
          cam->trans.z -= cam->move_speed * forward.z;
-         cam->l.x -= cam->move_speed * forward.x;
-         cam->l.y -= cam->move_speed * forward.y;
-         cam->l.z -= cam->move_speed * forward.z;
+         /* cam->l.x -= cam->move_speed * forward.x; */
+         /* cam->l.y -= cam->move_speed * forward.y; */
+         /* cam->l.z -= cam->move_speed * forward.z; */
          break;
       case LEFT: 
          /* Move along perpendicular */
@@ -86,10 +86,10 @@ void turn_camera(camera *cam, enum direction ax)
 {
 	switch (ax)
 	{
-		case LEFT:	cam->rot.y -= (cam->turn_speed);
+		case LEFT:	cam->rot.y += (cam->turn_speed);
 						break;
 
-		case RIGHT:	cam->rot.y += (cam->turn_speed);
+		case RIGHT:	cam->rot.y -= (cam->turn_speed);
 						break;
 
 		case UP:		cam->rot.x += (cam->turn_speed);
