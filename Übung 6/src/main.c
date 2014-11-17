@@ -3,11 +3,10 @@
 #include "camera.h"
 #include "objio.h"
 
-/* Glut header */
 #ifdef __APPLE__
 #include <glut.h>
 #else
-#include <GL/gl.h>
+#include <GL/glut.h>
 #endif
 
 int main(int argc, char **argv)
@@ -19,6 +18,10 @@ int main(int argc, char **argv)
         exit(-1);
     }
     
+    /* Init global variables */
+    old_x = 0;
+    old_y = 0;
+
     /* Init glut and main window */
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
@@ -38,6 +41,13 @@ int main(int argc, char **argv)
         exit(-1);
     }
 
+    /* Alloc memory for camera struct*/
+    cam = (struct camera*)malloc(sizeof(struct camera));
+    if(cam == NULL)
+    {
+        printf("Error: Unable to alloc camera struct.\n");
+    }
+
     /* Define initial camera position */
     struct vector pos;
     pos.x = 0.0;
@@ -45,13 +55,7 @@ int main(int argc, char **argv)
     pos.z = -1000.0;
 
     /* Init camera parameters */
-    cam = malloc(sizeof(struct camera));
-    if (cam == NULL) 
-    {
-       fprintf(stderr, "Could not allocate camera.\n");
-       exit(-1);
-    }
-    init_camera(cam, pos, 0.05f, 20.0f);
+    init_camera(cam, pos, 0.05f, 5.0f);
     print_camera(cam);
 
     /* Register callbacks */
