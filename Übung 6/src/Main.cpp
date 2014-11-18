@@ -1,3 +1,10 @@
+/**
+ * @file Main.cpp
+ *
+ * @brief Main funtion to start the viewer.
+ * @author Rasmus Diederichsen
+ */
+
 #include "MainWindow.hpp"
 #include "Camera.hpp"
 #include "TriangleMesh.hpp"
@@ -6,15 +13,16 @@
 #else
 #include <GL/glut.h>
 #endif
-
 #include <iostream>
+
 using namespace std;
+
 int main(int argc, const char **argv)
 {
-   std::string s(argv[1]);
+   string s(argv[1]);
    TriangleMesh mesh(s);
    Camera cam(0.,0.,-1000.);
-   cam.print_camera();
+   cout << cam.to_string() << endl;
    MainWindow::getInstance()->setMesh(&mesh);
    MainWindow::getInstance()->setCamera(&cam);
    glutMainLoop();

@@ -7,7 +7,8 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 #endif
-#include <iostream>
+#include <sstream>
+#include <string>
 
 const double Camera::CAM_SENSITIVITY = 5.0;
 const double PH = 1.57079632;
@@ -52,13 +53,15 @@ void Camera::apply()
 
 }
 
-void Camera::print_camera()
+std::string Camera::to_string()
 {
-    std::cout << "Current camera parameters: \n";
-    std::cout << "Position: " << trans.x << " " << trans.y << " " << trans.z << std::endl;
-    std::cout << "Rotation: " << rot.x << " " << rot.y << " " << rot.z << std::endl;
-    std::cout << "LookAt  : " << l.x << " " << l.y << " " << l.z << std::endl;
-    std::cout << "ViewUp  : " << up.x << " " << up.y << " " << up.z << std::endl;
+   std::stringstream s;
+   s << "Current camera parameters: \n";
+   s << "Position: " << trans.x << " " << trans.y << " " << trans.z << std::endl;
+   s << "Rotation: " << rot.x << " " << rot.y << " " << rot.z << std::endl;
+   s << "LookAt  : " << l.x << " " << l.y << " " << l.z << std::endl;
+   s << "ViewUp  : " << up.x << " " << up.y << " " << up.z << std::endl;
+   return s.str();
 }
 void Camera::moveUp()
 {
