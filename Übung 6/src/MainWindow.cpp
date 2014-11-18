@@ -34,7 +34,6 @@ void MainWindow::initGlut()
    glutInitWindowPosition(100,100);
    glutInitWindowSize(sizex,sizey);
    glutCreateWindow("Main Window");
-   std::cout << "initGlut()" << std::endl;
 }
 
 void MainWindow::initCallbacks()
@@ -44,17 +43,14 @@ void MainWindow::initCallbacks()
    glutKeyboardFunc(keyPressed);
    glutMotionFunc(mouseMoved);
    glutMouseFunc(mousePressed);
-   std::cout << "initCallbacks()" << std::endl;
 }
 void MainWindow::setCamera(Camera *cam)
 {
    this->cam = cam;
-   std::cout << "setCamera()" << std::endl;
 }
 void MainWindow::setMesh(TriangleMesh *mesh)
 {
    this->mesh = mesh;
-   std::cout << "setMesh()" << std::endl;
 }
 void MainWindow::render()
 {
@@ -65,7 +61,6 @@ void MainWindow::render()
    {
       getInstance()->mesh->render();
       glutSwapBuffers();
-      std::cout << "render()" << std::endl;
    }
    else std::cerr << "Error. No mesh to render." << std::endl;
 }
@@ -79,27 +74,22 @@ void MainWindow::reshape(int w, int h)
    glViewport(0, 0, w, h);
    gluPerspective(45,ratio,1,10000);
    glMatrixMode(GL_MODELVIEW);
-   std::cout << "reshape()" << std::endl;
 }
 void MainWindow::keyPressed(unsigned char key, int x, int y)
 {
 
    switch(key) {
-      case 'd':
-         break;
-      case 'a':
-         break;
       case 'w':
          getInstance()->cam->moveForward();
          break;
       case 's':
          getInstance()->cam->moveBackward();
          break;
-      case 'f':
-         getInstance()->cam->turnLeft();
-         break;
-      case 'h':
+      case 'd':
          getInstance()->cam->turnRight();
+         break;
+      case 'a':
+         getInstance()->cam->turnLeft();
          break;
       case 't':
          getInstance()->cam->turnUp();
@@ -109,14 +99,12 @@ void MainWindow::keyPressed(unsigned char key, int x, int y)
          break;
    }
    glutPostRedisplay();
-   std::cout << "keyPressed()" << std::endl;
 }
 
 void MainWindow::mousePressed(int button, int state, int, int)
 {
    getInstance()->mouse_button = button;
    getInstance()->mouse_state = state;
-   std::cout << "mousePressed()" << std::endl;
 }
 void MainWindow::mouseMoved(int x, int y)
 {
@@ -177,7 +165,6 @@ void MainWindow::mouseMoved(int x, int y)
    getInstance()->old_y = y;
 
    glutPostRedisplay();
-   std::cout << "mouseMoved()" << std::endl;
 }
 
 MainWindow::~MainWindow()

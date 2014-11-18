@@ -179,7 +179,6 @@ void render(void)
   
     for(i = 0; i < riCount; i++)
     {
-        /* Get position og current triangle in buffer */
         int index = 3 * i;
 
         /* Get vertex indices of triangle vertices */

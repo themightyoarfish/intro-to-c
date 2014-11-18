@@ -35,5 +35,6 @@ class Camera
       void turnDown();
       void setTurnSpeed(float s);
       void setSpeed(float s);
+      void print_camera();
 };
 #endif /* end of include guard: CAMERA_HPP */
