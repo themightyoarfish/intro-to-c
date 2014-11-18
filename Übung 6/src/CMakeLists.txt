@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 set( CMAKE_CXX_FLAGS         "-O3 -Wall" )
-set( CMAKE_CXX_FLAGS_RELEASE "-O3 -msse3 -Wno-deprecated-declarations -Wno-unused" )
+set( CMAKE_CXX_FLAGS_RELEASE "-O3 -msse3 -w" )
 set( CMAKE_CXX_FLAGS_DEBUG   "-g -Wall" )
 
 FIND_PACKAGE(OpenGL REQUIRED)
