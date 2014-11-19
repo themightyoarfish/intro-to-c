@@ -1,3 +1,11 @@
+/**
+ * @file MainWindow.cpp
+ *
+ * @author Rasmus Diederichsen
+ *
+ * Contains the MainWindow class implementation.
+ */
+
 #include "MainWindow.hpp"
 #ifdef __APPLE__
 #include <glut.h>

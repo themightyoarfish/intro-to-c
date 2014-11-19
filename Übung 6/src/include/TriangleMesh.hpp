@@ -23,12 +23,12 @@ class TriangleMesh
 public:
 
     /**
-     * @brief   Default contructor. Initializes with empty buffers
+     * @brief Default contructor. Initializes with empty buffers
      */
     TriangleMesh();
 
     /**
-     * @brief   Contructs a traingle mesh from given buffers
+     * @brief Contructs a traingle mesh from given buffers
      */
     TriangleMesh(int* indexBuffer, float* vertexBuffer, int numFaces, int numVertices)
          : m_indexBuffer(indexBuffer),

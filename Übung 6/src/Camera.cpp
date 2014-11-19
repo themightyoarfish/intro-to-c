@@ -97,24 +97,20 @@ void Camera::turnRight()
 
 void Camera::turnUp()
 {
-   if(rot.x < PH)
-   {
-      rot.x += turn_speed;
-   }
+   if(rot.x < PH) rot.x += turn_speed;
 }
 
 void Camera::turnDown()
 {
-   if(rot.x < PH)
-   {
-      rot.x -= turn_speed;
-   }
+   if(rot.x < PH) rot.x -= turn_speed;
 }
 
 void Camera::setTurnSpeed(float s)
 {
+   if (s > 0) turn_speed = s;
 }
 
 void Camera::setSpeed(float s)
 {
+   if (s > 0) move_speed = s;
 }
