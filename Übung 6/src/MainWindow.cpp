@@ -24,11 +24,11 @@ MainWindow* MainWindow::getInstance()
 
 MainWindow::MainWindow()
 {
-   sizex = 762;
-   sizey = 576;
-   cam = NULL;
-   mesh = NULL;
-   old_x = old_y = 0;
+   m_sizeX = 762;
+   m_sizeY = 576;
+   m_cam = NULL;
+   m_mesh = NULL;
+   m_oldX = m_oldY = 0;
    initGlut();
    initCallbacks();
 }
@@ -40,7 +40,7 @@ void MainWindow::initGlut()
    glutInit(&dummy1, &dummy2);
    glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
    glutInitWindowPosition(100,100);
-   glutInitWindowSize(sizex,sizey);
+   glutInitWindowSize(m_sizeX,m_sizeY);
    glutCreateWindow("Main Window");
 }
 
@@ -54,20 +54,20 @@ void MainWindow::initCallbacks()
 }
 void MainWindow::setCamera(Camera *cam)
 {
-   this->cam = cam;
+   this->m_cam = cam;
 }
 void MainWindow::setMesh(TriangleMesh *mesh)
 {
-   this->mesh = mesh;
+   this->m_mesh = mesh;
 }
 void MainWindow::render()
 {
    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
    /* Set camera position and direction */
-   getInstance()->cam->apply();
-   if (getInstance()->mesh != NULL) 
+   getInstance()->m_cam->apply();
+   if (getInstance()->m_mesh != NULL) 
    {
-      getInstance()->mesh->render();
+      getInstance()->m_mesh->render();
       glutSwapBuffers();
    }
    else std::cerr << "Error. No mesh to render." << std::endl;
@@ -88,22 +88,22 @@ void MainWindow::keyPressed(unsigned char key, int x, int y)
 
    switch(key) {
       case 'w':
-         getInstance()->cam->moveForward();
+         getInstance()->m_cam->moveForward();
          break;
       case 's':
-         getInstance()->cam->moveBackward();
+         getInstance()->m_cam->moveBackward();
          break;
       case 'd':
-         getInstance()->cam->turnRight();
+         getInstance()->m_cam->turnRight();
          break;
       case 'a':
-         getInstance()->cam->turnLeft();
+         getInstance()->m_cam->turnLeft();
          break;
       case 't':
-         getInstance()->cam->turnUp();
+         getInstance()->m_cam->turnUp();
          break;
       case 'g':
-         getInstance()->cam->turnDown();
+         getInstance()->m_cam->turnDown();
          break;
    }
    glutPostRedisplay();
@@ -111,8 +111,8 @@ void MainWindow::keyPressed(unsigned char key, int x, int y)
 
 void MainWindow::mousePressed(int button, int state, int, int)
 {
-   getInstance()->mouse_button = button;
-   getInstance()->mouse_state = state;
+   getInstance()->m_mouseButton = button;
+   getInstance()->m_mouseState = state;
 }
 void MainWindow::mouseMoved(int x, int y)
 {
@@ -121,56 +121,56 @@ void MainWindow::mouseMoved(int x, int y)
    int dy;
 
    /* Update mouse coordinates */
-   dx = x - getInstance()->old_x;
-   dy = y - getInstance()->old_y;
+   dx = x - getInstance()->m_oldX;
+   dy = y - getInstance()->m_oldY;
 
 
    /* Left button controls camera movement */
-   if(getInstance()->mouse_button == GLUT_LEFT_BUTTON)
+   if(getInstance()->m_mouseButton == GLUT_LEFT_BUTTON)
    {
       /* Move cam left or right if x coordinates differ */
       if(fabs(dx) > Camera::CAM_SENSITIVITY)
       {
-         if(dx < 0) getInstance()->cam->turnRight();
-         else getInstance()->cam->turnLeft();
+         if(dx < 0) getInstance()->m_cam->turnRight();
+         else getInstance()->m_cam->turnLeft();
       }
 
       /* Move forward and backward if y coordinates differ */
       if(fabs(dy) > Camera::CAM_SENSITIVITY)
       {
-         if(dy > 0) getInstance()->cam->moveForward();
-         else getInstance()->cam->moveBackward();
+         if(dy > 0) getInstance()->m_cam->moveForward();
+         else getInstance()->m_cam->moveBackward();
       }
    }
 
    /* Right button controls head movement */
-   if(getInstance()->mouse_button == GLUT_RIGHT_BUTTON)
+   if(getInstance()->m_mouseButton == GLUT_RIGHT_BUTTON)
    {
       if(fabs(dy) > Camera::CAM_SENSITIVITY)
       {
-         if(dy > 0) getInstance()->cam->turnUp();
-         else getInstance()->cam->turnDown();
+         if(dy > 0) getInstance()->m_cam->turnUp();
+         else getInstance()->m_cam->turnDown();
       }
 
       if(fabs(dx) > Camera::CAM_SENSITIVITY)
       {
-         if(dx > 0) getInstance()->cam->turnRight();
-         else getInstance()->cam->turnLeft();
+         if(dx > 0) getInstance()->m_cam->turnRight();
+         else getInstance()->m_cam->turnLeft();
       }
    }
 
    /* Middle button contols height */
-   if(getInstance()->mouse_button == GLUT_MIDDLE_BUTTON)
+   if(getInstance()->m_mouseButton == GLUT_MIDDLE_BUTTON)
    {
       if(fabs(dy) > Camera::CAM_SENSITIVITY)
       {
-         if(dy > 0) getInstance()->cam->moveUp();
-         else getInstance()->cam->moveDown();
+         if(dy > 0) getInstance()->m_cam->moveUp();
+         else getInstance()->m_cam->moveDown();
       }
    }
 
-   getInstance()->old_x = x;
-   getInstance()->old_y = y;
+   getInstance()->m_oldX = x;
+   getInstance()->m_oldY = y;
 
    glutPostRedisplay();
 }

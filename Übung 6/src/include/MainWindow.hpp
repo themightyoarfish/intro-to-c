@@ -37,13 +37,13 @@ class MainWindow {
        */
       MainWindow& operator=(MainWindow const&) {};
 
-      Camera *cam; /**< The camera for this window.  */
+      Camera *m_cam; /**< The camera for this window.  */
 
-      TriangleMesh *mesh; /**< The model (.ply) rendered in this window.  */
+      TriangleMesh *m_mesh; /**< The model (.ply) rendered in this window.  */
 
-      int sizex, sizey, /**< The window size */ 
-          mouse_state, mouse_button, /**< last pressed buttons */ 
-          old_x, old_y;/**< last recorded mouse pointer * coordniates.  */
+      int m_sizeX, m_sizeY, /**< The window size */ 
+          m_mouseState, m_mouseButton, /**< last pressed buttons */ 
+          m_oldX, m_oldY;/**< last recorded mouse pointer * coordniates.  */
 
       static MainWindow* window; /**< The singleton object.  */
 

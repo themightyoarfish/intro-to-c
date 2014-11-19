@@ -14,18 +14,18 @@ const double Camera::CAM_SENSITIVITY = 5.0;
 const double PH = 1.57079632;
 void Camera::Init(float x, float y, float z)
 {
-   vector up =  { .x = 0, .y = 1, .z = 0 };
-   this->up = up;
-   vector trans =  { .x = 0, .y = 0, .z = 0 };
-   this->trans = trans;
-   vector initial =  { .x = x, .y = y, .z = z };
-   this->initial = initial;
-   vector rot =  { .x = 0, .y = 0, .z = 0 };
-   this->rot = rot;
-   vector l =  { .x = 0, . y = 0, .z = -1 };
-   this->l = l;
-   turn_speed = .05;
-   move_speed = 5.;
+   vector m_up =  { .x = 0, .y = 1, .z = 0 };
+   this->m_up = m_up;
+   vector m_trans =  { .x = 0, .y = 0, .z = 0 };
+   this->m_trans = m_trans;
+   vector m_initial =  { .x = x, .y = y, .z = z };
+   this->m_initial = m_initial;
+   vector m_rot =  { .x = 0, .y = 0, .z = 0 };
+   this->m_rot = m_rot;
+   vector m_l =  { .x = 0, . y = 0, .z = -1 };
+   this->m_l = m_l;
+   m_turnSpeed = .05;
+   m_moveSpeed = 5.;
 }
 Camera::Camera()
 {
@@ -39,17 +39,17 @@ Camera::Camera(float x, float y, float z)
 void Camera::apply()
 {
     /* Calc look at vector based on rotation state */
-    l.x =  initial.x + trans.x + sin(rot.y);
-    l.z = -initial.z - trans.z - cos(rot.y);
-    l.y =  initial.y + trans.y + sin(rot.x);
+    m_l.x =  m_initial.x + m_trans.x + sin(m_rot.y);
+    m_l.z = -m_initial.z - m_trans.z - cos(m_rot.y);
+    m_l.y =  m_initial.y + m_trans.y + sin(m_rot.x);
 
     /* Clear matrix stack */
     glLoadIdentity();
     
     /* Apply transformation */
-    gluLookAt(initial.x + trans.x, initial.y + trans.y, -initial.z - trans.z,
-              l.x, l.y, l.z,
-              up.x, up.y, up.z);
+    gluLookAt(m_initial.x + m_trans.x, m_initial.y + m_trans.y, -m_initial.z - m_trans.z,
+              m_l.x, m_l.y, m_l.z,
+              m_up.x, m_up.y, m_up.z);
 
 }
 
@@ -57,60 +57,60 @@ std::string Camera::to_string()
 {
    std::stringstream s;
    s << "Current camera parameters: \n";
-   s << "Position: " << trans.x << " " << trans.y << " " << trans.z << std::endl;
-   s << "Rotation: " << rot.x << " " << rot.y << " " << rot.z << std::endl;
-   s << "LookAt  : " << l.x << " " << l.y << " " << l.z << std::endl;
-   s << "ViewUp  : " << up.x << " " << up.y << " " << up.z << std::endl;
+   s << "Position: " << m_trans.x << " " << m_trans.y << " " << m_trans.z << std::endl;
+   s << "Rotation: " << m_rot.x << " " << m_rot.y << " " << m_rot.z << std::endl;
+   s << "LookAt  : " << m_l.x << " " << m_l.y << " " << m_l.z << std::endl;
+   s << "ViewUp  : " << m_up.x << " " << m_up.y << " " << m_up.z << std::endl;
    return s.str();
 }
 void Camera::moveUp()
 {
-   trans.y += move_speed;
+   m_trans.y += m_moveSpeed;
 }
 
 void Camera::moveDown()
 {
-   trans.y -= move_speed;
+   m_trans.y -= m_moveSpeed;
 }
 
 void Camera::moveForward()
 {
-   trans.x += move_speed * sin(rot.y);
-   trans.z += move_speed * cos(rot.y);
+   m_trans.x += m_moveSpeed * sin(m_rot.y);
+   m_trans.z += m_moveSpeed * cos(m_rot.y);
 }
 
 void Camera::moveBackward()
 {
-   trans.x -= move_speed * sin(rot.y);
-   trans.z -= move_speed * cos(rot.y);
+   m_trans.x -= m_moveSpeed * sin(m_rot.y);
+   m_trans.z -= m_moveSpeed * cos(m_rot.y);
 }
 
 void Camera::turnLeft()
 {
-   rot.y -= turn_speed;
+   m_rot.y -= m_turnSpeed;
 }
 
 void Camera::turnRight()
 {
-   rot.y += turn_speed;
+   m_rot.y += m_turnSpeed;
 }
 
 void Camera::turnUp()
 {
-   if(rot.x < PH) rot.x += turn_speed;
+   if(m_rot.x < PH) m_rot.x += m_turnSpeed;
 }
 
 void Camera::turnDown()
 {
-   if(rot.x < PH) rot.x -= turn_speed;
+   if(m_rot.x < PH) m_rot.x -= m_turnSpeed;
 }
 
 void Camera::setTurnSpeed(float s)
 {
-   if (s > 0) turn_speed = s;
+   if (s > 0) m_turnSpeed = s;
 }
 
 void Camera::setSpeed(float s)
 {
-   if (s > 0) move_speed = s;
+   if (s > 0) m_moveSpeed = s;
 }

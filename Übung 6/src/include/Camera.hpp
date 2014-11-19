@@ -5,7 +5,6 @@
  * @author Rasmus Diederichsen
  */
 #ifndef CAMERA_HPP
-
 #define CAMERA_HPP
 
 #include <string>
@@ -31,13 +30,13 @@ typedef struct
 class Camera 
 {
    private:
-      vector up;		/**< Look up vector */
-      vector trans;  	/**< Translatation offset from initial pos */
-      vector l;		/**< Look at point */
-      vector rot;		/**< Representation of the Euler angles */
-      vector initial;	/**< Initial position of the camera */
-      float turn_speed;		/**< Tuning speed (in radians) */
-      float move_speed;		/**< Move speed in coordinate units */
+      vector m_up;		/**< Look up vector */
+      vector m_trans;  	/**< Translatation offset from initial pos */
+      vector m_l;		/**< Look at point */
+      vector m_rot;		/**< Representation of the Euler angles */
+      vector m_initial;	/**< Initial position of the camera */
+      float m_turnSpeed;		/**< Tuning speed (in radians) */
+      float m_moveSpeed;		/**< Move speed in coordinate units */
 
       /** 
        * Contructor surrogate since C++ has no constructor chaining.
