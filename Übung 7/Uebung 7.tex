@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 7 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype, textcomp, xcolor, listings, tikz,
+            IEEEtrantools, array, amsmath, amssymb, graphicx,
+            subcaption, lmodern}
+\usepackage[pdftitle={Übung 6}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\titlespacing{\subsection}{0em}{\baselineskip}{1em}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{}{0em}{Aufgabe \arabic{section}.\arabic{subsection} #1}
+
+\renewcommand{\thesection}{}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   language=C++,
+   stringstyle=\color{olive},
+  literate={ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+}
+
+\begin{document}
+
+   \maketitle
+
+   \setcounter{section}{7}
+
+   \subsection{Implementierung von Quaternionen, Vektoren und Matrizen}
+
+   \lstinputlisting[caption={Matrix.hpp}]{src/Matrix.hpp}
+   \lstinputlisting[caption={Matrix.cpp}]{src/Matrix.cpp}
+   \lstinputlisting[caption={Vertex.hpp}]{src/Vertex.hpp}
+   \lstinputlisting[caption={Vertex.hpp}]{src/Vertex.hpp}
+   \lstinputlisting[caption={Quaternion.cpp}]{src/Quaternion.cpp}
+   \lstinputlisting[caption={Quaternion.cpp}]{src/Quaternion.cpp}
+   
+   \subsection{Zweidimensionaler Zugriff auf Matrizen}
+   
+   Wäre das Array zweidimensional, würde eine einfache Anwendung des
+   \texttt{[]}-Operators eine Zeile, also einen Pointer des Arrays
+   zurückliefern. Diese wäre dann wiederum mit \texttt{[]} indiziebar.  Für den
+   Compiler ergäbe sich bei \texttt{m[x][y]} der Aufruf 
+   \texttt{m.operator[](x)[y]}.  Allerdings wäre hierbei dann kein Bounds-Check
+   möglich, weil \texttt{[][]} kein C++-Operator ist. Abhilfe könnte man
+   schaffen, indem man eine dedizierte Klasse erstellt, deren einzige
+   öffentliche Funktionalität \texttt{operator[](int i)} ist, die die Eingabe
+   überprüfen kann, und unter Aufruf von \texttt{[]} aus der ersten Klasse den
+   zweidimensionalen Zugriff realisiert.
+   
+   \begin{lstlisting}
+   class Matrix {
+      class Proxy {
+         float* data;
+         Proxy(float* f): data(f) {}
+         float& operator[](int i) 
+         {
+            if(i >= 0 && i < 5)
+               return data[i];
+         }
+      }
+
+      float data[5][5];
+      Proxy operator[](int i)
+      {
+         if(i >= 0 && i < 5)
+         return Proxy(data[i]);
+            
+      }
+   }
+   \end{lstlisting}
+
+\end{document}
