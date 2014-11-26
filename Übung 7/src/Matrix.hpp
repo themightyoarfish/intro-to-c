@@ -89,6 +89,13 @@ namespace cpp2014 {
           */
          Matrix operator*(const Matrix& m) const;
 
+         /**
+          * @brief Matrix-Vector multiplication. V is extended by a fourth zero
+          * component.
+          * @param v Vector, padded with zero at the end
+          * @return The product
+          */
+         Vertex operator*(const Vertex& v) const;
 
          /**
           * @brief 	Matrix addition operator. Returns a new matrix
