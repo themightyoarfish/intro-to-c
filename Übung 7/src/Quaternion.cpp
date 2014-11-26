@@ -46,9 +46,9 @@ namespace cpp2014 {
       vn.normalize();
 
       Quaternion vecQuat, resQuat;
-      vecQuat.x = vn.x;
-      vecQuat.y = vn.y;
-      vecQuat.z = vn.z;
+      vecQuat.x = vn[0];
+      vecQuat.y = vn[1];
+      vecQuat.z = vn[2];
       vecQuat.w = 0.0f;
 
       resQuat = vecQuat * getConjugate();

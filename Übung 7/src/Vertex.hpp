@@ -136,15 +136,17 @@ namespace cpp2014
          Vertex& operator-=(const Vertex& other);
 
          /**
-          * @brief   The three values of a vector
-          */
-         float x, y, z;
-
-         /**
           * Returns a tring representation of this object.
           * @return A <tt>string</tt> representation.
           */
          std::string to_s() const;
+
+      private:
+         /**
+          * @brief   The three values of a vector
+          */
+         float x, y, z;
+
    };
 
 } // namespace cpp2014

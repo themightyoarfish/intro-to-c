@@ -35,20 +35,20 @@ namespace cpp2014
       if(fabs(angle) < 0.0001)
       {
 
-         bool invert_z = axis.z < 0;
+         bool invert_z = axis[2] < 0;
 
          //Angle to yz-plane
-         float pitch = atan2(axis.z, axis.x) - M_PI_2;
+         float pitch = atan2(axis[2], axis[0]) - M_PI_2;
          if(pitch < 0.0f) pitch += 2.0f * M_PI;
 
-         if(axis.x == 0.0f && axis.z == 0.0) pitch = 0.0f;
+         if(axis[0] == 0.0f && axis[2] == 0.0) pitch = 0.0f;
 
          //Transform axis into yz-plane
-         axis.x =  axis.x * cos(pitch) + axis.z * sin(pitch);
-         axis.z = -axis.x * sin(pitch) + axis.z * cos(pitch);
+         axis[0] =  axis[0] * cos(pitch) + axis[2] * sin(pitch);
+         axis[2] = -axis[0] * sin(pitch) + axis[2] * cos(pitch);
 
          //Angle to y-Axis
-         float yaw = atan2(axis.y, axis.z);
+         float yaw = atan2(axis[1], axis[2]);
          if(yaw < 0) yaw += 2 * M_PI;
 
          Matrix m1, m2, m3;
@@ -79,22 +79,22 @@ namespace cpp2014
          Vertex a(axis);
          a.normalize();
 
-         m[ 0] = c + a.x * a.x * t;
-         m[ 5] = c + a.y * a.y * t;
-         m[10] = c + a.z * a.z * t;
+         m[ 0] = c + a[0] * a[0] * t;
+         m[ 5] = c + a[1] * a[1] * t;
+         m[10] = c + a[2] * a[2] * t;
 
-         tmp1 = a.x * a.y * t;
-         tmp2 = a.z * s;
+         tmp1 = a[0] * a[1] * t;
+         tmp2 = a[2] * s;
          m[ 4] = tmp1 + tmp2;
          m[ 1] = tmp1 - tmp2;
 
-         tmp1 = a.x * a.z * t;
-         tmp2 = a.y * s;
+         tmp1 = a[0] * a[2] * t;
+         tmp2 = a[1] * s;
          m[ 8] = tmp1 - tmp2;
          m[ 2] = tmp1 + tmp2;
 
-         tmp1 = a.y * a.z * t;
-         tmp2 = a.x * s;
+         tmp1 = a[1] * a[2] * t;
+         tmp2 = a[0] * s;
          m[ 9] = tmp1 + tmp2;
          m[ 6] = tmp1 - tmp2;
 
@@ -334,7 +334,7 @@ namespace cpp2014
    {
       int x, y, z;
       x = y = z = 0;
-      int i, c = 0;
+      int i;
       for (i = 0; i < 4; i++) 
       {
          x += m[i] * v[0] + m[i + 1] * v[1] + m[i + 2] * v[2];
