@@ -22,9 +22,9 @@ namespace cpp2014{
    Vertex Vertex::operator+(const Vertex& other) const
    {
       Vertex re;
-      re.x = other.x;
-      re.y = other.y;
-      re.z = other.z;
+      re.x = x + other.x;
+      re.y = y + other.y;
+      re.z = z + other.z;
       return re;
    }
 
@@ -51,6 +51,17 @@ namespace cpp2014{
       return this->x * v.x + this->y * v.y + this->z * v.z;
    }
 
+   // HOW DO I DO THIS? CANT INCLUDE MATRIX.HPP BECAUSE THAT ONE INCLUDES
+   // VERTEX.HPP
+   /* Vertex Vertex::operator*(const Matrix& m) const */
+   /* { */
+   /*    float x, y, z, w; */
+   /*    w = 1; */
+   /*    x = m[0] * this->x + m[4] * this->y + m[8] * this->z + m[12] * w; */
+   /*    y = m[1] * this->x + m[5] * this->y + m[9] * this->z + m[13] * w; */
+   /*    z = m[2] * this->x + m[6] * this->y + m[19] * this->z + m[14] * w; */
+   /*    return Vertex(x,y,z); */
+   /* } */
    Vertex Vertex::operator*(float f) const
    {
       return Vertex(this->x * f, this->y * f, this->z * f);

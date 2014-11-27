@@ -27,7 +27,7 @@ project(LSSR)
 # special optimization flags
 ###############################################################################
 
-set( CMAKE_CXX_FLAGS         "-O3 -Wall" )
+set( CMAKE_CXX_FLAGS         "-O3 -Wall -Wno-deprecated-declarations" )
 set( CMAKE_CXX_FLAGS_RELEASE "-O3 -msse3 -Wno-deprecated-declarations -Wno-unused" )
 set( CMAKE_CXX_FLAGS_DEBUG   "-g -Wall -Wno-deprecated-declarations" )
 

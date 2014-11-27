@@ -79,6 +79,15 @@ namespace cpp2014
           */
          float operator*(const Vertex& v) const;
 
+         // HOW DO I DO THIS? CANT INCLUDE MATRIX.HPP BECAUSE THAT ONE INCLUDES
+         // VERTEX.HPP
+         /**
+          * @brief   Defines the Matrix product.
+          * @param   v Vertex
+          * @return  The product
+          */
+         /* Vertex operator*(const Matrix& m) const; */
+
          /**
           * @brief   Defines the scaling transformation
           * @param   f The scaling factor

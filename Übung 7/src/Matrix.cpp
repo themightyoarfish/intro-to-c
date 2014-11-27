@@ -330,19 +330,19 @@ namespace cpp2014
       return re;
    }
 
-   Vertex Matrix::operator*(const Vertex& v) const
-   {
-      int x, y, z;
-      x = y = z = 0;
-      int i;
-      for (i = 0; i < 4; i++) 
-      {
-         x += m[i] * v[0] + m[i + 1] * v[1] + m[i + 2] * v[2];
-         y += m[4 + i] * v[0] + m[4 + i + 1] * v[1] + m[4 + i + 2] * v[2];
-         z += m[8 + i] * v[0] + m[8 + i + 1] * v[1] + m[8 + i + 2] * v[2];
-      }
-      return Vertex(x,y,z);
-   }
+   /* Vertex Matrix::operator*(const Vertex& v) const */
+   /* { */
+   /*    int x, y, z; */
+   /*    x = y = z = 0; */
+   /*    int i; */
+   /*    for (i = 0; i < 4; i++) */ 
+   /*    { */
+   /*       x += m[i] * v[0] + m[i + 1] * v[1] + m[i + 2] * v[2]; */
+   /*       y += m[4 + i] * v[0] + m[4 + i + 1] * v[1] + m[4 + i + 2] * v[2]; */
+   /*       z += m[8 + i] * v[0] + m[8 + i + 1] * v[1] + m[8 + i + 2] * v[2]; */
+   /*    } */
+   /*    return Vertex(x,y,z); */
+   /* } */
 
    Matrix& Matrix::operator*=(const float f)
    {

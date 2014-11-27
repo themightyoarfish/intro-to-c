@@ -78,19 +78,19 @@ void TriangleMesh::rotate(int axis, float s)
 	switch(axis)
 	{
 	case PITCH:
-		nq.fromAxis(m_yAxis, s);
+		nq = Quaternion::fromAxis(m_yAxis, s);
 		m_xAxis = nq * m_xAxis;
 		m_zAxis = nq * m_zAxis;
 		break;
 
 	case YAW:
-		nq.fromAxis(m_xAxis, s);
+		nq = Quaternion::fromAxis(m_xAxis, s);
 		m_yAxis = nq * m_yAxis;
 		m_zAxis = nq * m_zAxis;
 		break;
 
 	case ROLL:
-		nq.fromAxis(m_zAxis, s);
+		nq = Quaternion::fromAxis(m_zAxis, s);
 		m_yAxis = nq * m_yAxis;
 		m_xAxis = nq * m_xAxis;
 		break;
@@ -118,7 +118,7 @@ void TriangleMesh::move(int axis, float speed)
 	}
 
 	// Update mesh position
-	m_position = m_position + direction * speed;
+	m_position += direction * speed;
 }
 
 void TriangleMesh::computeMatrix()
