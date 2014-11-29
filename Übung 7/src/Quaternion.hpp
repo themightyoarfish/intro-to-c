@@ -64,7 +64,7 @@ public:
 	 * @param axis vector
 	 * @param angle angle
 	 */
-	static Quaternion fromAxis(Vertex axis, float angle);
+	void fromAxis(Vertex axis, float angle);
  
 	/**
 	 * @brief   Conjugates a quaternion

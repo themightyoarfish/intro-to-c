@@ -8,7 +8,7 @@ namespace cpp2014 {
 
    Quaternion::Quaternion(Vertex vec, float angle)
    {
-      *this = fromAxis(vec, angle);
+      this->fromAxis(vec, angle);
    }
 
    Quaternion::Quaternion(float x, float y, float z, float w):
@@ -16,15 +16,17 @@ namespace cpp2014 {
 
    Quaternion::Quaternion(float* vec, float w)
    {
-      *this = fromAxis(Vertex(vec[0], vec[1], vec[2]), w);
+      this->fromAxis(Vertex(vec[0], vec[1], vec[2]), w);
    }
    Quaternion::~Quaternion() {}
 
-   Quaternion Quaternion::fromAxis(Vertex axis, float angle)
+   void Quaternion::fromAxis(Vertex axis, float angle)
    {
       angle /= 2;
-      return Quaternion(axis[0] * sin(angle), axis[1] * sin(angle),
-            axis[2] * sin(angle), cos(angle));
+      x = axis[0] * sin(angle);
+      y = axis[1] * sin(angle);
+      z = axis[2] * sin(angle);
+      w = cos(angle);
    }
 
    Quaternion Quaternion::getConjugate() const

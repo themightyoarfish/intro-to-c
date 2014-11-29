@@ -81,11 +81,11 @@ namespace cpp2014
 
          // HOW DO I DO THIS? CANT INCLUDE MATRIX.HPP BECAUSE THAT ONE INCLUDES
          // VERTEX.HPP
-         /**
-          * @brief   Defines the Matrix product.
-          * @param   v Vertex
-          * @return  The product
-          */
+         /* /** */
+         /*  * @brief   Defines the Matrix product. */
+         /*  * @param   v Vertex */
+         /*  * @return  The product */
+         /*  *1/ */
          /* Vertex operator*(const Matrix& m) const; */
 
          /**
