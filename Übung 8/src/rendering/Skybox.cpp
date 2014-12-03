@@ -21,7 +21,7 @@ namespace asteroids
       m_textures = new Texture*[6];
       for(int i = 0; i < 6; i++)
       {
-         m_textures[i] = TextureFactory::instance().getTexture(files[i]);
+         m_textures[i] = TextureFactory::instance()->getTexture(files[i]);
       }
 
    }

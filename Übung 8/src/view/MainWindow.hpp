@@ -11,9 +11,15 @@
 /**
  * @brief OpenGL / glut related headers
  */
+#ifdef __APPLE__
+#include <OpenGL/gl.h>		// Header File For The OpenGL Library
+#include <OpenGL/glu.h>		// Header File For The GLu Library
+#include <glut.h>		// Header File For The glut toolkit
+#else
 #include <GL/gl.h>		// Header File For The OpenGL Library
 #include <GL/glu.h>		// Header File For The GLu Library
 #include <GL/glut.h>		// Header File For The glut toolkit
+#endif
 
 /**
  * @brief Standard C++ headers

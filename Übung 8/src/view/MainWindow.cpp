@@ -31,7 +31,7 @@ MainWindow::MainWindow(string filename)
 	}
 
 	// Create a triangle mesh instance
-	m_mesh = TriangleMeshFactory::instance().getMesh(filename);
+	m_mesh = TriangleMeshFactory::instance()->getMesh(filename);
 
 	// Create a sky box. We assume that a model was loaded beforehand
 	// to ensure that the base path in texture factory was set correctly.

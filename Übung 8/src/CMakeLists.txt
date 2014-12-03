@@ -39,16 +39,31 @@ set( CMAKE_CXX_FLAGS_DEBUG   "-g -Wall -Wno-char-subscripts"  )
 
 FIND_PACKAGE(SDL REQUIRED)
 if(SDL_FOUND)
+   MESSAGE("SDL found")
 	include_directories(${SDL_INCLUDE_DIR})
 endif(SDL_FOUND)
 
 FIND_PACKAGE(OpenGL REQUIRED)
 FIND_PACKAGE(GLUT REQUIRED)
 
+if(GLUT_FOUND)
+   MESSAGE("Glut found")
+   include_directories(${GLUT_INCLUDE_DIR})
+    link_directories(${GLUT_LIBRARY_DIR})
+endif(GLUT_FOUND)
+
 if(OPENGL_FOUND)
-    link_directories(${OpenGL_INCLUDE_DIRS})
-    include_directories(${OpenGL_LIBRARY_DIRS})
+   MESSAGE("OpenGL found")
+    include_directories(${OpenGL_INCLUDE_DIRS})
+    link_directories(${OpenGL_LIBRARY_DIRS})
 endif(OPENGL_FOUND)
+
+FIND_PACKAGE(Boost REQUIRED)
+if(Boost_FOUND)
+   MESSAGE("Boost found")
+   include_directories(${Boost_INCLUDE_DIRS})
+   link_directories(${Boost_LIBRARY_DIRS})
+endif(Boost_FOUND)
 
 ###############################################################################
 # Compile external libraries

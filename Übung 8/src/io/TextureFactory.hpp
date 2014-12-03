@@ -28,7 +28,7 @@ namespace asteroids
           * Set the base path relative to which textures will be loaded.
           * @param basepath.
           */
-         static void setBasePath(std::string basepath);
+         void setBasePath(std::string basepath);
 
       private:
          /**
