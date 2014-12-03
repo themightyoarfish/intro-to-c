@@ -2,6 +2,8 @@
 
 #define TEXTUREFACTORY_H
 
+#include "rendering/Texture.hpp"
+
 namespace asteroids 
 {
    class TextureFactory 

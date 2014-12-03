@@ -38,7 +38,7 @@ namespace asteroids
       } else  // error
       {
          int i = filename.find_last_of(".");
-         std::cerr << "Error: File " << (i == string::npos ? "without extension" : filename.substr())
+         std::cerr << "Error: File " << (i == string::npos ? "without extension" : filename.substr(i))
             << "not readable. " << std::endl;
          return NULL;
       }
