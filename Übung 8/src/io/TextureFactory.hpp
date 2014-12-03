@@ -22,7 +22,13 @@ namespace asteroids
           * @brief Method to acquire the singleton instance
           * @return The singleton.
           */
-         static TextureFactory* getInstance();
+         static TextureFactory* instance();
+
+         /**
+          * Set the base path relative to which textures will be loaded.
+          * @param basepath.
+          */
+         static void setBasePath(std::string basepath);
 
       private:
          /**
@@ -33,7 +39,7 @@ namespace asteroids
          /**
           * The singleton instance.
           */
-         static TextureFactory* instance;
+         static TextureFactory* instance_ptr;
 
          /**
           * Copy constructor. Does nothing.
@@ -44,6 +50,11 @@ namespace asteroids
           * Assignment operator. Does nothing.
           */
          TextureFactory& operator=(const TextureFactory& f) {};
+
+         /**
+          * The base path.
+          */
+         static std::string basepath;
    };
 } /* namespace asteroids */
 

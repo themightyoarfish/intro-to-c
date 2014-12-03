@@ -33,7 +33,7 @@ namespace asteroids
           * @brief Method to acquire the singleton instance
           * @return The singleton.
           */
-         static TriangleMeshFactory* getInstance();
+         static TriangleMeshFactory* instance();
 
       private:
          /**
@@ -44,7 +44,7 @@ namespace asteroids
          /**
           * The singleton instance.
           */
-         static TriangleMeshFactory* instance;
+         static TriangleMeshFactory* instance_ptr;
 
          /**
           * Copy constructor. Does nothing.

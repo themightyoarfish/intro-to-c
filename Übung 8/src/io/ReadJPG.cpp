@@ -1,10 +1,10 @@
 /**
- * @file ReadJPEG.cpp
+ * @file ReadJPG.cpp
  * @author Rasmus Diederichsen (rdiederichse@uos.de)
  * @version 02.12.2014
  */
 
-#include "ReadJPEG.hpp"
+#include "ReadJPG.hpp"
 #include <jpeglib.h>    
 #include <jerror.h>
 #include <iostream>
@@ -13,14 +13,14 @@
 
 namespace asteroids 
 {
-   ReadJPEG::ReadJPEG(const std::string& filename) 
+   ReadJPG::ReadJPG(const std::string& filename) 
    {
       m_pixels = NULL;
       m_height = m_width = 0;
       FILE* file = fopen(filename.c_str(), "rb");  //open the file
 
       //if the jpeg file doesn't load
-      if(!file) std::cerr << "Error reading JPEG file " << filename << std::endl;
+      if(!file) std::cerr << "Error reading JPG file " << filename << std::endl;
       else 
       {
          unsigned long data_size;     // length of the file
@@ -59,7 +59,7 @@ namespace asteroids
 
    }
 
-   ReadJPEG::~ReadJPEG() { 
+   ReadJPG::~ReadJPG() { 
       // should I free m_pixels here?
    }
 

@@ -14,12 +14,12 @@ namespace asteroids
 {
 
    TriangleMeshFactory::TriangleMeshFactory() {}
-   TriangleMeshFactory* TriangleMeshFactory::instance = NULL;
+   TriangleMeshFactory* TriangleMeshFactory::instance_ptr = NULL;
 
-   TriangleMeshFactory* TriangleMeshFactory::getInstance()
+   TriangleMeshFactory* TriangleMeshFactory::instance()
    {
-      if (instance != NULL) return instance;
-      else return (instance = new TriangleMeshFactory);
+      if (instance_ptr != NULL) return instance_ptr;
+      else return (instance_ptr = new TriangleMeshFactory);
    }
 
    TriangleMesh* TriangleMeshFactory::getMesh(const string &filename) const

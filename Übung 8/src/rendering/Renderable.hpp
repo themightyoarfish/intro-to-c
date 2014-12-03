@@ -4,7 +4,7 @@
 
 namespace asteroids {
    class Renderable {
-      virtual void render () const = 0;
+      virtual void render () = 0;
    };
 }
 
