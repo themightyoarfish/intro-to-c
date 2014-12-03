@@ -25,7 +25,6 @@ namespace asteroids
    TriangleMesh* TriangleMeshFactory::getMesh(const string &filename) const
    {
       int pos;
-      TriangleMesh *m;
       MeshReader *reader;
       if ((pos = filename.find(".ply")) == (filename.length() - 4)) // .ply extension
       {
@@ -38,8 +37,8 @@ namespace asteroids
       } else  // error
       {
          int i = filename.find_last_of(".");
-         std::cerr << "Error: File " << (i == string::npos ? "without extension" : filename.substr(i))
-            << "not readable. " << std::endl;
+         std::cerr << "TriangleMeshFactory Error: File " << filename << (i == string::npos ? " without extension" : " of type " + filename.substr(i))
+            << " not readable. " << std::endl;
          return NULL;
       }
    }

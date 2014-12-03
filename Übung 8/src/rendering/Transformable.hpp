@@ -20,19 +20,19 @@ namespace asteroids
           * @param axis axis of rotation
           * @param speed speed of rotation
           */
-         virtual void rotate(int axis, float speed);
+         virtual void rotate(int axis, float speed) = 0;
 
          /**
           * @brief   Move the Transformable along acis
           * @param axis axis to move along
           * @param speed speed of movement
           */
-         virtual void move(int axis, float speed);
+         virtual void move(int axis, float speed) = 0;
 
 
       protected:
          float m_transformation[16];
-         void computeMatrix();
+         virtual void computeMatrix() = 0;
    };
 }
 

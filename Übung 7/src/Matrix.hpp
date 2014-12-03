@@ -149,16 +149,10 @@ namespace cpp2014 {
           */
          Matrix& operator*=(const float f);
 
-
          /**
           * @brief 	Matrix-Matrix multiplication with self assigment.
           */
          Matrix& operator*=(const Matrix& other);
-
-         /**
-          * @brief	Matrix-Matrix multiplication (array based). See \ref{operator*}.
-          */
-         /// TODO: DEFINE OPERATOR HERE!
 
          /**
           * @brief	Returns the internal data array. Unsafe. Will probably
