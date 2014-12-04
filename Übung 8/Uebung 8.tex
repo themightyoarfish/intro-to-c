@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 8 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype, textcomp, xcolor, listings, tikz,
+            IEEEtrantools, array, amsmath, amssymb, graphicx,
+            subcaption, lmodern}
+\usepackage[pdftitle={Übung 8}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\titlespacing{\subsection}{0em}{\baselineskip}{1em}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{}{0em}{Aufgabe \arabic{section}.\arabic{subsection} #1}
+
+\renewcommand{\thesection}{}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   language=C++,
+   stringstyle=\color{olive},
+  literate={ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+}
+
+\begin{document}
+
+   \maketitle
+
+   \setcounter{section}{8}
+
+   \subsection{Auslagern von Funktionalität in Oberklassen}
+   
+   Die \texttt{Renderable}-Klasse kann abstrakt sein, da sie nur eine Methode
+   enthält, die Subklassen überschreiben müssen, damit etwas passiert.
+   \lstinputlisting[caption={Renderable.hpp}]{src/rendering/Renderable.hpp}
+
+   Das gleiche gilt für \texttt{ Transformable }, jede Subklasse ist für ihre
+   Bewegung selbst verantwortlich. 
+   \emph{Hinweis:} Die Methoden dieser Klasse sind in
+   \texttt{TriangleMesh.cpp} implementiert, diese fehlten initial. Auch wurde in
+   allen Klassen die Acquise des Singletons auf Pointer umgestellt.
+
+   \lstinputlisting[caption={Transformable.hpp}]{src/rendering/Transformable.hpp}
+
+   Das \texttt{FixedObject} ist leer, also nur ein Markerinterface.
+
+   \lstinputlisting[caption={FixedObject.hpp}]{src/rendering/FixedObject.hpp}
+
+   \subsection{Erweiterungen für neue Dateiformate}
+   
+   \lstinputlisting[caption={TriangleMeshFactory.hpp}]{src/io/TriangleMeshFactory.hpp}
+   \lstinputlisting[caption={TriangleMeshFactory.cpp}]{src/io/TriangleMeshFactory.cpp}
+   \lstinputlisting[caption={TextureFactory.hpp}]{src/io/TextureFactory.hpp}
+   \lstinputlisting[caption={TextureFactory.cpp}]{src/io/TextureFactory.cpp}
+   \lstinputlisting[caption={ReadPPM.hpp}]{src/io/ReadPPM.hpp}
+   \lstinputlisting[caption={ReadPPM.cpp}]{src/io/ReadPPM.cpp}
+\end{document}
