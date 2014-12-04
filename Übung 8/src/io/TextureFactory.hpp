@@ -26,7 +26,7 @@ namespace asteroids
 
          /**
           * Set the base path relative to which textures will be loaded.
-          * @param basepath.
+          * @param basepath The path relative to which textures are loaded.
           */
          static void setBasePath(std::string basepath);
 
@@ -52,7 +52,7 @@ namespace asteroids
          TextureFactory& operator=(const TextureFactory& f) {};
 
          /**
-          * The base path.
+          * @brief The base path.
           */
          static std::string basepath;
    };

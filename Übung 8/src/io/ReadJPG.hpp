@@ -11,12 +11,29 @@
 #include "BitmapReader.hpp"
 #include <string>
 
+using std::string;
+
 namespace asteroids 
 {
+   /**
+    * @class ReadJPG 
+    * @brief Reads a jpg image into a char array.
+    *
+    * Most of the implementation is stolen from http://stackoverflow.com/a/22463461/2397253
+    */
    class ReadJPG : public BitmapReader
    {
       public:
-         ReadJPG(const std::string& filename);
+         /**
+          * @brief Constructor. Sets the Reader to read from a file.
+          * @param filename The jpeg file to read from.
+          */
+         ReadJPG(const string& filename);
+
+         /**
+          * @brief Empty destructor. Deallocation of the image buffer must be
+          * taken care of by client.
+          */
          ~ReadJPG();
    };
 } /* namespace asteroids */

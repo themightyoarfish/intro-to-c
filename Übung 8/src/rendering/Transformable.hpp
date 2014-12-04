@@ -12,6 +12,11 @@
 namespace asteroids
 
 {
+   /**
+    * @class Transformable
+    * @brief Abstract base class for <tt>Mesh</tt>es which can be moved &
+    * rotated.
+    */
    class Transformable : public Renderable
    {
       public:
@@ -29,9 +34,15 @@ namespace asteroids
           */
          virtual void move(int axis, float speed) = 0;
 
-
       protected:
+         /**
+          * @brief Array containing the transformation matrix.
+          */
          float m_transformation[16];
+
+         /**
+          * @brief Method to compute the transformation matrix.
+          */
          virtual void computeMatrix() = 0;
    };
 }

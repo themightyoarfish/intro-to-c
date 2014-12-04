@@ -31,20 +31,21 @@ namespace asteroids
       BitmapReader *reader;
       if ((pos = filename.find(".ppm")) == (filename.length() - 4)) // .ppm extension
       {
-         reader = new ReadPPM(filename);
+         reader = new ReadPPM(basepath + filename);
          return new Texture(reader->getPixels(), reader->getWidth(), reader->getHeight());
       } else if ((pos = filename.find(".jpg")) == (filename.length() - 4)) // .jpg extension
       {
-         reader = new ReadJPG(filename);
+         reader = new ReadJPG(basepath + filename);
          return new Texture(reader->getPixels(), reader->getWidth(), reader->getHeight());
       } else if ((pos = filename.find(".tga")) == (filename.length() - 4)) 
       {
-         reader = new ReadTGA(filename);
+         reader = new ReadTGA(basepath + filename);
          return new Texture(reader->getPixels(), reader->getWidth(), reader->getHeight());
       } else  // error
       {
          int i = filename.find_last_of(".");
-         std::cerr << "TextureFactory Error: File " << filename << (i == string::npos ? " without extension" : " of type " + filename.substr(i))
+         std::cerr << "TextureFactory Error: File " << filename 
+            << (i == string::npos ? " without extension" : " of type " + filename.substr(i))
             << " not readable. " << std::endl;
          return NULL;
       }
@@ -53,7 +54,6 @@ namespace asteroids
    void TextureFactory::setBasePath(string basepath)
    {
       TextureFactory::basepath = basepath;
-      std::cout << "Basepath is " << basepath << std::endl;
    }
 
    

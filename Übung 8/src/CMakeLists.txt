@@ -27,7 +27,7 @@ link_directories("${CMAKE_SOURCE_DIR}/lib")
 ###############################################################################
 
 set( CMAKE_CXX_FLAGS         "-O3 -Wall -Wno-char-subscripts" )
-set( CMAKE_CXX_FLAGS_RELEASE "-O3 -msse3 -Wno-char-subscripts -Wno-deprecated-declarations -Wno-unused -Wcpp" )
+set( CMAKE_CXX_FLAGS_RELEASE "-O3 -w" )
 set( CMAKE_CXX_FLAGS_DEBUG   "-g -Wall -Wno-char-subscripts"  )
 
 ###############################################################################

@@ -24,6 +24,10 @@ namespace asteroids
 
    TriangleMesh* TriangleMeshFactory::getMesh(const string &filename) const
    {
+      unsigned found = filename.find_last_of("/\\");
+      string basePath = filename.substr(0, found+1);
+      TextureFactory::setBasePath(basePath);
+
       int pos;
       MeshReader *reader;
       if ((pos = filename.find(".ply")) == (filename.length() - 4)) // .ply extension

@@ -9,7 +9,12 @@
 #define TRIANGLEMESH_HPP_
 
 #include <string>               // Header for c++ strings
+
+#ifdef __APPLE__
 #include <OpenGL/gl.h>              // Header File For The OpenGL Library
+#else 
+#include <GL/gl.h>
+#endif
 
 
 #include <iostream>
@@ -33,12 +38,19 @@ namespace asteroids
           */
          TriangleMesh();
 
+         /**
+          * @see Transformable::rotate
+          */
          void rotate(int axis, float s);
 
+         /**
+          * @see Transformable::move
+          */
          void move(int axis, float s);
 
          /**
           * @brief   Renders the mesh
+          * @see Renderable::render
           */
          virtual void render();
 
