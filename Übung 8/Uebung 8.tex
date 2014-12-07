@@ -48,7 +48,11 @@
    \subsection{Auslagern von Funktionalität in Oberklassen}
    
    Die \texttt{Renderable}-Klasse kann abstrakt sein, da sie nur eine Methode
-   enthält, die Subklassen überschreiben müssen, damit etwas passiert.
+   enthält, die Subklassen überschreiben müssen (sollten), damit etwas passiert.
+   Es ist nicht sinnvoll, die Funktionalität in der Oberklasse zu
+   implementieren, da sich die \texttt{render()}-Methoden zwischen
+   \texttt{TriangleMesh} und \texttt{TexturedMesh} unterscheiden.
+
    \lstinputlisting[caption={Renderable.hpp}]{src/rendering/Renderable.hpp}
 
    Das gleiche gilt für \texttt{ Transformable }, jede Subklasse ist für ihre
