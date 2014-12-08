@@ -2,7 +2,7 @@
 #include "io/TriangleMeshFactory.hpp"
 #include "io/Read3DS.hpp"
 #include "rendering/TexturedMesh.hpp"
-#include "time/Timestamp.hpp"
+#include "logging/Logger.hpp"
 
 using std::cout;
 using std::endl;
@@ -31,8 +31,10 @@ MainWindow::MainWindow(string filename)
 		m_specialkeyStates[i] = false;
 	}
 
-   // Timestamp this point
-   Timestamp t;
+
+   /* // Timestamp this point */
+   /* Timestamp t; */
+   Logger::instance() << "Start loading mesh.";
 
 	// Create a triangle mesh instance
 	m_mesh = TriangleMeshFactory::instance().getMesh(filename);
@@ -48,10 +50,14 @@ MainWindow::MainWindow(string filename)
 	names[4] = "box5.ppm";
 	names[5] = "box6.jpg";
 
+   Logger::instance() << "Start rendering.";
+
    m_skybox = new Skybox(2048, names);
 
-   // print elapsed time
-   std::cout << t << std::endl;
+   Logger::instance() << "Finished rendering.";
+
+   /* // print elapsed time */
+   /* std::cout << t << std::endl; */
 
    // Call main loop
    glutMainLoop();

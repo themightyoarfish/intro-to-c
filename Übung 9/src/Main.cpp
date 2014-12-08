@@ -5,10 +5,12 @@ using namespace std;
 #include "io/Read3DS.hpp"
 #include "rendering/TexturedMesh.hpp"
 #include "math/Vertex.hpp"
+#include "logging/Logger.hpp"
 
 int main(int argc, char** argv)
 {
-    asteroids::MainWindow* mv = new asteroids::MainWindow(string(argv[1]));
-    delete mv;
-    return 0;
+   /* asteroids::Logger::instance() << "Started program."; */
+   asteroids::MainWindow* mv = new asteroids::MainWindow(string(argv[1]));
+   delete mv;
+   return 0;
 }

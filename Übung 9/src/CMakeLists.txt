@@ -101,6 +101,7 @@ set(VIEWER_SOURCES
    exceptions/OutOfBoundsException.cpp
    exceptions/DivisionByZeroException.cpp
    time/Timestamp.cpp
+   logging/Logger.cpp
    )
 
 ###############################################################################
