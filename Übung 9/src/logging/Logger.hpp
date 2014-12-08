@@ -42,6 +42,11 @@ namespace asteroids
           * @param s Message to log.
           */
          Logger& operator<<(const std::string& s);
+
+         /**
+          * @brief Desctructor
+          */
+         ~Logger();
       private:
          static Logger* logger;
          static Timestamp stamp;
