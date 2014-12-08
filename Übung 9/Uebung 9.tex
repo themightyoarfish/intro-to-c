@@ -1,0 +1,69 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Einführung in C++ -- Übung 9 \\ Testatgruppe A (Isaak)}
+\author{Rasmus Diederichsen}
+\date{\today}
+\usepackage[ngerman]{babel}
+\usepackage{microtype, textcomp, xcolor, listings, tikz,
+            IEEEtrantools, array, amsmath, amssymb, graphicx,
+            subcaption, lmodern}
+\usepackage[pdftitle={Übung 9}, 
+       pdfauthor={Rasmus Diederichsen}, 
+       hyperfootnotes=true,
+       colorlinks,
+       bookmarksnumbered = true,
+       linkcolor = lightgray,
+       plainpages = false,
+       citecolor = lightgray]{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[explicit]{titlesec}
+\renewcommand{\rmdefault}{ugm}
+\usepackage[urw-garamond]{mathdesign}
+\usepackage[all]{hypcap}
+\titlespacing{\subsection}{0em}{\baselineskip}{1em}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{}{0em}{Aufgabe \arabic{section}.\arabic{subsection} #1}
+
+\renewcommand{\thesection}{}
+
+\lstset{
+   basicstyle=\footnotesize\ttfamily,
+   breaklines=true,
+   commentstyle=\color{blue},
+   keywordstyle=\color{purple}\textbf,
+   numberstyle=\tiny\color{gray},
+   numbers=left,
+   language=C++,
+   stringstyle=\color{olive},
+   title=\lstname,
+  literate={ö}{{\"o}}1
+           {ä}{{\"a}}1
+           {ü}{{\"u}}1
+}
+
+\begin{document}
+
+   \maketitle
+
+   \setcounter{section}{9}
+
+   \subsection{Exception-Handling}
+   
+   Fehlerabfragen machen meines Erachtens nur beim Aufruf von
+   \texttt{Vertex::normalize()} Sinn, und auch da nur beschränkt. Alle
+   Arrayzugriffe durch den \texttt{[]}-operator geschehen durch Literale,
+   weshalb hier ebenfalls kein \texttt{try}-Block nötig ist.
+
+   \lstinputlisting{src/math/Vertex.cpp}
+   \lstinputlisting{src/math/Quaternion.cpp}
+
+   \subsection{Timestamps und Logging}
+   
+   \subsubsection*{Timestamp}
+   \lstinputlisting{src/time/Timestamp.hpp}
+   \lstinputlisting{src/time/Timestamp.cpp}
+
+   \subsubsection*{Logger}
+   \lstinputlisting{src/logging/Logger.hpp}
+   \lstinputlisting{src/logging/Logger.cpp}
+
+\end{document}
