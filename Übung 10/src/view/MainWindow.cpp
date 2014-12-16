@@ -3,6 +3,7 @@
 #include "io/Read3DS.hpp"
 #include "rendering/TexturedMesh.hpp"
 
+
 using std::cout;
 using std::endl;
 
@@ -13,12 +14,13 @@ MainWindow* MainWindow::master = 0;
 
 Camera MainWindow::m_cam;
 
-MainWindow::MainWindow(string filename)
+MainWindow::MainWindow(string filename, string quantity_asteroids)
 {
 
 	// Save pointer to current instance. Later on we
 	// will create a proper singleton here...
 	MainWindow::master = this;
+	
 
     // Init glut main window
     initGlut();
@@ -31,20 +33,22 @@ MainWindow::MainWindow(string filename)
 	}
 
 	// Create a triangle mesh instance
-	m_mesh = TriangleMeshFactory::instance()->getMesh(filename);
+	m_mesh = TriangleMeshFactory::instance().getMesh(filename);
 
-	// Create a sky box. We assume that a model was loaded beforehand
-	// to ensure that the base path in texture factory was set correctly.
-	// If not set it manually before creating the sky box!!
+	// Create a sky box
 	string names[6];
-	names[0] = "box1.ppm";
+	names[0] = "box1.jpg";
 	names[1] = "box2.jpg";
-	names[2] = "box4.ppm";
+	names[2] = "box3.jpg";
 	names[3] = "box4.jpg";
-	names[4] = "box5.ppm";
+	names[4] = "box5.jpg";
 	names[5] = "box6.jpg";
 
 	m_skybox = new Skybox(2048, names);
+
+	unsigned found = filename.find_last_of("/\\");
+	string basePath = filename.substr(0, found+1);
+	m_asteroidField = new AsteroidField(atoi(quantity_asteroids.c_str()), basePath);
 
 	// Call main loop
     glutMainLoop();
@@ -453,6 +457,11 @@ void MainWindow::render()
 	if(m_skybox)
 	{
 	    m_skybox->render();
+	}
+
+	if (m_asteroidField)	
+	{
+		m_asteroidField->render();
 	}
 
 	if(m_mesh)
