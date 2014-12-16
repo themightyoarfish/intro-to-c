@@ -99,14 +99,14 @@ VIEWER_SOURCES
    rendering/AsteroidField.cpp
    rendering/Asteroid.cpp
    util/List.hpp
-   Main.cpp
    )
 
 ###############################################################################
 # The executable fpr our project
 ###############################################################################
 
-add_executable(viewer ${VIEWER_SOURCES} ${C3DSREADER_SOURCES})
+add_executable(viewer ${VIEWER_SOURCES} Main.cpp ${C3DSREADER_SOURCES})
+add_executable(list_test ${VIEWER_SOURCES} Test.cpp ${C3DSREADER_SOURCES})
 
 ###############################################################################
 # External library dependencies
@@ -116,4 +116,6 @@ target_link_libraries(viewer ${GLUT_LIBRARY} ${OPENGL_LIBRARY})
 target_link_libraries(viewer c3dsreader) 
 target_link_libraries(viewer ${SDL_LIBRARY} jpeg)
 
-
+target_link_libraries(list_test ${GLUT_LIBRARY} ${OPENGL_LIBRARY})
+target_link_libraries(list_test c3dsreader) 
+target_link_libraries(list_test ${SDL_LIBRARY} jpeg)

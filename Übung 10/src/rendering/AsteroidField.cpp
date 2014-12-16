@@ -10,8 +10,6 @@ AsteroidField::AsteroidField(int quantity, string basePath) :
     m_basePath(basePath)
 {
  	// Generate asteroids
-      #include <iostream>
-   std::cout << "quantity=" << quantity << std::endl;
 	for(int i = 0; i < quantity; i++)
 	{
 	   TriangleMesh* mesh = TriangleMeshFactory::instance().getMesh(m_basePath + "asteroid.3ds");
@@ -26,7 +24,7 @@ AsteroidField::~AsteroidField()
 }
 
 
-static void renderAstroid(Asteroid a)
+void renderAstroid(Asteroid a)
 {
    a.render();
 }

@@ -6,6 +6,8 @@
  */
 
 #include "Texture.hpp"
+#include <iostream>
+using namespace std;
 
 namespace asteroids
 {

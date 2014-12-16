@@ -22,8 +22,6 @@ TriangleMesh::TriangleMesh()
 
 void TriangleMesh::render()
 {
-   #include <iostream>
-   std::cout << "mesh->render() begins" << std::endl;
 	// Compute transformation matrix
 	computeMatrix();
 

@@ -35,8 +35,6 @@ void Asteroid::render()
     glScalef(m_scale, m_scale, m_scale);
     if(m_mesh)
     {
-   #include <iostream>
-   std::cout << "call to mesh_render() "  << std::endl;
         m_mesh->render();
     }
     glPopMatrix();
@@ -46,7 +44,7 @@ Asteroid::~Asteroid()
 {
     if (m_mesh)
     {
-        delete m_mesh;
+        /* delete m_mesh; */
     }
 }
 
