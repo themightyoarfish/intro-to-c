@@ -13,20 +13,25 @@ AsteroidField::AsteroidField(int quantity, string basePath) :
 	for(int i = 0; i < quantity; i++)
 	{
 	   TriangleMesh* mesh = TriangleMeshFactory::instance().getMesh(m_basePath + "asteroid.3ds");
-      asteroids.insert(Asteroid(mesh,Randomizer::instance()->getRandomVertex(2500.),Randomizer::instance()->getRandomNumber(1.,5.)));
+      asteroids.insert(new Asteroid(mesh,Randomizer::instance()->getRandomVertex(2500.),Randomizer::instance()->getRandomNumber(1.,5.)));
 	}
 
 }
 
+void deleteAsteroid(Asteroid* a)
+{
+   delete a;
+}
+
 AsteroidField::~AsteroidField()
 {
-    // TODO: Delete all asteroids
+   asteroids.for_each(deleteAsteroid);
 }
 
 
-void renderAstroid(Asteroid a)
+void renderAstroid(Asteroid* a)
 {
-   a.render();
+   a->render();
 }
 void AsteroidField::render()
 {

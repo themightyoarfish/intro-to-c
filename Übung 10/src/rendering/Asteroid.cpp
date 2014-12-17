@@ -44,7 +44,7 @@ Asteroid::~Asteroid()
 {
     if (m_mesh)
     {
-        /* delete m_mesh; */
+        delete m_mesh;
     }
 }
 

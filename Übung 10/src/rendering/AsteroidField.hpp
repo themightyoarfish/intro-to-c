@@ -54,7 +54,7 @@ public:
 private:
 
    /// The asteroids in the field
-   List<Asteroid> asteroids;
+   List<Asteroid*> asteroids;
 
    /// Relative path to look for the asteroid model
    string m_basePath;
