@@ -2,6 +2,7 @@
  * Fighter.cpp
  *
  */
+#include <iostream>
 
 
 #include "Fighter.hpp"
@@ -11,10 +12,9 @@ namespace asteroids
 
 void Fighter::shoot()
 {
-    // TODO:
-    // Create a new bullet with this fighter's position an x-Axis
-    // Start a new thread, move the bullet
-    // Add it to this fighter's vector of bullets
+   Bullet* b = new Bullet(m_position, m_xAxis);
+   b->start();
+   m_bullets.push_back(b);
 }
 
 
@@ -23,8 +23,13 @@ void Fighter::render()
     // Render the fighter
     TexturedMesh::render();
    
-    // Implement list rendering, remove inactive instances
-    // from vector.
+    std::vector<Bullet*>::iterator begin = m_bullets.begin();
+    while (begin != m_bullets.end()) 
+    {
+       if ((*begin)->isAlive()) (*begin)->render();
+       else m_bullets.erase(begin);
+       begin++;
+    }
 }
 
 } // namespace asteroids

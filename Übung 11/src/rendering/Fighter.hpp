@@ -21,28 +21,26 @@
 namespace asteroids
 {
 
-/**
- * @brief   Represents a fighter that can shoot bullets.
- */
-class Fighter : public TexturedMesh
-{
+   /**
+    * @brief   Represents a fighter that can shoot bullets.
+    */
+   class Fighter : public TexturedMesh
+   {
 
-public:
-    /**
-     * @brief Adds a bullet to the fighter's vector of bullets.
-     */
-	void shoot();
-    
-    /**
-     * @brief Renders the fighter and calls the bullets' render method.
-     */
-   	void render();
+      public:
+         /**
+          * @brief Adds a bullet to the fighter's vector of bullets.
+          */
+         void shoot();
 
-private:
-    // TODO: Add a vector with the bullets this fighter has shot.
-	
+         /**
+          * @brief Renders the fighter and calls the bullets' render method.
+          */
+         void render();
 
-};
+      private:
+         std::vector<Bullet*> m_bullets;
+   };
 
 } // namespace asteroids
 

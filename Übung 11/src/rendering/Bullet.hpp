@@ -71,7 +71,8 @@ public:
 
 private:
     // Lifetime, i.e., how many timesteps the bullet visible
-	static const int m_lifetime = 9000;
+	static const int m_lifetime;
+	static const float m_bulletSpeed;
 
 	// True, if the bullet's lifetime isn't over yet
 	bool m_alive;
@@ -79,7 +80,7 @@ private:
 	// Flight direction of the bullet
     Vertex<float> m_fighterAxis;
 
-    /// TODO: ADD TIMING AND THREAD FUNCTIONALITY
+    std::thread* m_thread;
 };
 
 } // namespace asteroids
