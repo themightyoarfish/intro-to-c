@@ -29,7 +29,7 @@ template<typename T> class List
        * @param item To be inserted
        *
        */
-      void insert(T& item);
+      void insert(T item);
       /**
        * @brief Iterates over all items in the list and calls
        * the given function @ref do_something(...) for
@@ -37,7 +37,7 @@ template<typename T> class List
        *
        * @param do_something Function pointer to apply to all elements.
        */
-      void for_each(void (*do_something)(T item));
+      void for_each(void (*do_something)(T& item));
    private:
       // Root of the list 
       Node* m_list;

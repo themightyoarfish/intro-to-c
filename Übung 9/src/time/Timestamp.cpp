@@ -54,4 +54,4 @@ namespace asteroids
       os << ts.getElapsedTime();
       return os;
    }
-} /* namespace ast */
+} /* namespace asteroids */

@@ -8,7 +8,7 @@ template<typename T> List<T>::~List()
    if (m_list->next != NULL) delete m_list->next;
    delete m_list;
 }
-template<typename T> void List<T>::insert(T& item)
+template<typename T> void List<T>::insert(T item)
 {
    if (m_list == NULL) 
    {
@@ -23,7 +23,7 @@ template<typename T> void List<T>::insert(T& item)
       m_list = m;
    }
 }
-template<typename T> void List<T>::for_each(void (*do_something)(T item))
+template<typename T> void List<T>::for_each(void (*do_something)(T& item))
 {
    Node* tmp = m_list;
    while (tmp != NULL) 

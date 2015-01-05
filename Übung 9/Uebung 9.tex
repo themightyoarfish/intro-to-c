@@ -53,6 +53,12 @@
    Arrayzugriffe durch den \texttt{[]}-operator geschehen durch Literale,
    weshalb hier ebenfalls kein \texttt{try}-Block nötig ist.
 
+   \lstinputlisting{src/exceptions/BaseException.hpp}
+   \lstinputlisting{src/exceptions/BaseException.cpp}
+   \lstinputlisting{src/exceptions/DivisionByZeroException.hpp}
+   \lstinputlisting{src/exceptions/DivisionByZeroException.cpp}
+   \lstinputlisting{src/exceptions/OutOfBoundsException.hpp}
+   \lstinputlisting{src/exceptions/OutOfBoundsException.cpp}
    \lstinputlisting{src/math/Vertex.cpp}
    \lstinputlisting{src/math/Quaternion.cpp}
 
@@ -65,5 +71,9 @@
    \subsubsection*{Logger}
    \lstinputlisting{src/logging/Logger.hpp}
    \lstinputlisting{src/logging/Logger.cpp}
+
+   Geloggt wurde in der \texttt{MainWindow}-Klasse, um die Zeit für das
+   Rendering zu prüfen.
+   \lstinputlisting{src/view/MainWindow.cpp}
 
 \end{document}
