@@ -17,14 +17,18 @@ namespace asteroids
    Bullet::Bullet(Vertex<float> fighterPosition, Vertex<float> m_fighterAxis)
    {
       m_alive = false;
-      this->m_fighterAxis = m_fighterAxis * -1; // xAxis points into wrong direcrion
+      this->m_fighterAxis = m_fighterAxis * -1; // xAxis points into wrong direction
       this->m_position = fighterPosition;
    }
 
    Bullet::~Bullet()
    {
-      if (m_thread) m_thread->join(); // what happens if I delete before termination? Probably mayhem.
-      delete m_thread;
+      if (m_thread) 
+      {
+         m_thread->join(); // what happens if I delete before termination? Probably mayhem.
+         delete m_thread;
+      }
+      cout << "bullet destroyed" << endl;
    }
 
    bool Bullet::isAlive()

@@ -26,9 +26,16 @@ void Fighter::render()
     std::vector<Bullet*>::iterator begin = m_bullets.begin();
     while (begin != m_bullets.end()) 
     {
-       if ((*begin)->isAlive()) (*begin)->render();
-       else m_bullets.erase(begin);
-       begin++;
+       if ((*begin)->isAlive()) 
+       {
+          (*begin)->render();
+          begin++;
+       }
+       else 
+       {
+          /* delete *begin; */
+          begin = m_bullets.erase(begin);
+       }
     }
 }
 
