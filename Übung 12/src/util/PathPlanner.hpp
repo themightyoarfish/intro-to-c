@@ -43,6 +43,18 @@ struct location {
     location(float lat, float lon) : y(lat), x(lon) {}
     float y, x;
 };
+template<typename Vertex>
+class astar_goal_visitor : public default_astar_visitor
+{
+public:
+  astar_goal_visitor(Vertex goal) : m_goal(goal) {}
+  void examine_vertex(Vertex u, const MutableGraph& g) {
+    if(u == m_goal)
+      throw 5;
+  }
+private:
+  Vertex m_goal;
+};
 
 class distance_astar_heuristic : public astar_heuristic<MutableGraph, float>
 {

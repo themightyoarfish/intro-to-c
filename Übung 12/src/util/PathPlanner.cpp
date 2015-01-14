@@ -10,24 +10,25 @@
 namespace asteroids
 {
 
-    vector<graph_edge> PathPlanner::getEdgeList(const string mapfile, streampos& pos) const
-    {
-       ifstream file(mapfile);
-       vector<graph_edge> edges;
-       if (file.good()) 
-       {
-          file.seekg(pos);
-          while (!file.eof()) 
-          {
-             int u, v;
-             file >> u >> v;
-             edges.push_back(make_pair(u,v));
-          }
-       }
-       file.close();
-       return edges;
-    }
-    vector<Vertex<float>> PathPlanner::getVertexList(const int& num, streampos& stream_pos, 
+   vector<graph_edge> PathPlanner::getEdgeList(const string mapfile, streampos& pos) const
+   {
+      ifstream file(mapfile);
+      vector<graph_edge> edges;
+      if (file.good()) 
+      {
+         file.seekg(pos);
+         while (!file.eof()) 
+         {
+            int u, v;
+            file >> u >> v;
+            edges.push_back(make_pair(u,v));
+         }
+      }
+      file.close();
+      return edges;
+   }
+
+   vector<Vertex<float>> PathPlanner::getVertexList(const int& num, streampos& stream_pos, 
          const string& mapfile, 
          map<string,int>& landmarks) const
    {
@@ -56,18 +57,43 @@ namespace asteroids
    }
 
 
-    void PathPlanner::printGraph() const
-    {
+   void PathPlanner::printGraph() const
+   {
       ofstream o("graph");
-      write_graphviz(o, g, default_writer(), make_edge_writer(get(edge_weight, g)));
-      o.close();
-      system("neato -Tsvg graph > graph.svg");
-    }
+      if (o.good()) 
+      {
+         write_graphviz(o, g, default_writer(), make_edge_writer(get(edge_weight, g)));
+         o.close();
+         system("neato -Tsvg graph > graph.svg");
+      }
+   }
 
    std::list<Vertex<float> > PathPlanner::getPath(Vertex<float> position, std::string s, std::string e)
    {
-      // TODO: Replace return statement and search a solution path
-      return std::list<Vertex<float> >();
+      // Taken from
+      // http://www.boost.org/doc/libs/1_38_0/libs/graph/example/astar-cities.cpp
+      // example
+      vector<asteroids::Vertex_t> p(num_vertices);
+      vector<cost> d(num_vertices);
+      try {
+         // call astar named parameter interface
+         astar_search
+            (g, nameMap[s],
+             distance_astar_heuristic(nameMap[e], navPoints),
+             predecessor_map(&p[0]).distance_map(&d[0]).
+             visitor(astar_goal_visitor<Vertex_t>(nameMap[e])));
+
+
+      } catch(int i) { // found a path to the goal
+         list<Vertex<float>> shortest_path;
+         for(Vertex_t v = nameMap[s];; v = p[v]) {
+            shortest_path.push_front(navPoints[v]);
+            if(p[v] == v)
+               break;
+         }
+         shortest_path.push_front(position);
+         return shortest_path;
+      }
    }
 
 

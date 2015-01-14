@@ -10,8 +10,8 @@
 
 int main(int argc, char** argv)
 {
-   asteroids::PathPlanner p("../wc.map");
-   p.getPath(asteroids::Vertex<float>(0,0,0),"foo","bar");
+   /* asteroids::PathPlanner p("../wc.map"); */
+   /* p.getPath(asteroids::Vertex<float>(0,0,0),"foo","bar"); */
    asteroids::MainWindow* mv = new asteroids::MainWindow(string(argv[1]), string(argv[2]), string(argv[3]), string(argv[4]));
    delete mv;
    return 0;
