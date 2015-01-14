@@ -57,6 +57,22 @@ class distance_astar_heuristic : public astar_heuristic<MutableGraph, float>
       Vertex_t m_goal;
       vector<asteroids::Vertex<float>> points;
 };
+template <class WeightMap>
+class edge_writer {
+   public:
+      edge_writer(WeightMap w) : wm(w) {}
+      template <class Edge>
+         void operator()(ostream &out, const Edge& e) const {
+            out << "[label=\"" << wm[e] << "\"]";
+         }
+   private:
+      WeightMap wm;
+};
+
+template <class WeightMap> inline edge_writer<WeightMap> make_edge_writer(WeightMap w) {
+   return edge_writer<WeightMap>(w);
+}
+
 
 
 class PathPlanner {
@@ -66,6 +82,7 @@ class PathPlanner {
       vector<Vertex<float> > getNavpoints();
       vector<Vertex<float>> getVertexList(const int& num, streampos& stream_pos, const string& mapfile, map<string,int>& nameMap) const;
       vector<graph_edge> getEdgeList(const string mapfile, streampos& pos) const;
+      void printGraph() const;
    private:
       int num_vertices;
       vector<int> costs;
