@@ -48,18 +48,17 @@ Fighter::Fighter()
 }
 void Fighter::navigate(std::list<Vertex<float> > list)
 {
-    if(list.size())
-    {
-	// autopilot is on
-	m_autopilot = true;
-        
-	// check-in the coordinates
-	m_navigationList = list;
-        
-	// start the computer
-	m_thread = std::thread(&Fighter::run, this);
-    }
-    cout << "No path to fly" << endl;
+   if(list.size())
+   {
+      // autopilot is on
+      m_autopilot = true;
+
+      // check-in the coordinates
+      m_navigationList = list;
+
+      // start the computer
+      m_thread = std::thread(&Fighter::run, this);
+   } else cout << "No path to fly" << endl;
 }
     
 void Fighter::calculate(Vertex<float>  dest)
